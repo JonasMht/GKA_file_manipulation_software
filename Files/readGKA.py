@@ -73,141 +73,140 @@ while running:
         print("--- The operation executed correctly ---")
         print("--- It took : %s seconds ---\n" % (time.time() - start_time))
 
-    """
-    elif choice == '3':
-        start_time = time.time() #Get start time
-        print("\n--- Operation start ---")
-        ### matplotlib part ### not used for now
-        #convertedFileName = input("Enter the converted file containing meteo data : ")
-        #arrayData3D = ReadConvertedData3D("out1.gka") # returns a list of 3D lists of floats
-        inFile = open("out2.txt",'r')
-        text = inFile.read()
-        inFile.close()
+        """
+        elif choice == '3':
+            start_time = time.time() #Get start time
+            print("\n--- Operation start ---")
+            ### matplotlib part ### not used for now
+            #convertedFileName = input("Enter the converted file containing meteo data : ")
+            #arrayData3D = ReadConvertedData3D("out1.gka") # returns a list of 3D lists of floats
+            inFile = open("out2.txt",'r')
+            text = inFile.read()
+            inFile.close()
 
-        data = From_ReadableInformation_to_list(text)
+            data = From_ReadableInformation_to_list(text)
 
-        # sort it by the first element (date)
-        prism = data[38][1]
+            # sort it by the first element (date)
+            prism = data[38][1]
 
-        DateHeightData = []
-        for e in prism:
-            seconds = e[3]*7*86400 + e[4] * 86400 + e[5]
-            DateHeightData.append([seconds,e[2]])
+            DateHeightData = []
+            for e in prism:
+                seconds = e[3]*7*86400 + e[4] * 86400 + e[5]
+                DateHeightData.append([seconds,e[2]])
 
-        
-        DateHeightData = sorted(DateHeightData)
+            
+            DateHeightData = sorted(DateHeightData)
 
 
-        #Average two same probes
-        DateHeightDataAvrg = []
-        former = [0,0]
-        for e in DateHeightData:
-            if e[1]!=0:
-                if e[0] - former[0] < 40:
-                    DateHeightDataAvrg.pop() #remove last element
+            #Average two same probes
+            DateHeightDataAvrg = []
+            former = [0,0]
+            for e in DateHeightData:
+                if e[1]!=0:
+                    if e[0] - former[0] < 40:
+                        DateHeightDataAvrg.pop() #remove last element
 
-                    ele = (e[1]+former[1])/2
+                        ele = (e[1]+former[1])/2
 
-                    DateHeightDataAvrg.append([seconds,ele])
-                    former = e
+                        DateHeightDataAvrg.append([seconds,ele])
+                        former = e
+                    else:
+                        DateHeightDataAvrg.append([e[0],e[1]])
+                        former = e
+            
+            #Sum of horizontal movement
+            YArray = [e[1] for e in DateHeightData]
+            ""
+            former = DateHeightDataAvrg[0][1]
+            mov = 0
+            for e in DateHeightDataAvrg:
+                if e[1]!=0:
+                    mov += e[1]-former
+                    YArray.append(mov)
+                    
+                    former = e[1]
                 else:
-                    DateHeightDataAvrg.append([e[0],e[1]])
-                    former = e
-        
-        #Sum of horizontal movement
-        YArray = [e[1] for e in DateHeightData]
-        ""
-        former = DateHeightDataAvrg[0][1]
-        mov = 0
-        for e in DateHeightDataAvrg:
-            if e[1]!=0:
-                mov += e[1]-former
-                YArray.append(mov)
-                
-                former = e[1]
-            else:
-                YArray.append(0)
-        
-        #even out mesurements
-        ""
-        XArray = [e[0] for e in DateHeightData]
-        
-        #GPSwk + DOWK/7
-        #x = np.arange(len(data))
-        x = np.array(XArray)
-        y = np.array(YArray)
+                    YArray.append(0)
+            
+            #even out mesurements
+            ""
+            XArray = [e[0] for e in DateHeightData]
+            
+            #GPSwk + DOWK/7
+            #x = np.arange(len(data))
+            x = np.array(XArray)
+            y = np.array(YArray)
 
-        plotWidget = pg.plot(title="Position des prismes sur le plan horizontal")
-        plotWidget.setLabel('left', "z", units='m')
-        plotWidget.setLabel('bottom', "x", units='s')
-        plotWidget.plot(x, y, pen=None, symbol='o')  ## setting pen=(i,3) automaticaly creates three different-colored pens
-        
+            plotWidget = pg.plot(title="Position des prismes sur le plan horizontal")
+            plotWidget.setLabel('left', "z", units='m')
+            plotWidget.setLabel('bottom', "x", units='s')
+            plotWidget.plot(x, y, pen=None, symbol='o')  ## setting pen=(i,3) automaticaly creates three different-colored pens
+            
 
-        
-        ""
-        ### matplotlib part ### not used for now
-        fig, axs = plt.subplots(1,0,constrained_layout=True)
-        axs[0,0].set_title("title1")
-        axs[0,0].plot(x, y)
-        axs[0,1].set_title("title2")
-        axs[0,1].plot([1,2,3,4,5,6], [1,2,3,4,5,6])
-        axs[1,0].set_title("title3")
-        axs[1,0].plot([1,2,3,4,5,6], [1,2,3,4,5,6])
-        axs[1,1].set_title("title4")
-        axs[1,1].plot([1,2,3,4,5,6], [1,2,3,4,5,6])
-        plt.show()
-        ""
+            
+            ""
+            ### matplotlib part ### not used for now
+            fig, axs = plt.subplots(1,0,constrained_layout=True)
+            axs[0,0].set_title("title1")
+            axs[0,0].plot(x, y)
+            axs[0,1].set_title("title2")
+            axs[0,1].plot([1,2,3,4,5,6], [1,2,3,4,5,6])
+            axs[1,0].set_title("title3")
+            axs[1,0].plot([1,2,3,4,5,6], [1,2,3,4,5,6])
+            axs[1,1].set_title("title4")
+            axs[1,1].plot([1,2,3,4,5,6], [1,2,3,4,5,6])
+            plt.show()
+            ""
 
-        ""
-        ## build a QApplication before building other widgets
-        pg.mkQApp()
+            ""
+            ## build a QApplication before building other widgets
+            pg.mkQApp()
 
-        ## make a widget for displaying 3D objects
-        view = gl.GLViewWidget()
-        view.setBackgroundColor((0, 0, 0))
-        view.show()
+            ## make a widget for displaying 3D objects
+            view = gl.GLViewWidget()
+            view.setBackgroundColor((0, 0, 0))
+            view.show()
 
-        ## create three grids, add each to the view
-        xgrid = gl.GLGridItem()
-        ygrid = gl.GLGridItem()
-        zgrid = gl.GLGridItem()
+            ## create three grids, add each to the view
+            xgrid = gl.GLGridItem()
+            ygrid = gl.GLGridItem()
+            zgrid = gl.GLGridItem()
 
-        view.addItem(xgrid)
-        view.addItem(ygrid)
-        view.addItem(zgrid)
-        
-        for e in YArray:
-            loc=np.array([e[0],e[1],e[2]])
-            dot = gl.GLScatterPlotItem(pos=loc, size=3, color=(1.0,1.0,1.0,1.0), pxMode=True)
-            dot.setGLOptions('translucent')
-            view.addItem(dot)
+            view.addItem(xgrid)
+            view.addItem(ygrid)
+            view.addItem(zgrid)
+            
+            for e in YArray:
+                loc=np.array([e[0],e[1],e[2]])
+                dot = gl.GLScatterPlotItem(pos=loc, size=3, color=(1.0,1.0,1.0,1.0), pxMode=True)
+                dot.setGLOptions('translucent')
+                view.addItem(dot)
 
-        ## rotate x and y grids to face the correct direction
-        xgrid.rotate(90, 0, 1, 0)
-        ygrid.rotate(90, 1, 0, 0)
+            ## rotate x and y grids to face the correct direction
+            xgrid.rotate(90, 0, 1, 0)
+            ygrid.rotate(90, 1, 0, 0)
 
-        ## scale each grid differently
-        xgrid.scale(2000.0, 2000.0, 2000.0)
-        ygrid.scale(2000.0, 2000.0, 2000.0)
-        zgrid.scale(2000.0, 2000.0, 2000.0)
-        ""
+            ## scale each grid differently
+            xgrid.scale(2000.0, 2000.0, 2000.0)
+            ygrid.scale(2000.0, 2000.0, 2000.0)
+            zgrid.scale(2000.0, 2000.0, 2000.0)
+            ""
 
-        print("--- The operation executed correctly ---")
-        print("--- It took : %s seconds ---\n" % (time.time() - start_time))
-    elif choice == 't':
-        start_time = time.time() #Get start time
-        print("--- Test start ---")
+            print("--- The operation executed correctly ---")
+            print("--- It took : %s seconds ---\n" % (time.time() - start_time))
+        elif choice == 't':
+            start_time = time.time() #Get start time
+            print("--- Test start ---")
 
-        inFile = open("gka.201911",'r')
-        text = inFile.read()
-        inFile.close()
+            inFile = open("gka.201911",'r')
+            text = inFile.read()
+            inFile.close()
 
-        
-        print("--- The test executed correctly ---")
-        print("--- It took : %s seconds ---\n" % (time.time() - start_time))
-    """
-
-    if choice == '3':
+            
+            print("--- The test executed correctly ---")
+            print("--- It took : %s seconds ---\n" % (time.time() - start_time))
+        """
+    elif choice == '3':
         inFilePath = input("Enter gka file : ")
         outFilePath = input("Enter output file : ")
 
