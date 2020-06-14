@@ -12,7 +12,7 @@ Global Variables:
 - V0 (yaw rotation in Gradians)
 - COEFF_J & COEFF_N (two constants used in the meteorological correction formula provided by the EDM manufacturer)
 - PI (value of pi provided by the math library)
-- param (a list of 32 elements that will hold strings provided by functions)
+- param (a list of 32 elements that will hold strings (used in several functions such as ConvertGKA_to_ReadableInformation(text)))
 - prismParam a list of 34 elements (a list of 2D list containing each a string and a value. This list represents the data contained on a prism line in a gka file)
 
 Functions:
