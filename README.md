@@ -24,6 +24,6 @@ Functions:
 - dec_to_dt(dec) (Return the conversion of a decimal year to datetime)
 - dt_to_dec(dt) (Return the conversion of a datetime to decimal year)
 - ConcatenationLoop(fileList) (Return a concatenated string of all the contents of the files represented by path strings in the fileList)
-- ConvertGKA_to_ReadableInformation(text)(Argument:- text a string of the contents of a gka file
+- ConvertGKA_to_ReadableInformation(text)(Argument:- text a string of the contents of a gka file.
                                           Return:- A string containing a gka like structure with corrected position and decimal years for each prism)
 - (to be continued)
