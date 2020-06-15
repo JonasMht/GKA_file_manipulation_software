@@ -192,6 +192,6 @@ aswell as global variables and librarie imports.
     
     </details>
         
-        <br/>
+    <br/>
 - (to be continued)
 
