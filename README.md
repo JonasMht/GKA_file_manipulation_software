@@ -81,8 +81,37 @@ aswell as global variables and librarie imports.
     - Return:
         - A string containing a gka like structure with less elements and corrected position and decimal years for each prism)
     - Math:
-        - XI YI ZI
-            - ![1+1 = 2]
+        - **GPSwk** = `int(FindValueByName("GPSwk",prismParam))`
+        - **SOWk** = `float(FindValueByName("SOWk",prismParam))`
+        - **DOWk** = `float(FindValueByName("DOWk",prismParam))`
+        - **decYear** = `dt_to_dec(gps_to_dt(GPSwk, SOWk))`
+        - **DI** = `float(FindValueByName("DI",prismParam))`
+        - **Beta** =  `float(FindValueByName("Beta",prismParam))` Rotation around the horizontal axis
+        - **Alpha** = `float(FindValueByName("Alpha",prismParam))` Rotation around the vertical axis
+        - **ref** =  `0.0`
+        - **Gis** =  `(V0 + Alpha - ref)*PI/200` in radiants
+        - **Horizon** = `Beta*PI/200` in radiants
+        - **Pression** = `float(FindValueByName("Pression",prismParam))`
+        - **Temp** = `float(FindValueByName("Temp",prismParam))`
+        - **Dmeteo** = DI + DI * (COEFF_J - COEFF_N * Pression / (273.16+Temp)) * math.pow(10,-6)
+
+        - **originXrot** = `math.sin(Horizon) * math.sin(Gis)`
+        - **originYrot** = `math.sin(Horizon) * math.cos(Gis)`
+        - **originZrot** = `math.cos(Horizon)`
+
+        - **xi** = `XS + DI * originXrot` _Prism position without correction_
+        - **yi** = `XS + DI * originYrot` _Prism position without correction_
+        - **zi** = `XS + DI * originZrot` _Prism position without correction_
+        
+        - **xmeteo** = `XS + originXrot * Dmeteo`
+        - **ymeteo** = `XS + originYrot * Dmeteo`
+        - **zmeteo** = `XS + originZrot * Dmeteo`
+
+    - Format:
+        - Start/End of prism aquisition:
+            -"#GNV11" / "#END11" (string)
+        - Line of one prism:
+            - "prisme , Pos , xi , yi , zi , xmeteo , ymeteo , zmeteo , decYear , GPSwk , DOWk , SOWk" (string)
         <br/>
 - (to be continued)
 
