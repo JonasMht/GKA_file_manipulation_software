@@ -143,13 +143,13 @@ aswell as global variables and librarie imports.
     <details>
     <summary>Argument</summary>
 
-    - **text** a string of a gka file.
+    - **text** a gka format string.
     
     </details>
     <details>
     <summary>Return</summary>
     
-    - A string containing a gka like structure with less elements and corrected position and decimal years for each prism)
+    - A Readable Information Format string.
     
     </details>
     <details>
@@ -183,7 +183,7 @@ aswell as global variables and librarie imports.
     
     </details>
     <details>
-    <summary>Format (text)</summary>
+    <summary>Readable Information Format (text)</summary>
     
     - Start/End of prism aquisition:
         - "#GNV11" / "#END11" (string)
