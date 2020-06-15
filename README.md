@@ -107,7 +107,7 @@ aswell as global variables and librarie imports.
         - **ymeteo** = `XS + originYrot * Dmeteo`
         - **zmeteo** = `XS + originZrot * Dmeteo`
 
-    - Format:
+    - Format (text):
         - Start/End of prism aquisition:
             -"#GNV11" / "#END11" (string)
         - Line of one prism:
