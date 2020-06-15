@@ -30,9 +30,9 @@ aswell as global variables and librarie imports.
 - dt_to_dec(dt) (Return the conversion of a datetime to decimal year)
 - ConcatenationLoop(fileList) (Return a concatenated string of all the contents of the files represented by path strings in the fileList)
 - ConvertGKA_to_ReadableInformation(text)
-    -Argument:
+    - Argument:
         - text a string of the contents of a gka file.
-    -Return:
+    - Return:
         - A string containing a gka like structure with corrected position and decimal years for each prism)
         - (to be continued)
 
