@@ -11,9 +11,9 @@ aswell as global variables and librarie imports.
 
 ## Global Variables:
 
-- XS YS ZS (position of the total station in meters)
-- V0 (yaw rotation in Gradians)
-- COEFF_J & COEFF_N (two constants used in the meteorological correction formula provided by the EDM manufacturer)
+- **XS YS ZS** (position of the total station in meters)
+- **V0** (yaw rotation in Gradians)
+- **COEFF_J & COEFF_N** (two constants used in the meteorological correction formula provided by the EDM manufacturer)
 - PI (value of pi provided by the math library)
 - param (a list of 32 elements that will hold strings (used in several functions such as ConvertGKA_to_ReadableInformation(text)))
 - prismParam a list of 34 elements (a list of 2D list containing each a string and a value. This list represents the data contained on a prism line in a gka file)
