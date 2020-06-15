@@ -105,10 +105,10 @@ def ConvertGKA_to_ReadableInformation(text):
                     decYear = dt_to_dec(gps_to_dt(GPSwk, SOWk))
 
                     DI = float(FindValueByName("DI",prismParam))
-                    Beta = float(FindValueByName("Beta",prismParam)) #Rotation around the rorizontal axis
-                    Alpha = float(FindValueByName("Alpha",prismParam)) #Rotation around the zenith axis
+                    Beta = float(FindValueByName("Beta",prismParam)) #Rotation around the horizontal axis
+                    Alpha = float(FindValueByName("Alpha",prismParam)) #Rotation around the vertical axis
 
-                    ref = 0.0 # un décallage sur la rotation autour de l'axe des zenites
+                    ref = 0.0
 
                     if DI!=0:
 
