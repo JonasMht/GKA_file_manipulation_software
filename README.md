@@ -26,21 +26,21 @@ aswell as global variables and librarie imports.
         - **li** a 2D list of floats
         - **index** an integer
     - Return:
-        - A sorted and crescent list by the elements located at the index position of li.
+        - A sorted and crescent list by the elements located at the **index** position of **li**.
         <br/>
 - **FindIndexByName(name, l)**
     - Argument:
         - **name** a string
         - **l** the prismParam global list
     - Return:
-        - the index of the element that contains the correct name in the prismParam list l.
+        - the index of the element that contains the correct name in the prismParam list **l**.
         <br/>
 - **FindValueByName(name, l)**
     - Argument:
         - **name** a string
         - **l** the prismParam global list
     - Return:
-        - The value that is linked to the name in the prismParam list l.
+        - The value that is linked to the name in the prismParam list **l**.
         <br/>
 - **ChangeValueByName(name, n, l)**
     - Argument:
@@ -48,7 +48,7 @@ aswell as global variables and librarie imports.
         - **n** a float or an integer
         - **l** the prismParam global list
     - Side effect:
-        - In the prismParam list l change the value that is linked to the name to n.
+        - In the prismParam list **l** change the value that is linked to the name to n.
         <br/>
 - **gps_to_dt(gpsweek,gpsseconds)**
     - Argument:
@@ -79,7 +79,10 @@ aswell as global variables and librarie imports.
     - Argument:
         - **text** a string of a gka file.
     - Return:
-        - A string containing a gka like structure with corrected position and decimal years for each prism)
+        - A string containing a gka like structure with less elements and corrected position and decimal years for each prism)
+    - Math:
+        - XI YI ZI
+            - ![1+1 = 2]
         <br/>
 - (to be continued)
 
