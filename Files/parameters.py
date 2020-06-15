@@ -28,14 +28,14 @@ $ pip install PyOpenGL
 """
 
 # Constants
-XS = 9238.847; YS = 3476.316; ZS = 1387.083 #S9 Station position (m)
-Vo = 19.8120 #gon
+XS = 9238.847; YS = 3476.316; ZS = 1387.083 #S9 total station position in meters
+V0 = 19.8120 #gon
 COEFF_J = 278.77885605
 COEFF_N = 80.65533842
 PI = math.pi
 
 #list
-param = [None] * 32 #There are max 31 elements on one row
+param = [None] * 32 #There are max 32 elements on one row
 
 #list of 2D lists [Name, Value]. Use the FindValueByName(name, list) to find the value linked to the name or change it with ChangeValueByName(name, n, l)
 prismParam = [["number", None], ["prisme", None],

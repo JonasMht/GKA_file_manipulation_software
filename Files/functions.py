@@ -8,7 +8,7 @@ def SortCrescent(li, index):
 
 def FindIndexByName(name, l):
     """
-    In the l list of 2D lists [[name,value],...] find and return the index of the element that contains the correct name
+    In the prismParam list l find and return the index of the element that contains the correct name
     """
     pos = 0
     for e in l:
@@ -19,7 +19,7 @@ def FindIndexByName(name, l):
 
 def FindValueByName(name, l):
     """
-    In the l list of 2D lists [[name,value],...] find and return the value that is linked to the name
+    In the prismParam list l find and return the value that is linked to the name
     """
     for e in l:
         if e[0]==name:
@@ -28,21 +28,21 @@ def FindValueByName(name, l):
 
 def ChangeValueByName(name, n, l):
     """
-    In the l list of 2D lists [[name,value],...] change the value that is linked to the name to n
+    In the prismParam list l change the value that is linked to the name to n
     """
     for e in l:
         if e[0]==name:
             e[1] = n
 
 def gps_to_dt(gpsweek,gpsseconds):
-    """Convert GPS date to datetime"""
+    """Return the conversion of a GPS date to datetime"""
     datetimeformat = "%Y-%m-%d %H:%M:%S"
     epoch = datetime.datetime.strptime("1980-01-06 00:00:00",datetimeformat)
     elapsed = datetime.timedelta(days=(gpsweek*7),seconds=(gpsseconds))
     return epoch + elapsed
 
 def dec_to_dt(dec):
-    """Convert a decimal year to datetime."""
+    """Return the conversion of a a decimal year to datetime"""
     year = int(dec)
     rem = dec - year
     base = datetime.datetime(year, 1, 1)
@@ -50,13 +50,13 @@ def dec_to_dt(dec):
     return date
 
 def dt_to_dec(dt):
-    """Convert a datetime to decimal year."""
+    """Return the conversion of a datetime to decimal year"""
     year_start = datetime.datetime(dt.year, 1, 1)
     year_end = year_start.replace(year=dt.year+1)
     return dt.year + ((dt - year_start).total_seconds() /  # seconds so far
         float((year_end - year_start).total_seconds()))  # seconds in year
 
-def ConcatenationLoop(fileList,):
+def ConcatenationLoop(fileList):
     """
     Return a concatenated string of all the contents of the files in the fileList
     """
@@ -70,6 +70,12 @@ def ConcatenationLoop(fileList,):
     
 
 def ConvertGKA_to_ReadableInformation(text):
+    """
+    Argument:
+    - text a string of the contents of a gka file
+    Return:
+    - A string containing a gka like structure with corrected position and decimal years for each prism 
+    """
     outString = ""
 
     ele = ""
@@ -106,7 +112,7 @@ def ConvertGKA_to_ReadableInformation(text):
 
                     if DI!=0:
 
-                        Gis =  (Vo + Alpha - ref)*PI/200 # in radiants
+                        Gis =  (V0 + Alpha - ref)*PI/200 # in radiants
                         Horizon = Beta*PI/200 # in radiants
 
                         originXrot = math.sin(Horizon) * math.sin(Gis)
@@ -121,7 +127,7 @@ def ConvertGKA_to_ReadableInformation(text):
                         Pression = float(FindValueByName("Pression",prismParam))
                         Temp = float(FindValueByName("Temp",prismParam))
                         
-                        #Corrected position
+                        #Position with meteorological correction
                         Dmeteo = DI + DI * (COEFF_J - COEFF_N * Pression / (273.16+Temp)) * math.pow(10,-6)
                         xmeteo = XS + originXrot * Dmeteo
                         ymeteo = XS + originYrot * Dmeteo
