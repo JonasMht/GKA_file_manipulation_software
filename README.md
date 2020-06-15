@@ -191,7 +191,21 @@ aswell as global variables and librarie imports.
         - "prisme , Pos , xi , yi , zi , xmeteo , ymeteo , zmeteo , decYear , GPSwk , DOWk , SOWk" (string)
     
     </details>
-        
     <br/>
+    
+- **From_ReadableInformation_to_list(text)**
+    <details>
+    <summary>Argument</summary>
+
+    - **text** a Readable Information Format string.
+    
+    </details>
+    <details>
+    <summary>Return</summary>
+    
+    - A 3D list (`[[Prism1 Name ,[[Prism1 information at t0], [Prism1 information at t1],.., [Prism1 information at tn]]],...]`)
+    
+    </details>
+        <br/>
 - (to be continued)
 
