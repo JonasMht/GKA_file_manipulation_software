@@ -203,7 +203,7 @@ aswell as global variables and librarie imports.
     <details>
     <summary>Return</summary>
     
-    - A 3D list (`[[Prism1 Name ,[[Prism1 information at t0], [Prism1 information at t1],.., [Prism1 information at tn]]],...]`)
+    - A 4D list (`[[Prism1 Name ,[[Prism1 information at t0], [Prism1 information at t1],.., [Prism1 information at tn]]],...]`)
     
     </details>
         <br/>
