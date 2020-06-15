@@ -27,18 +27,21 @@ aswell as global variables and librarie imports.
         - **index** an integer
     - Return:
         - A sorted and crescent list by the elements located at the index position of li.
+        
 - **FindIndexByName(name, l)**
     - Argument:
         - **name** a string
         - **l** the prismParam global list
     - Return:
         - the index of the element that contains the correct name in the prismParam list l.
+        
 - **FindValueByName(name, l)**
     - Argument:
         - **name** a string
         - **l** the prismParam global list
     - Return:
         - The value that is linked to the name in the prismParam list l.
+
 - **ChangeValueByName(name, n, l)**
     - Argument:
         - **name** a string
@@ -46,31 +49,37 @@ aswell as global variables and librarie imports.
         - **l** the prismParam global list
     - Side effect:
         - In the prismParam list l change the value that is linked to the name to n.
+        
 - **gps_to_dt(gpsweek,gpsseconds)**
     - Argument:
         - **gpsweek** an integer
         - **gpsseconds** a float
     - Return:
         - Conversion of a GPS date to datetime.
+        
 - **dec_to_dt(dec)**
     - Argument:
         - **dec** a float
     - Return:
         - Conversion of a decimal year to datetime.
+        
 - **dt_to_dec(dt)**
     - Argument:
         - **dt** datetime format
     - Return:
         - conversion of a datetime to decimal year (float).
+        
 - **ConcatenationLoop(fileList)**
     - Argument:
         - **fileList** a list of strings
     - Return:
         - A concatenated string of all the contents of the files represented by path strings in the fileList/
+        
 - **ConvertGKA_to_ReadableInformation(text)**
     - Argument:
         - **text** a string of a gka file.
     - Return:
         - A string containing a gka like structure with corrected position and decimal years for each prism)
-        - (to be continued)
+
+- (to be continued)
 
