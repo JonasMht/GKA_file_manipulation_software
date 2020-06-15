@@ -183,7 +183,7 @@ aswell as global variables and librarie imports.
     
     </details>
     <details>
-    <summary>Readable Information Format (text)</summary>
+    <summary>Readable Information Format</summary>
     
     - Start/End of prism aquisition:
         - "#GNV11" / "#END11" (string)
