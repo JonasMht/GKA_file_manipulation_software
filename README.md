@@ -2,14 +2,14 @@
 The main file of this Python program (readGKA.py) depends on two other files (functions.py & parameters.py) that both provide useful functions
 aswell as global variables and librarie imports.
 
-##Imported libraries:
+## Imported libraries:
 ```
 - time (provides a function to get current time in seconds)
 - datetime (provides date conversion functions)
 - math (provides math functions)
 ```
 
-##Global Variables:
+## Global Variables:
 ```
 - XS YS ZS (position of the total station in meters)
 - V0 (yaw rotation in Gradians)
@@ -19,7 +19,7 @@ aswell as global variables and librarie imports.
 - prismParam a list of 34 elements (a list of 2D list containing each a string and a value. This list represents the data contained on a prism line in a gka file)
 ```
 
-##Functions:
+## Functions:
 ```
 - SortCrescent(li, index) (Sort a list in a crescent order by the elements located at the index position)
 - FindIndexByName(name, l) (In the prismParam list l find and return the index of the element that contains the correct name)
