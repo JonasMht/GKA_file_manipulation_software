@@ -67,7 +67,6 @@ def ConcatenationLoop(fileList):
         inputFile.close()
     return outString
 
-    
 
 def ConvertGKA_to_ReadableInformation(text):
     """
@@ -193,7 +192,7 @@ def From_ReadableInformation_to_list(text):
             i+=1
             if e=='\n':
                 if i==12:
-                    #Prism #(0)pos (1)xi (2)yi (3)zi (4)xmeteo (5)ymeteo (6)zmeteo (7)decimalYear (8)GPSwk (9)DOWk (10)SOWk
+                    #Prism  >> (0)pos (1)xi (2)yi (3)zi (4)xmeteo (5)ymeteo (6)zmeteo (7)decimalYear (8)GPSwk (9)DOWk (10)SOWk
                     dataList = [] #Pos xi yi zi xmeteo ymeteo zmeteo Week Day Seconds decimalYear
                     for k in range(1,12):
                         dataList.append(float(param[k]))

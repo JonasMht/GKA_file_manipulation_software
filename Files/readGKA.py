@@ -11,6 +11,9 @@ Goals:
 - Correct lack of data such as ",," -> ",9999,"
 - Write and manipulate data from a gka file and create statistics
 - Concatenate n files
+
+Suggestion:
+- Ajouter la possibilité de chercher des fichiers avec des wildcards (avec import glob)
 """
 #Commentaire: le fichier gka.201911 contient des irrégularités, ex ligne 11796 il n'y a pas de #END11 + la sonde "C013" (ligne 11795) n'a qu'une seule ligne (pos 1 mais pas de pos 2)
 
@@ -21,7 +24,7 @@ from functions import * #import the functions.py file
 running = True
 while running:
     #Command line interface
-    choice = input("\t- '1' : Convert to readable file \n\t- '2' : Concatenate n files\n\t- '3' : Prism statistics\n\t- '0' or 'q' : Quit\n\nAnswer: ")
+    choice = input("\t- '1' : Convert to readable file \n\t- '2' : Concatenate n files\n\t- '3' : Prism statistics\n\t- '4' : Plot prism\n\t- '0' or 'q' : Quit\n\nAnswer: ")
     
     if choice == '1':
         inFilePath = input("Enter the gka file to convert : ") #file containing the data that will be manipulated
@@ -278,6 +281,102 @@ while running:
 
         print("--- The operation executed correctly ---")
         print("--- It took : %s seconds ---\n" % (time.time() - start_time))
+
+    elif choice == '4':
+        import numpy as np
+
+        answer = input("Enter gka file (wildcards allowed): ")
+        prismName = input("EnterPrismName: ")
+        inFilePathList = glob.glob(answer) #Using wildcards
+
+        print(inFilePathList)
+
+        start_time = time.time() #Get start time
+        print("\n--- Operation start ---")
+
+        text = ""
+
+        for infilePath in inFilePathList:
+            print(infilePath)
+            inFile = open(infilePath)
+            # Create/Open the output files
+            text += inFile.read()
+            inFile.close()
+
+
+        text = ConvertGKA_to_ReadableInformation(text)
+        prismData = From_ReadableInformation_to_list(text)
+
+        
+
+        # Create figure
+        fig, (ax1, ax2, ax3) = plt.subplots(nrows=3, ncols=1)
+
+        for e in prismData:
+            if e[0] == prismName:
+                date = []
+                east = []
+                north = []
+                alt = []
+                sortedByDate = SortCrescent(e[1],7)
+                formerPos = [-1,-1,-1]
+                for d in sortedByDate:
+                        if d[0]==1:
+                            formerPos = [d[4],d[5],d[6]]
+                        elif d[6] != 0 and formerPos[2] != 0:
+                            date.append(dec_to_dt(d[7])) #dec_to_dt(d[7]).strftime("%m/%d/%Y , %H:%M:%S") 
+                            east.append((d[4]+formerPos[0])/2)
+                            north.append((d[5]+formerPos[1])/2)
+                            alt.append((d[6]+formerPos[2])/2)
+                            
+                myFmt = mdates.DateFormatter('%d-%m-%Y')
+
+                # log y axis
+                ax1.xaxis.set_major_formatter(myFmt)
+                ax1.plot(date, east, label=e[0])
+                ax1.legend()
+                ax1.set_xlabel('Date [d-m-Y]')
+                ax1.set_ylabel('East pos [m]')
+                ax1.set(title='East pos/Date')
+                ax1.xaxis.set_major_locator(plt.MaxNLocator(10))
+                ax1.yaxis.set_major_locator(plt.MaxNLocator(10))
+                ax1.grid()
+
+                # log x axis
+                ax2.xaxis.set_major_formatter(myFmt)
+                ax2.plot(date, north, label=e[0])
+                ax2.legend()
+                ax2.set_xlabel('Date [d-m-Y]')
+                ax2.set_ylabel('North pos [m]')
+                ax2.set(title='North pos/Date')
+                ax2.xaxis.set_major_locator(plt.MaxNLocator(10))
+                ax2.yaxis.set_major_locator(plt.MaxNLocator(10))
+                ax2.grid()
+
+                # log x and y axis
+                ax3.xaxis.set_major_formatter(myFmt)
+                ax3.plot(date, alt, label=e[0])
+                ax3.legend()
+                ax3.set_xlabel('Date [d-m-Y]')
+                ax3.set_ylabel('Altitude [m]')
+                ax3.set(title='Altitude/Date')
+                ax3.xaxis.set_major_locator(plt.MaxNLocator(10))
+                ax3.yaxis.set_major_locator(plt.MaxNLocator(10))
+                ax3.grid()
+        
+
+        
+
+        
+        fig.canvas.set_window_title('Prism Ploting')
+        fig.tight_layout()
+
+        print("--- The operation executed correctly ---")
+        print("--- It took : %s seconds ---\n" % (time.time() - start_time))
+        
+        plt.show()
+
+
 
     elif choice == '0' or choice == 'q':
         running=False

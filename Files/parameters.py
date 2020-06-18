@@ -2,9 +2,11 @@ import time # We want to know how long the program runs
 import datetime
 import math
 
-"""
-import matplotlib.pyplot as plt # Visualise data #keep as comment for now
+import glob #For wildcard search
 
+import matplotlib.pyplot as plt # Visualise data #keep as comment for now
+import matplotlib.dates as mdates
+"""
 ## build a QApplication before building other widgets
 import pyqtgraph as pg
 import pyqtgraph.opengl as gl
