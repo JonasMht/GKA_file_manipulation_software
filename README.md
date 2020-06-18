@@ -1,6 +1,6 @@
 # GKA_file_manipulation_software
 The main file of this Python program (readGKA.py) depends on two other files (functions.py & parameters.py) that both provide useful functions
-aswell as global variables and librarie imports.
+aswell as global variables and library imports.
 
 ## Usage:
 
