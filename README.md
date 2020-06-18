@@ -4,13 +4,13 @@ aswell as global variables and librarie imports.
 
 ## Usage:
 
-- **Run the program** in the cmd or shell write `python readGKA.py` to execute the program
+- **Run the program** in the cmd or shell write `python readGKA.py` to execute the program.
 #### You will be prompted with multiple choices:
 - **Convert to readable file** will ask for a gka and output file and converts the gka data into more manageable information.
 - **Concatenate n files** will ask for an output file and multiple files that will be concatenated in the output file (if you have entered all your files press enter to confirm).
 - **Prism statistics**  will ask for a gka and output file in which statistics about every prism will be stored.
 - **Plot prism** will ask for a gka file path (accepts wildcards (*,?)) and a prism name then plots the meteo position of this given prism over time.
-- **Quit** will exit the program loop
+- **Quit** will exit the program loop/
 
 
 ## Imported libraries:
