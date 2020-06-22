@@ -1,0 +1,2360 @@
+17:00:34 - Prism: 1 - stLval - Face 1 - not enabled
+17:00:34 - Prism: 1 - stLval - Face 2 - not enabled
+17:00:34 - Prism: 2 - ref100, angleH: 0.0115, angleV: 89.7952, Distance: 1091.49, Lockmode: Long Range Finelock Mode
+17:00:53 - Prism: 2 - Domeasure failed (9002).
+17:00:54 - Prism: 2 - ref100, angleH: 200.012, angleV: 310.205, Distance: 1091.49, Lockmode: Long Range Finelock Mode
+17:01:12 - Prism: 2 - Domeasure failed (9002).
+17:01:12 - Prism: 3 - F02 - Face 1 - not enabled
+17:01:12 - Prism: 3 - F02 - Face 2 - not enabled
+17:01:12 - Prism: 4 - REF0200, angleH: 73.7947, angleV: 97.9128, Distance: 819.185, Lockmode: Long Range Finelock Mode
+17:01:31 - Prism: 4 - Domeasure failed (9002).
+17:01:31 - Prism: 4 - REF0200, angleH: 273.795, angleV: 302.087, Distance: 819.185, Lockmode: Long Range Finelock Mode
+17:01:50 - Prism: 4 - Domeasure failed (9002).
+17:01:50 - Prism: 5 - D014 - Face 1 - not enabled
+17:01:50 - Prism: 5 - D014 - Face 2 - not enabled
+17:01:50 - Prism: 6 - A015, angleH: 20.4082, angleV: 81.3884, Distance: 2328.78, Lockmode: Long Range Finelock Mode
+17:02:08 - Prism: 6 - Domeasure failed (9002).
+17:02:08 - Prism: 6 - A015, angleH: 220.408, angleV: 318.612, Distance: 2328.78, Lockmode: Long Range Finelock Mode
+17:02:27 - Prism: 6 - Domeasure failed (9002).
+17:02:27 - Prism: 7 - A016, angleH: 22.2227, angleV: 81.2121, Distance: 2324.48, Lockmode: Long Range Finelock Mode
+17:02:49 - Prism: 7 - Domeasure failed (1002).
+17:02:49 - Prism: 7 - A016, angleH: 222.223, angleV: 318.788, Distance: 2324.48, Lockmode: Long Range Finelock Mode
+17:03:12 - Prism: 7 - Domeasure failed (1002).
+17:03:12 - Prism: 8 - A013, angleH: 20.8733, angleV: 81.7409, Distance: 2235.91, Lockmode: Long Range Finelock Mode
+17:03:32 - Prism: 8 - Domeasure failed (9002).
+17:03:32 - Prism: 8 - A013, angleH: 220.873, angleV: 318.259, Distance: 2235.91, Lockmode: Long Range Finelock Mode
+17:03:50 - Prism: 8 - Domeasure failed (9002).
+17:03:50 - Prism: 9 - A014, angleH: 23.646, angleV: 81.7505, Distance: 2223.44, Lockmode: Long Range Finelock Mode
+17:04:09 - Prism: 9 - Domeasure failed (9002).
+17:04:09 - Prism: 9 - A014, angleH: 223.646, angleV: 318.25, Distance: 2223.44, Lockmode: Long Range Finelock Mode
+17:04:28 - Prism: 9 - Domeasure failed (9002).
+17:04:28 - Prism: 10 - A012, angleH: 21.264, angleV: 83.474, Distance: 1988.72, Lockmode: Long Range Finelock Mode
+17:04:47 - Prism: 10 - Domeasure failed (9002).
+17:04:47 - Prism: 10 - A012, angleH: 221.264, angleV: 316.526, Distance: 1988.72, Lockmode: Long Range Finelock Mode
+17:05:07 - Prism: 10 - DoMeasure success.
+17:05:07 - Prism: 11 - A011, angleH: 24.8036, angleV: 83.8805, Distance: 1886.07, Lockmode: Long Range Finelock Mode
+17:05:25 - Prism: 11 - DoMeasure success.
+17:05:26 - Prism: 11 - A011, angleH: 224.804, angleV: 316.12, Distance: 1886.07, Lockmode: Long Range Finelock Mode
+17:05:45 - Prism: 11 - DoMeasure success.
+17:05:45 - Prism: 12 - A08, angleH: 30.8716, angleV: 83.2296, Distance: 1889.31, Lockmode: Long Range Finelock Mode
+17:06:03 - Prism: 12 - DoMeasure success.
+17:06:04 - Prism: 12 - A08, angleH: 230.872, angleV: 316.77, Distance: 1889.31, Lockmode: Long Range Finelock Mode
+17:06:22 - Prism: 12 - DoMeasure success.
+17:06:22 - Prism: 13 - A04, angleH: 17.1629, angleV: 85.9566, Distance: 1717, Lockmode: Long Range Finelock Mode
+17:06:41 - Prism: 13 - DoMeasure success.
+17:06:41 - Prism: 13 - A04, angleH: 217.163, angleV: 314.043, Distance: 1717, Lockmode: Long Range Finelock Mode
+17:06:59 - Prism: 13 - DoMeasure success.
+17:06:59 - Prism: 14 - A05, angleH: 18.4331, angleV: 85.8019, Distance: 1666.77, Lockmode: Long Range Finelock Mode
+17:07:18 - Prism: 14 - DoMeasure success.
+17:07:18 - Prism: 14 - A05, angleH: 218.433, angleV: 314.198, Distance: 1666.77, Lockmode: Long Range Finelock Mode
+17:07:37 - Prism: 14 - DoMeasure success.
+17:07:37 - Prism: 15 - A07, angleH: 28.2551, angleV: 85.6009, Distance: 1643.71, Lockmode: Long Range Finelock Mode
+17:07:55 - Prism: 15 - DoMeasure success.
+17:07:55 - Prism: 15 - A07, angleH: 228.255, angleV: 314.399, Distance: 1643.71, Lockmode: Long Range Finelock Mode
+17:08:14 - Prism: 15 - DoMeasure success.
+17:08:14 - Prism: 16 - A09, angleH: 26.7206, angleV: 87.2721, Distance: 1452.84, Lockmode: Long Range Finelock Mode
+17:08:33 - Prism: 16 - DoMeasure success.
+17:08:33 - Prism: 16 - A09, angleH: 226.721, angleV: 312.728, Distance: 1452.84, Lockmode: Long Range Finelock Mode
+17:08:52 - Prism: 16 - DoMeasure success.
+17:08:52 - Prism: 17 - A010, angleH: 31.8095, angleV: 87.2528, Distance: 1445.69, Lockmode: Long Range Finelock Mode
+17:09:11 - Prism: 17 - DoMeasure success.
+17:09:11 - Prism: 17 - A010, angleH: 231.81, angleV: 312.747, Distance: 1445.69, Lockmode: Long Range Finelock Mode
+17:09:30 - Prism: 17 - DoMeasure success.
+17:09:30 - Prism: 18 - A02, angleH: 36.394, angleV: 86.6457, Distance: 1460.77, Lockmode: Long Range Finelock Mode
+17:09:49 - Prism: 18 - DoMeasure success.
+17:09:49 - Prism: 18 - A02, angleH: 236.394, angleV: 313.354, Distance: 1460.77, Lockmode: Long Range Finelock Mode
+17:10:07 - Prism: 18 - DoMeasure success.
+17:10:07 - Prism: 19 - C02, angleH: 26.1602, angleV: 90.9752, Distance: 1015.34, Lockmode: Long Range Finelock Mode
+17:10:27 - Prism: 19 - DoMeasure success.
+17:10:27 - Prism: 19 - C02, angleH: 226.16, angleV: 309.025, Distance: 1015.34, Lockmode: Long Range Finelock Mode
+17:10:45 - Prism: 19 - DoMeasure success.
+17:10:45 - Prism: 20 - C01, angleH: 31.1817, angleV: 91.2202, Distance: 1049.66, Lockmode: Long Range Finelock Mode
+17:11:04 - Prism: 20 - DoMeasure success.
+17:11:05 - Prism: 20 - C01, angleH: 231.182, angleV: 308.78, Distance: 1049.66, Lockmode: Long Range Finelock Mode
+17:11:24 - Prism: 20 - DoMeasure success.
+17:11:24 - Prism: 21 - C03, angleH: 25.947, angleV: 92.3908, Distance: 899.554, Lockmode: Long Range Finelock Mode
+17:11:42 - Prism: 21 - DoMeasure success.
+17:11:42 - Prism: 21 - C03, angleH: 225.947, angleV: 307.609, Distance: 899.554, Lockmode: Long Range Finelock Mode
+17:12:01 - Prism: 21 - DoMeasure success.
+17:12:01 - Prism: 22 - C04, angleH: 30.8165, angleV: 92.5272, Distance: 868.678, Lockmode: Long Range Finelock Mode
+17:12:20 - Prism: 22 - DoMeasure success.
+17:12:21 - Prism: 22 - C04, angleH: 230.816, angleV: 307.473, Distance: 868.678, Lockmode: Long Range Finelock Mode
+17:12:39 - Prism: 22 - DoMeasure success.
+17:12:39 - Prism: 23 - D017, angleH: 23.383, angleV: 93.4638, Distance: 792.499, Lockmode: Long Range Finelock Mode
+17:12:57 - Prism: 23 - DoMeasure success.
+17:12:57 - Prism: 23 - D017, angleH: 223.383, angleV: 306.536, Distance: 792.499, Lockmode: Long Range Finelock Mode
+17:13:16 - Prism: 23 - DoMeasure success.
+17:13:16 - Prism: 24 - D018, angleH: 27.2731, angleV: 93.1846, Distance: 784.385, Lockmode: Long Range Finelock Mode
+17:13:34 - Prism: 24 - DoMeasure success.
+17:13:35 - Prism: 24 - D018, angleH: 227.273, angleV: 306.815, Distance: 784.385, Lockmode: Long Range Finelock Mode
+17:13:53 - Prism: 24 - DoMeasure success.
+17:13:53 - Prism: 25 - D019, angleH: 33.119, angleV: 93.7703, Distance: 771.886, Lockmode: Long Range Finelock Mode
+17:14:11 - Prism: 25 - DoMeasure success.
+17:14:11 - Prism: 25 - D019, angleH: 233.119, angleV: 306.23, Distance: 771.886, Lockmode: Long Range Finelock Mode
+17:14:29 - Prism: 25 - DoMeasure success.
+17:14:29 - Prism: 26 - C05, angleH: 34.4877, angleV: 94.5086, Distance: 712.034, Lockmode: Long Range Finelock Mode
+17:14:48 - Prism: 26 - DoMeasure success.
+17:14:48 - Prism: 26 - C05, angleH: 234.488, angleV: 305.491, Distance: 712.034, Lockmode: Long Range Finelock Mode
+17:15:07 - Prism: 26 - DoMeasure success.
+17:15:07 - Prism: 27 - C06, angleH: 32.7371, angleV: 94.3285, Distance: 710.047, Lockmode: Long Range Finelock Mode
+17:15:26 - Prism: 27 - DoMeasure success.
+17:15:26 - Prism: 27 - C06, angleH: 232.737, angleV: 305.671, Distance: 710.047, Lockmode: Long Range Finelock Mode
+17:15:44 - Prism: 27 - DoMeasure success.
+17:15:44 - Prism: 28 - C07, angleH: 30.8823, angleV: 94.219, Distance: 708.985, Lockmode: Long Range Finelock Mode
+17:16:03 - Prism: 28 - DoMeasure success.
+17:16:03 - Prism: 28 - C07, angleH: 230.882, angleV: 305.781, Distance: 708.985, Lockmode: Long Range Finelock Mode
+17:16:22 - Prism: 28 - DoMeasure success.
+17:16:22 - Prism: 29 - C08, angleH: 29.0071, angleV: 94.1726, Distance: 708.277, Lockmode: Long Range Finelock Mode
+17:16:41 - Prism: 29 - DoMeasure success.
+17:16:41 - Prism: 29 - C08, angleH: 229.007, angleV: 305.827, Distance: 708.277, Lockmode: Long Range Finelock Mode
+17:16:59 - Prism: 29 - DoMeasure success.
+17:16:59 - Prism: 30 - C09, angleH: 27.1704, angleV: 94.2004, Distance: 708.15, Lockmode: Long Range Finelock Mode
+17:17:18 - Prism: 30 - DoMeasure success.
+17:17:18 - Prism: 30 - C09, angleH: 227.17, angleV: 305.8, Distance: 708.15, Lockmode: Long Range Finelock Mode
+17:17:37 - Prism: 30 - DoMeasure success.
+17:17:37 - Prism: 31 - C012, angleH: 23.6784, angleV: 94.6776, Distance: 709.076, Lockmode: Long Range Finelock Mode
+17:17:55 - Prism: 31 - DoMeasure success.
+17:17:55 - Prism: 31 - C012, angleH: 223.678, angleV: 305.322, Distance: 709.076, Lockmode: Long Range Finelock Mode
+17:18:14 - Prism: 31 - DoMeasure success.
+17:18:14 - Prism: 32 - C013, angleH: 21.8844, angleV: 94.8065, Distance: 710.445, Lockmode: Long Range Finelock Mode
+17:18:32 - Prism: 32 - DoMeasure success.
+17:18:32 - Prism: 32 - C013, angleH: 221.884, angleV: 305.193, Distance: 710.445, Lockmode: Long Range Finelock Mode
+17:18:51 - Prism: 32 - DoMeasure success.
+17:18:51 - Prism: 33 - C014, angleH: 20.0779, angleV: 94.6965, Distance: 712.686, Lockmode: Long Range Finelock Mode
+17:19:10 - Prism: 33 - DoMeasure success.
+17:19:10 - Prism: 33 - C014, angleH: 220.078, angleV: 305.303, Distance: 712.686, Lockmode: Long Range Finelock Mode
+17:19:28 - Prism: 33 - DoMeasure success.
+17:19:28 - Prism: 34 - C015, angleH: 17.7297, angleV: 94.2236, Distance: 726.219, Lockmode: Long Range Finelock Mode
+17:19:47 - Prism: 34 - DoMeasure success.
+17:19:48 - Prism: 34 - C015, angleH: 217.73, angleV: 305.776, Distance: 726.219, Lockmode: Long Range Finelock Mode
+17:20:07 - Prism: 34 - DoMeasure success.
+17:20:07 - Prism: 35 - E01, angleH: 23.7022, angleV: 96.0208, Distance: 611.922, Lockmode: Long Range Finelock Mode
+17:20:25 - Prism: 35 - DoMeasure success.
+17:20:25 - Prism: 35 - E01, angleH: 223.702, angleV: 303.979, Distance: 611.922, Lockmode: Long Range Finelock Mode
+17:20:43 - Prism: 35 - DoMeasure success.
+17:20:43 - Prism: 36 - E02, angleH: 30.8301, angleV: 95.7946, Distance: 601.015, Lockmode: Long Range Finelock Mode
+17:21:02 - Prism: 36 - DoMeasure success.
+17:21:02 - Prism: 36 - E02, angleH: 230.83, angleV: 304.205, Distance: 601.015, Lockmode: Long Range Finelock Mode
+17:21:21 - Prism: 36 - DoMeasure success.
+17:21:21 - Prism: 37 - D013, angleH: 37.4005, angleV: 97.67, Distance: 572.08, Lockmode: Long Range Finelock Mode
+17:21:39 - Prism: 37 - DoMeasure success.
+17:21:39 - Prism: 37 - D013, angleH: 237.4, angleV: 302.33, Distance: 572.08, Lockmode: Long Range Finelock Mode
+17:21:58 - Prism: 37 - DoMeasure success.
+17:21:58 - Prism: 38 - E06, angleH: 33.8396, angleV: 98.7909, Distance: 543.559, Lockmode: Long Range Finelock Mode
+17:22:16 - Prism: 38 - DoMeasure success.
+17:22:17 - Prism: 38 - E06, angleH: 233.84, angleV: 301.209, Distance: 543.559, Lockmode: Long Range Finelock Mode
+17:22:35 - Prism: 38 - DoMeasure success.
+17:22:35 - Prism: 39 - F03, angleH: 26.1045, angleV: 97.9348, Distance: 533.16, Lockmode: Long Range Finelock Mode
+17:22:53 - Prism: 39 - DoMeasure success.
+17:22:54 - Prism: 39 - F03, angleH: 226.105, angleV: 302.065, Distance: 533.16, Lockmode: Long Range Finelock Mode
+17:23:12 - Prism: 39 - DoMeasure success.
+17:23:12 - Prism: 40 - D015, angleH: 19.6758, angleV: 96.6789, Distance: 576.729, Lockmode: Long Range Finelock Mode
+17:23:31 - Prism: 40 - DoMeasure success.
+17:23:31 - Prism: 40 - D015, angleH: 219.676, angleV: 303.321, Distance: 576.729, Lockmode: Long Range Finelock Mode
+17:23:49 - Prism: 40 - DoMeasure success.
+17:23:49 - Prism: 41 - F07, angleH: 19.2587, angleV: 99.1965, Distance: 497.064, Lockmode: Long Range Finelock Mode
+17:24:07 - Prism: 41 - DoMeasure success.
+17:24:08 - Prism: 41 - F07, angleH: 219.259, angleV: 300.803, Distance: 497.064, Lockmode: Long Range Finelock Mode
+17:24:26 - Prism: 41 - DoMeasure success.
+17:24:26 - Prism: 42 - E03, angleH: 23.7713, angleV: 99.1818, Distance: 506.001, Lockmode: Long Range Finelock Mode
+17:24:45 - Prism: 42 - DoMeasure success.
+17:24:45 - Prism: 42 - E03, angleH: 223.771, angleV: 300.818, Distance: 506.001, Lockmode: Long Range Finelock Mode
+17:25:03 - Prism: 42 - DoMeasure success.
+17:25:03 - Prism: 43 - F08, angleH: 33.2077, angleV: 101.044, Distance: 480.376, Lockmode: Long Range Finelock Mode
+17:25:22 - Prism: 43 - DoMeasure success.
+17:25:22 - Prism: 43 - F08, angleH: 233.208, angleV: 298.956, Distance: 480.376, Lockmode: Long Range Finelock Mode
+17:25:41 - Prism: 43 - DoMeasure success.
+17:25:41 - Prism: 44 - E05, angleH: 36.2579, angleV: 101.318, Distance: 478.633, Lockmode: Long Range Finelock Mode
+17:25:59 - Prism: 44 - DoMeasure success.
+17:26:00 - Prism: 44 - E05, angleH: 236.258, angleV: 298.682, Distance: 478.633, Lockmode: Long Range Finelock Mode
+17:26:17 - Prism: 44 - DoMeasure success.
+17:26:18 - Prism: 45 - D012, angleH: 44.7371, angleV: 101.694, Distance: 476.717, Lockmode: Long Range Finelock Mode
+17:26:36 - Prism: 45 - DoMeasure success.
+17:26:36 - Prism: 45 - D012, angleH: 244.737, angleV: 298.306, Distance: 476.717, Lockmode: Long Range Finelock Mode
+17:26:54 - Prism: 45 - DoMeasure success.
+17:26:54 - Prism: 46 - F09, angleH: 39.5513, angleV: 104.783, Distance: 417.459, Lockmode: Long Range Finelock Mode
+17:27:13 - Prism: 46 - DoMeasure success.
+17:27:13 - Prism: 46 - F09, angleH: 239.551, angleV: 295.217, Distance: 417.459, Lockmode: Long Range Finelock Mode
+17:27:32 - Prism: 46 - DoMeasure success.
+17:27:32 - Prism: 47 - F05, angleH: 27.0866, angleV: 104.166, Distance: 407.93, Lockmode: Long Range Finelock Mode
+17:27:50 - Prism: 47 - DoMeasure success.
+17:27:51 - Prism: 47 - F05, angleH: 227.087, angleV: 295.834, Distance: 407.93, Lockmode: Long Range Finelock Mode
+17:28:09 - Prism: 47 - DoMeasure success.
+17:28:09 - Prism: 48 - F04, angleH: 22.3684, angleV: 103.584, Distance: 409.812, Lockmode: Long Range Finelock Mode
+17:28:27 - Prism: 48 - DoMeasure success.
+17:28:27 - Prism: 48 - F04, angleH: 222.368, angleV: 296.416, Distance: 409.812, Lockmode: Long Range Finelock Mode
+17:28:45 - Prism: 48 - DoMeasure success.
+17:28:46 - Prism: 49 - F06, angleH: 25.9994, angleV: 108.298, Distance: 348.565, Lockmode: Finelock Mode
+17:28:56 - Prism: 49 - DoMeasure success.
+17:28:56 - Prism: 49 - F06, angleH: 225.999, angleV: 291.702, Distance: 348.565, Lockmode: Finelock Mode
+17:29:06 - Prism: 49 - DoMeasure success.
+17:29:06 - Prism: 50 - F010, angleH: 38.6597, angleV: 107.947, Distance: 369.253, Lockmode: Finelock Mode
+17:29:13 - Prism: 50 - Domeasure failed (2003).
+17:29:13 - Prism: 50 - F010, angleH: 238.66, angleV: 292.053, Distance: 369.253, Lockmode: Finelock Mode
+17:29:22 - Prism: 50 - Domeasure failed (2003).
+17:29:22 - Prism: 51 - E04, angleH: 27.9135, angleV: 108.855, Distance: 346.759, Lockmode: Finelock Mode
+17:29:34 - Prism: 51 - DoMeasure success.
+17:29:34 - Prism: 51 - E04, angleH: 227.913, angleV: 291.145, Distance: 346.759, Lockmode: Finelock Mode
+17:29:44 - Prism: 51 - DoMeasure success.
+17:29:44 - Prism: 52 - D016, angleH: 46.5, angleV: 105.716, Distance: 386.059, Lockmode: Finelock Mode
+17:29:54 - Prism: 52 - DoMeasure success.
+17:29:54 - Prism: 52 - D016, angleH: 246.5, angleV: 294.284, Distance: 386.059, Lockmode: Finelock Mode
+17:30:05 - Prism: 52 - DoMeasure success.
+17:30:05 - Prism: 53 - REF_F02, angleH: 28.0882, angleV: 97.0788, Distance: 556.198, Lockmode: Long Range Finelock Mode
+17:30:23 - Prism: 53 - DoMeasure success.
+17:30:23 - Prism: 53 - REF_F02, angleH: 228.088, angleV: 302.921, Distance: 556.198, Lockmode: Long Range Finelock Mode
+17:30:41 - Prism: 53 - DoMeasure success.
+17:30:42 - Prism: 54 - REF_D014, angleH: 46.0412, angleV: 97.4979, Distance: 577.79, Lockmode: Long Range Finelock Mode
+17:31:00 - Prism: 54 - DoMeasure success.
+17:31:00 - Prism: 54 - REF_D014, angleH: 246.041, angleV: 302.502, Distance: 577.79, Lockmode: Long Range Finelock Mode
+17:31:18 - Prism: 54 - DoMeasure success.
+17:31:19 - Prism: 55 - A06, angleH: 23.2588, angleV: 85.7158, Distance: 1635.13, Lockmode: Long Range Finelock Mode
+17:31:37 - Prism: 55 - DoMeasure success.
+17:31:37 - Prism: 55 - A06, angleH: 223.259, angleV: 314.284, Distance: 1635.13, Lockmode: Long Range Finelock Mode
+17:31:56 - Prism: 55 - DoMeasure success.
+17:31:57 - Prism: 56 - A03, angleH: 15.0485, angleV: 87.025, Distance: 1490.26, Lockmode: Long Range Finelock Mode
+17:32:15 - Prism: 56 - DoMeasure success.
+17:32:15 - Prism: 56 - A03, angleH: 215.048, angleV: 312.975, Distance: 1490.26, Lockmode: Long Range Finelock Mode
+17:32:34 - Prism: 56 - DoMeasure success.
+17:32:35 - Prism: 57 - C05B, angleH: 34.5069, angleV: 94.5109, Distance: 709.076, Lockmode: Long Range Finelock Mode
+17:32:53 - Prism: 57 - DoMeasure success.
+17:32:53 - Prism: 57 - C05B, angleH: 234.507, angleV: 305.489, Distance: 709.076, Lockmode: Long Range Finelock Mode
+17:33:12 - Prism: 57 - DoMeasure success.
+17:33:12 - Prism: 58 - C11, angleH: 25.5118, angleV: 94.3407, Distance: 709.076, Lockmode: Long Range Finelock Mode
+17:33:30 - Prism: 58 - DoMeasure success.
+17:33:30 - Prism: 58 - C11, angleH: 225.512, angleV: 305.659, Distance: 709.076, Lockmode: Long Range Finelock Mode
+17:33:48 - Prism: 58 - DoMeasure success.
+17:33:56 - RoundsOK is (1).
+17:33:59 - Exit from functin StartMonitoring.
+17:40:36 - Prism: 1 - stLval - Face 1 - not enabled
+17:40:37 - Prism: 1 - stLval - Face 2 - not enabled
+17:40:37 - Prism: 2 - ref100, angleH: 0.0115, angleV: 89.7952, Distance: 1091.49, Lockmode: Long Range Finelock Mode
+17:40:55 - Prism: 2 - DoMeasure success.
+17:40:55 - Prism: 2 - ref100, angleH: 200.012, angleV: 310.205, Distance: 1091.49, Lockmode: Long Range Finelock Mode
+17:41:14 - Prism: 2 - DoMeasure success.
+17:41:14 - Prism: 3 - F02 - Face 1 - not enabled
+17:41:14 - Prism: 3 - F02 - Face 2 - not enabled
+17:41:14 - Prism: 4 - REF0200, angleH: 73.7947, angleV: 97.9128, Distance: 819.185, Lockmode: Long Range Finelock Mode
+17:41:33 - Prism: 4 - DoMeasure success.
+17:41:33 - Prism: 4 - REF0200, angleH: 273.795, angleV: 302.087, Distance: 819.185, Lockmode: Long Range Finelock Mode
+17:41:52 - Prism: 4 - DoMeasure success.
+17:41:52 - Prism: 5 - D014 - Face 1 - not enabled
+17:41:52 - Prism: 5 - D014 - Face 2 - not enabled
+17:41:52 - Prism: 6 - A015, angleH: 20.4082, angleV: 81.3884, Distance: 2328.78, Lockmode: Long Range Finelock Mode
+17:42:10 - Prism: 6 - DoMeasure success.
+17:42:10 - Prism: 6 - A015, angleH: 220.408, angleV: 318.612, Distance: 2328.78, Lockmode: Long Range Finelock Mode
+17:42:29 - Prism: 6 - DoMeasure success.
+17:42:29 - Prism: 7 - A016, angleH: 22.2227, angleV: 81.2121, Distance: 2324.48, Lockmode: Long Range Finelock Mode
+17:42:51 - Prism: 7 - Domeasure failed (1002).
+17:42:51 - Prism: 7 - A016, angleH: 222.223, angleV: 318.788, Distance: 2324.48, Lockmode: Long Range Finelock Mode
+17:43:14 - Prism: 7 - Domeasure failed (1002).
+17:43:14 - Prism: 8 - A013, angleH: 20.8733, angleV: 81.7409, Distance: 2235.91, Lockmode: Long Range Finelock Mode
+17:43:34 - Prism: 8 - DoMeasure success.
+17:43:34 - Prism: 8 - A013, angleH: 220.873, angleV: 318.259, Distance: 2235.91, Lockmode: Long Range Finelock Mode
+17:43:52 - Prism: 8 - DoMeasure success.
+17:43:52 - Prism: 9 - A014, angleH: 23.646, angleV: 81.7505, Distance: 2223.44, Lockmode: Long Range Finelock Mode
+17:44:11 - Prism: 9 - DoMeasure success.
+17:44:11 - Prism: 9 - A014, angleH: 223.646, angleV: 318.25, Distance: 2223.44, Lockmode: Long Range Finelock Mode
+17:44:30 - Prism: 9 - DoMeasure success.
+17:44:30 - Prism: 10 - A012, angleH: 21.264, angleV: 83.474, Distance: 1988.72, Lockmode: Long Range Finelock Mode
+17:44:48 - Prism: 10 - DoMeasure success.
+17:44:48 - Prism: 10 - A012, angleH: 221.264, angleV: 316.526, Distance: 1988.72, Lockmode: Long Range Finelock Mode
+17:45:07 - Prism: 10 - DoMeasure success.
+17:45:07 - Prism: 11 - A011, angleH: 24.8036, angleV: 83.8805, Distance: 1886.07, Lockmode: Long Range Finelock Mode
+17:45:26 - Prism: 11 - DoMeasure success.
+17:45:26 - Prism: 11 - A011, angleH: 224.804, angleV: 316.12, Distance: 1886.07, Lockmode: Long Range Finelock Mode
+17:45:45 - Prism: 11 - DoMeasure success.
+17:45:45 - Prism: 12 - A08, angleH: 30.8716, angleV: 83.2296, Distance: 1889.31, Lockmode: Long Range Finelock Mode
+17:46:03 - Prism: 12 - DoMeasure success.
+17:46:03 - Prism: 12 - A08, angleH: 230.872, angleV: 316.77, Distance: 1889.31, Lockmode: Long Range Finelock Mode
+17:46:21 - Prism: 12 - DoMeasure success.
+17:46:21 - Prism: 13 - A04, angleH: 17.1629, angleV: 85.9566, Distance: 1717, Lockmode: Long Range Finelock Mode
+17:46:40 - Prism: 13 - DoMeasure success.
+17:46:40 - Prism: 13 - A04, angleH: 217.163, angleV: 314.043, Distance: 1717, Lockmode: Long Range Finelock Mode
+17:46:58 - Prism: 13 - DoMeasure success.
+17:46:58 - Prism: 14 - A05, angleH: 18.4331, angleV: 85.8019, Distance: 1666.77, Lockmode: Long Range Finelock Mode
+17:47:17 - Prism: 14 - DoMeasure success.
+17:47:17 - Prism: 14 - A05, angleH: 218.433, angleV: 314.198, Distance: 1666.77, Lockmode: Long Range Finelock Mode
+17:47:36 - Prism: 14 - DoMeasure success.
+17:47:36 - Prism: 15 - A07, angleH: 28.2551, angleV: 85.6009, Distance: 1643.71, Lockmode: Long Range Finelock Mode
+17:47:55 - Prism: 15 - DoMeasure success.
+17:47:55 - Prism: 15 - A07, angleH: 228.255, angleV: 314.399, Distance: 1643.71, Lockmode: Long Range Finelock Mode
+17:48:14 - Prism: 15 - DoMeasure success.
+17:48:14 - Prism: 16 - A09, angleH: 26.7206, angleV: 87.2721, Distance: 1452.84, Lockmode: Long Range Finelock Mode
+17:48:33 - Prism: 16 - DoMeasure success.
+17:48:33 - Prism: 16 - A09, angleH: 226.721, angleV: 312.728, Distance: 1452.84, Lockmode: Long Range Finelock Mode
+17:48:52 - Prism: 16 - DoMeasure success.
+17:48:52 - Prism: 17 - A010, angleH: 31.8095, angleV: 87.2528, Distance: 1445.69, Lockmode: Long Range Finelock Mode
+17:49:10 - Prism: 17 - DoMeasure success.
+17:49:10 - Prism: 17 - A010, angleH: 231.81, angleV: 312.747, Distance: 1445.69, Lockmode: Long Range Finelock Mode
+17:49:29 - Prism: 17 - DoMeasure success.
+17:49:29 - Prism: 18 - A02, angleH: 36.394, angleV: 86.6457, Distance: 1460.77, Lockmode: Long Range Finelock Mode
+17:49:47 - Prism: 18 - DoMeasure success.
+17:49:47 - Prism: 18 - A02, angleH: 236.394, angleV: 313.354, Distance: 1460.77, Lockmode: Long Range Finelock Mode
+17:50:06 - Prism: 18 - DoMeasure success.
+17:50:06 - Prism: 19 - C02, angleH: 26.1602, angleV: 90.9752, Distance: 1015.34, Lockmode: Long Range Finelock Mode
+17:50:25 - Prism: 19 - DoMeasure success.
+17:50:26 - Prism: 19 - C02, angleH: 226.16, angleV: 309.025, Distance: 1015.34, Lockmode: Long Range Finelock Mode
+17:50:44 - Prism: 19 - DoMeasure success.
+17:50:44 - Prism: 20 - C01, angleH: 31.1817, angleV: 91.2202, Distance: 1049.66, Lockmode: Long Range Finelock Mode
+17:51:03 - Prism: 20 - DoMeasure success.
+17:51:03 - Prism: 20 - C01, angleH: 231.182, angleV: 308.78, Distance: 1049.66, Lockmode: Long Range Finelock Mode
+17:51:22 - Prism: 20 - DoMeasure success.
+17:51:22 - Prism: 21 - C03, angleH: 25.947, angleV: 92.3908, Distance: 899.554, Lockmode: Long Range Finelock Mode
+17:51:40 - Prism: 21 - DoMeasure success.
+17:51:40 - Prism: 21 - C03, angleH: 225.947, angleV: 307.609, Distance: 899.554, Lockmode: Long Range Finelock Mode
+17:51:59 - Prism: 21 - DoMeasure success.
+17:51:59 - Prism: 22 - C04, angleH: 30.8165, angleV: 92.5272, Distance: 868.678, Lockmode: Long Range Finelock Mode
+17:52:18 - Prism: 22 - DoMeasure success.
+17:52:18 - Prism: 22 - C04, angleH: 230.816, angleV: 307.473, Distance: 868.678, Lockmode: Long Range Finelock Mode
+17:52:37 - Prism: 22 - DoMeasure success.
+17:52:37 - Prism: 23 - D017, angleH: 23.383, angleV: 93.4638, Distance: 792.499, Lockmode: Long Range Finelock Mode
+17:52:55 - Prism: 23 - DoMeasure success.
+17:52:55 - Prism: 23 - D017, angleH: 223.383, angleV: 306.536, Distance: 792.499, Lockmode: Long Range Finelock Mode
+17:53:13 - Prism: 23 - DoMeasure success.
+17:53:13 - Prism: 24 - D018, angleH: 27.2731, angleV: 93.1846, Distance: 784.385, Lockmode: Long Range Finelock Mode
+17:53:32 - Prism: 24 - DoMeasure success.
+17:53:33 - Prism: 24 - D018, angleH: 227.273, angleV: 306.815, Distance: 784.385, Lockmode: Long Range Finelock Mode
+17:53:51 - Prism: 24 - DoMeasure success.
+17:53:51 - Prism: 25 - D019, angleH: 33.119, angleV: 93.7703, Distance: 771.886, Lockmode: Long Range Finelock Mode
+17:54:09 - Prism: 25 - DoMeasure success.
+17:54:09 - Prism: 25 - D019, angleH: 233.119, angleV: 306.23, Distance: 771.886, Lockmode: Long Range Finelock Mode
+17:54:28 - Prism: 25 - DoMeasure success.
+17:54:28 - Prism: 26 - C05, angleH: 34.4877, angleV: 94.5086, Distance: 712.034, Lockmode: Long Range Finelock Mode
+17:54:46 - Prism: 26 - DoMeasure success.
+17:54:46 - Prism: 26 - C05, angleH: 234.488, angleV: 305.491, Distance: 712.034, Lockmode: Long Range Finelock Mode
+17:55:05 - Prism: 26 - DoMeasure success.
+17:55:05 - Prism: 27 - C06, angleH: 32.7371, angleV: 94.3285, Distance: 710.047, Lockmode: Long Range Finelock Mode
+17:55:23 - Prism: 27 - DoMeasure success.
+17:55:23 - Prism: 27 - C06, angleH: 232.737, angleV: 305.671, Distance: 710.047, Lockmode: Long Range Finelock Mode
+17:55:42 - Prism: 27 - DoMeasure success.
+17:55:42 - Prism: 28 - C07, angleH: 30.8823, angleV: 94.219, Distance: 708.985, Lockmode: Long Range Finelock Mode
+17:56:00 - Prism: 28 - DoMeasure success.
+17:56:00 - Prism: 28 - C07, angleH: 230.882, angleV: 305.781, Distance: 708.985, Lockmode: Long Range Finelock Mode
+17:56:19 - Prism: 28 - DoMeasure success.
+17:56:19 - Prism: 29 - C08, angleH: 29.0071, angleV: 94.1726, Distance: 708.277, Lockmode: Long Range Finelock Mode
+17:56:38 - Prism: 29 - DoMeasure success.
+17:56:38 - Prism: 29 - C08, angleH: 229.007, angleV: 305.827, Distance: 708.277, Lockmode: Long Range Finelock Mode
+17:56:57 - Prism: 29 - DoMeasure success.
+17:56:57 - Prism: 30 - C09, angleH: 27.1704, angleV: 94.2004, Distance: 708.15, Lockmode: Long Range Finelock Mode
+17:57:16 - Prism: 30 - DoMeasure success.
+17:57:16 - Prism: 30 - C09, angleH: 227.17, angleV: 305.8, Distance: 708.15, Lockmode: Long Range Finelock Mode
+17:57:34 - Prism: 30 - DoMeasure success.
+17:57:34 - Prism: 31 - C012, angleH: 23.6784, angleV: 94.6776, Distance: 709.076, Lockmode: Long Range Finelock Mode
+17:57:53 - Prism: 31 - DoMeasure success.
+17:57:53 - Prism: 31 - C012, angleH: 223.678, angleV: 305.322, Distance: 709.076, Lockmode: Long Range Finelock Mode
+17:58:12 - Prism: 31 - DoMeasure success.
+17:58:12 - Prism: 32 - C013, angleH: 21.8844, angleV: 94.8065, Distance: 710.445, Lockmode: Long Range Finelock Mode
+17:58:31 - Prism: 32 - DoMeasure success.
+17:58:31 - Prism: 32 - C013, angleH: 221.884, angleV: 305.193, Distance: 710.445, Lockmode: Long Range Finelock Mode
+17:58:49 - Prism: 32 - DoMeasure success.
+17:58:49 - Prism: 33 - C014, angleH: 20.0779, angleV: 94.6965, Distance: 712.686, Lockmode: Long Range Finelock Mode
+17:59:08 - Prism: 33 - DoMeasure success.
+17:59:08 - Prism: 33 - C014, angleH: 220.078, angleV: 305.303, Distance: 712.686, Lockmode: Long Range Finelock Mode
+17:59:27 - Prism: 33 - DoMeasure success.
+17:59:27 - Prism: 34 - C015, angleH: 17.7297, angleV: 94.2236, Distance: 726.219, Lockmode: Long Range Finelock Mode
+17:59:45 - Prism: 34 - DoMeasure success.
+17:59:45 - Prism: 34 - C015, angleH: 217.73, angleV: 305.776, Distance: 726.219, Lockmode: Long Range Finelock Mode
+18:00:03 - Prism: 34 - DoMeasure success.
+18:00:03 - Prism: 35 - E01, angleH: 23.7022, angleV: 96.0208, Distance: 611.922, Lockmode: Long Range Finelock Mode
+18:00:22 - Prism: 35 - DoMeasure success.
+18:00:22 - Prism: 35 - E01, angleH: 223.702, angleV: 303.979, Distance: 611.922, Lockmode: Long Range Finelock Mode
+18:00:41 - Prism: 35 - DoMeasure success.
+18:00:41 - Prism: 36 - E02, angleH: 30.8301, angleV: 95.7946, Distance: 601.015, Lockmode: Long Range Finelock Mode
+18:00:59 - Prism: 36 - DoMeasure success.
+18:00:59 - Prism: 36 - E02, angleH: 230.83, angleV: 304.205, Distance: 601.015, Lockmode: Long Range Finelock Mode
+18:01:17 - Prism: 36 - DoMeasure success.
+18:01:17 - Prism: 37 - D013, angleH: 37.4005, angleV: 97.67, Distance: 572.08, Lockmode: Long Range Finelock Mode
+18:01:35 - Prism: 37 - DoMeasure success.
+18:01:36 - Prism: 37 - D013, angleH: 237.4, angleV: 302.33, Distance: 572.08, Lockmode: Long Range Finelock Mode
+18:01:55 - Prism: 37 - DoMeasure success.
+18:01:55 - Prism: 38 - E06, angleH: 33.8396, angleV: 98.7909, Distance: 543.559, Lockmode: Long Range Finelock Mode
+18:02:17 - Prism: 38 - Domeasure failed (1002).
+18:02:17 - Prism: 38 - E06, angleH: 233.84, angleV: 301.209, Distance: 543.559, Lockmode: Long Range Finelock Mode
+18:02:36 - Prism: 38 - DoMeasure success.
+18:02:36 - Prism: 39 - F03, angleH: 26.1045, angleV: 97.9348, Distance: 533.16, Lockmode: Long Range Finelock Mode
+18:02:54 - Prism: 39 - DoMeasure success.
+18:02:55 - Prism: 39 - F03, angleH: 226.105, angleV: 302.065, Distance: 533.16, Lockmode: Long Range Finelock Mode
+18:03:13 - Prism: 39 - DoMeasure success.
+18:03:13 - Prism: 40 - D015, angleH: 19.6758, angleV: 96.6789, Distance: 576.729, Lockmode: Long Range Finelock Mode
+18:03:31 - Prism: 40 - DoMeasure success.
+18:03:31 - Prism: 40 - D015, angleH: 219.676, angleV: 303.321, Distance: 576.729, Lockmode: Long Range Finelock Mode
+18:03:49 - Prism: 40 - DoMeasure success.
+18:03:49 - Prism: 41 - F07, angleH: 19.2587, angleV: 99.1965, Distance: 497.064, Lockmode: Long Range Finelock Mode
+18:04:07 - Prism: 41 - DoMeasure success.
+18:04:08 - Prism: 41 - F07, angleH: 219.259, angleV: 300.803, Distance: 497.064, Lockmode: Long Range Finelock Mode
+18:04:26 - Prism: 41 - DoMeasure success.
+18:04:26 - Prism: 42 - E03, angleH: 23.7713, angleV: 99.1818, Distance: 506.001, Lockmode: Long Range Finelock Mode
+18:04:44 - Prism: 42 - DoMeasure success.
+18:04:44 - Prism: 42 - E03, angleH: 223.771, angleV: 300.818, Distance: 506.001, Lockmode: Long Range Finelock Mode
+18:05:02 - Prism: 42 - DoMeasure success.
+18:05:02 - Prism: 43 - F08, angleH: 33.2077, angleV: 101.044, Distance: 480.376, Lockmode: Long Range Finelock Mode
+18:05:21 - Prism: 43 - DoMeasure success.
+18:05:21 - Prism: 43 - F08, angleH: 233.208, angleV: 298.956, Distance: 480.376, Lockmode: Long Range Finelock Mode
+18:05:39 - Prism: 43 - DoMeasure success.
+18:05:39 - Prism: 44 - E05, angleH: 36.2579, angleV: 101.318, Distance: 478.633, Lockmode: Long Range Finelock Mode
+18:05:58 - Prism: 44 - DoMeasure success.
+18:05:58 - Prism: 44 - E05, angleH: 236.258, angleV: 298.682, Distance: 478.633, Lockmode: Long Range Finelock Mode
+18:06:17 - Prism: 44 - DoMeasure success.
+18:06:17 - Prism: 45 - D012, angleH: 44.7371, angleV: 101.694, Distance: 476.717, Lockmode: Long Range Finelock Mode
+18:06:35 - Prism: 45 - DoMeasure success.
+18:06:36 - Prism: 45 - D012, angleH: 244.737, angleV: 298.306, Distance: 476.717, Lockmode: Long Range Finelock Mode
+18:06:53 - Prism: 45 - DoMeasure success.
+18:06:53 - Prism: 46 - F09, angleH: 39.5513, angleV: 104.783, Distance: 417.459, Lockmode: Long Range Finelock Mode
+18:07:12 - Prism: 46 - DoMeasure success.
+18:07:12 - Prism: 46 - F09, angleH: 239.551, angleV: 295.217, Distance: 417.459, Lockmode: Long Range Finelock Mode
+18:07:30 - Prism: 46 - DoMeasure success.
+18:07:30 - Prism: 47 - F05, angleH: 27.0866, angleV: 104.166, Distance: 407.93, Lockmode: Long Range Finelock Mode
+18:07:48 - Prism: 47 - DoMeasure success.
+18:07:49 - Prism: 47 - F05, angleH: 227.087, angleV: 295.834, Distance: 407.93, Lockmode: Long Range Finelock Mode
+18:08:07 - Prism: 47 - DoMeasure success.
+18:08:07 - Prism: 48 - F04, angleH: 22.3684, angleV: 103.584, Distance: 409.812, Lockmode: Long Range Finelock Mode
+18:08:25 - Prism: 48 - DoMeasure success.
+18:08:25 - Prism: 48 - F04, angleH: 222.368, angleV: 296.416, Distance: 409.812, Lockmode: Long Range Finelock Mode
+18:08:43 - Prism: 48 - DoMeasure success.
+18:08:43 - Prism: 49 - F06, angleH: 25.9994, angleV: 108.298, Distance: 348.565, Lockmode: Finelock Mode
+18:08:53 - Prism: 49 - DoMeasure success.
+18:08:54 - Prism: 49 - F06, angleH: 225.999, angleV: 291.702, Distance: 348.565, Lockmode: Finelock Mode
+18:09:03 - Prism: 49 - DoMeasure success.
+18:09:03 - Prism: 50 - F010, angleH: 38.6597, angleV: 107.947, Distance: 369.253, Lockmode: Finelock Mode
+18:09:10 - Prism: 50 - Domeasure failed (2003).
+18:09:10 - Prism: 50 - F010, angleH: 238.66, angleV: 292.053, Distance: 369.253, Lockmode: Finelock Mode
+18:09:19 - Prism: 50 - Domeasure failed (2002).
+18:09:19 - Prism: 51 - E04, angleH: 27.9135, angleV: 108.855, Distance: 346.759, Lockmode: Finelock Mode
+18:09:31 - Prism: 51 - DoMeasure success.
+18:09:31 - Prism: 51 - E04, angleH: 227.913, angleV: 291.145, Distance: 346.759, Lockmode: Finelock Mode
+18:09:42 - Prism: 51 - DoMeasure success.
+18:09:42 - Prism: 52 - D016, angleH: 46.5, angleV: 105.716, Distance: 386.059, Lockmode: Finelock Mode
+18:09:52 - Prism: 52 - DoMeasure success.
+18:09:52 - Prism: 52 - D016, angleH: 246.5, angleV: 294.284, Distance: 386.059, Lockmode: Finelock Mode
+18:10:02 - Prism: 52 - DoMeasure success.
+18:10:02 - Prism: 53 - REF_F02, angleH: 28.0882, angleV: 97.0788, Distance: 556.198, Lockmode: Long Range Finelock Mode
+18:10:20 - Prism: 53 - DoMeasure success.
+18:10:20 - Prism: 53 - REF_F02, angleH: 228.088, angleV: 302.921, Distance: 556.198, Lockmode: Long Range Finelock Mode
+18:10:39 - Prism: 53 - DoMeasure success.
+18:10:39 - Prism: 54 - REF_D014, angleH: 46.0412, angleV: 97.4979, Distance: 577.79, Lockmode: Long Range Finelock Mode
+18:10:57 - Prism: 54 - DoMeasure success.
+18:10:57 - Prism: 54 - REF_D014, angleH: 246.041, angleV: 302.502, Distance: 577.79, Lockmode: Long Range Finelock Mode
+18:11:15 - Prism: 54 - DoMeasure success.
+18:11:16 - Prism: 55 - A06, angleH: 23.2588, angleV: 85.7158, Distance: 1635.13, Lockmode: Long Range Finelock Mode
+18:11:34 - Prism: 55 - DoMeasure success.
+18:11:34 - Prism: 55 - A06, angleH: 223.259, angleV: 314.284, Distance: 1635.13, Lockmode: Long Range Finelock Mode
+18:11:52 - Prism: 55 - DoMeasure success.
+18:11:52 - Prism: 56 - A03, angleH: 15.0485, angleV: 87.025, Distance: 1490.26, Lockmode: Long Range Finelock Mode
+18:12:11 - Prism: 56 - DoMeasure success.
+18:12:11 - Prism: 56 - A03, angleH: 215.048, angleV: 312.975, Distance: 1490.26, Lockmode: Long Range Finelock Mode
+18:12:30 - Prism: 56 - DoMeasure success.
+18:12:30 - Prism: 57 - C05B, angleH: 34.5069, angleV: 94.5109, Distance: 709.076, Lockmode: Long Range Finelock Mode
+18:12:48 - Prism: 57 - DoMeasure success.
+18:12:48 - Prism: 57 - C05B, angleH: 234.507, angleV: 305.489, Distance: 709.076, Lockmode: Long Range Finelock Mode
+18:13:06 - Prism: 57 - DoMeasure success.
+18:13:07 - Prism: 58 - C11, angleH: 25.5118, angleV: 94.3407, Distance: 709.076, Lockmode: Long Range Finelock Mode
+18:13:25 - Prism: 58 - DoMeasure success.
+18:13:25 - Prism: 58 - C11, angleH: 225.512, angleV: 305.659, Distance: 709.076, Lockmode: Long Range Finelock Mode
+18:13:43 - Prism: 58 - DoMeasure success.
+18:13:51 - RoundsOK is (1).
+18:13:54 - Exit from functin StartMonitoring.
+18:20:36 - Prism: 1 - stLval - Face 1 - not enabled
+18:20:36 - Prism: 1 - stLval - Face 2 - not enabled
+18:20:36 - Prism: 2 - ref100, angleH: 0.0115, angleV: 89.7952, Distance: 1091.49, Lockmode: Long Range Finelock Mode
+18:20:55 - Prism: 2 - DoMeasure success.
+18:20:55 - Prism: 2 - ref100, angleH: 200.012, angleV: 310.205, Distance: 1091.49, Lockmode: Long Range Finelock Mode
+18:21:14 - Prism: 2 - DoMeasure success.
+18:21:14 - Prism: 3 - F02 - Face 1 - not enabled
+18:21:14 - Prism: 3 - F02 - Face 2 - not enabled
+18:21:14 - Prism: 4 - REF0200, angleH: 73.7947, angleV: 97.9128, Distance: 819.185, Lockmode: Long Range Finelock Mode
+18:21:33 - Prism: 4 - DoMeasure success.
+18:21:33 - Prism: 4 - REF0200, angleH: 273.795, angleV: 302.087, Distance: 819.185, Lockmode: Long Range Finelock Mode
+18:21:51 - Prism: 4 - DoMeasure success.
+18:21:51 - Prism: 5 - D014 - Face 1 - not enabled
+18:21:51 - Prism: 5 - D014 - Face 2 - not enabled
+18:21:51 - Prism: 6 - A015, angleH: 20.4082, angleV: 81.3884, Distance: 2328.78, Lockmode: Long Range Finelock Mode
+18:22:09 - Prism: 6 - DoMeasure success.
+18:22:10 - Prism: 6 - A015, angleH: 220.408, angleV: 318.612, Distance: 2328.78, Lockmode: Long Range Finelock Mode
+18:22:28 - Prism: 6 - DoMeasure success.
+18:22:28 - Prism: 7 - A016, angleH: 22.2227, angleV: 81.2121, Distance: 2324.48, Lockmode: Long Range Finelock Mode
+18:22:50 - Prism: 7 - Domeasure failed (1002).
+18:22:50 - Prism: 7 - A016, angleH: 222.223, angleV: 318.788, Distance: 2324.48, Lockmode: Long Range Finelock Mode
+18:23:13 - Prism: 7 - Domeasure failed (1002).
+18:23:13 - Prism: 8 - A013, angleH: 20.8733, angleV: 81.7409, Distance: 2235.91, Lockmode: Long Range Finelock Mode
+18:23:32 - Prism: 8 - DoMeasure success.
+18:23:32 - Prism: 8 - A013, angleH: 220.873, angleV: 318.259, Distance: 2235.91, Lockmode: Long Range Finelock Mode
+18:23:51 - Prism: 8 - DoMeasure success.
+18:23:51 - Prism: 9 - A014, angleH: 23.646, angleV: 81.7505, Distance: 2223.44, Lockmode: Long Range Finelock Mode
+18:24:09 - Prism: 9 - DoMeasure success.
+18:24:09 - Prism: 9 - A014, angleH: 223.646, angleV: 318.25, Distance: 2223.44, Lockmode: Long Range Finelock Mode
+18:24:27 - Prism: 9 - DoMeasure success.
+18:24:27 - Prism: 10 - A012, angleH: 21.264, angleV: 83.474, Distance: 1988.72, Lockmode: Long Range Finelock Mode
+18:24:46 - Prism: 10 - DoMeasure success.
+18:24:46 - Prism: 10 - A012, angleH: 221.264, angleV: 316.526, Distance: 1988.72, Lockmode: Long Range Finelock Mode
+18:25:04 - Prism: 10 - DoMeasure success.
+18:25:04 - Prism: 11 - A011, angleH: 24.8036, angleV: 83.8805, Distance: 1886.07, Lockmode: Long Range Finelock Mode
+18:25:23 - Prism: 11 - DoMeasure success.
+18:25:23 - Prism: 11 - A011, angleH: 224.804, angleV: 316.12, Distance: 1886.07, Lockmode: Long Range Finelock Mode
+18:25:42 - Prism: 11 - DoMeasure success.
+18:25:42 - Prism: 12 - A08, angleH: 30.8716, angleV: 83.2296, Distance: 1889.31, Lockmode: Long Range Finelock Mode
+18:26:01 - Prism: 12 - DoMeasure success.
+18:26:01 - Prism: 12 - A08, angleH: 230.872, angleV: 316.77, Distance: 1889.31, Lockmode: Long Range Finelock Mode
+18:26:19 - Prism: 12 - DoMeasure success.
+18:26:19 - Prism: 13 - A04, angleH: 17.1629, angleV: 85.9566, Distance: 1717, Lockmode: Long Range Finelock Mode
+18:26:38 - Prism: 13 - DoMeasure success.
+18:26:38 - Prism: 13 - A04, angleH: 217.163, angleV: 314.043, Distance: 1717, Lockmode: Long Range Finelock Mode
+18:26:56 - Prism: 13 - DoMeasure success.
+18:26:56 - Prism: 14 - A05, angleH: 18.4331, angleV: 85.8019, Distance: 1666.77, Lockmode: Long Range Finelock Mode
+18:27:15 - Prism: 14 - DoMeasure success.
+18:27:15 - Prism: 14 - A05, angleH: 218.433, angleV: 314.198, Distance: 1666.77, Lockmode: Long Range Finelock Mode
+18:27:34 - Prism: 14 - DoMeasure success.
+18:27:34 - Prism: 15 - A07, angleH: 28.2551, angleV: 85.6009, Distance: 1643.71, Lockmode: Long Range Finelock Mode
+18:27:52 - Prism: 15 - DoMeasure success.
+18:27:53 - Prism: 15 - A07, angleH: 228.255, angleV: 314.399, Distance: 1643.71, Lockmode: Long Range Finelock Mode
+18:28:11 - Prism: 15 - DoMeasure success.
+18:28:11 - Prism: 16 - A09, angleH: 26.7206, angleV: 87.2721, Distance: 1452.84, Lockmode: Long Range Finelock Mode
+18:28:30 - Prism: 16 - DoMeasure success.
+18:28:30 - Prism: 16 - A09, angleH: 226.721, angleV: 312.728, Distance: 1452.84, Lockmode: Long Range Finelock Mode
+18:28:48 - Prism: 16 - DoMeasure success.
+18:28:48 - Prism: 17 - A010, angleH: 31.8095, angleV: 87.2528, Distance: 1445.69, Lockmode: Long Range Finelock Mode
+18:29:06 - Prism: 17 - DoMeasure success.
+18:29:07 - Prism: 17 - A010, angleH: 231.81, angleV: 312.747, Distance: 1445.69, Lockmode: Long Range Finelock Mode
+18:29:25 - Prism: 17 - DoMeasure success.
+18:29:25 - Prism: 18 - A02, angleH: 36.394, angleV: 86.6457, Distance: 1460.77, Lockmode: Long Range Finelock Mode
+18:29:44 - Prism: 18 - DoMeasure success.
+18:29:44 - Prism: 18 - A02, angleH: 236.394, angleV: 313.354, Distance: 1460.77, Lockmode: Long Range Finelock Mode
+18:30:02 - Prism: 18 - DoMeasure success.
+18:30:02 - Prism: 19 - C02, angleH: 26.1602, angleV: 90.9752, Distance: 1015.34, Lockmode: Long Range Finelock Mode
+18:30:21 - Prism: 19 - DoMeasure success.
+18:30:21 - Prism: 19 - C02, angleH: 226.16, angleV: 309.025, Distance: 1015.34, Lockmode: Long Range Finelock Mode
+18:30:40 - Prism: 19 - DoMeasure success.
+18:30:40 - Prism: 20 - C01, angleH: 31.1817, angleV: 91.2202, Distance: 1049.66, Lockmode: Long Range Finelock Mode
+18:30:59 - Prism: 20 - DoMeasure success.
+18:31:00 - Prism: 20 - C01, angleH: 231.182, angleV: 308.78, Distance: 1049.66, Lockmode: Long Range Finelock Mode
+18:31:19 - Prism: 20 - DoMeasure success.
+18:31:19 - Prism: 21 - C03, angleH: 25.947, angleV: 92.3908, Distance: 899.554, Lockmode: Long Range Finelock Mode
+18:31:37 - Prism: 21 - DoMeasure success.
+18:31:37 - Prism: 21 - C03, angleH: 225.947, angleV: 307.609, Distance: 899.554, Lockmode: Long Range Finelock Mode
+18:31:56 - Prism: 21 - DoMeasure success.
+18:31:56 - Prism: 22 - C04, angleH: 30.8165, angleV: 92.5272, Distance: 868.678, Lockmode: Long Range Finelock Mode
+18:32:15 - Prism: 22 - DoMeasure success.
+18:32:15 - Prism: 22 - C04, angleH: 230.816, angleV: 307.473, Distance: 868.678, Lockmode: Long Range Finelock Mode
+18:32:34 - Prism: 22 - DoMeasure success.
+18:32:34 - Prism: 23 - D017, angleH: 23.383, angleV: 93.4638, Distance: 792.499, Lockmode: Long Range Finelock Mode
+18:32:52 - Prism: 23 - DoMeasure success.
+18:32:52 - Prism: 23 - D017, angleH: 223.383, angleV: 306.536, Distance: 792.499, Lockmode: Long Range Finelock Mode
+18:33:10 - Prism: 23 - DoMeasure success.
+18:33:10 - Prism: 24 - D018, angleH: 27.2731, angleV: 93.1846, Distance: 784.385, Lockmode: Long Range Finelock Mode
+18:33:29 - Prism: 24 - DoMeasure success.
+18:33:29 - Prism: 24 - D018, angleH: 227.273, angleV: 306.815, Distance: 784.385, Lockmode: Long Range Finelock Mode
+18:33:47 - Prism: 24 - DoMeasure success.
+18:33:47 - Prism: 25 - D019, angleH: 33.119, angleV: 93.7703, Distance: 771.886, Lockmode: Long Range Finelock Mode
+18:34:06 - Prism: 25 - DoMeasure success.
+18:34:06 - Prism: 25 - D019, angleH: 233.119, angleV: 306.23, Distance: 771.886, Lockmode: Long Range Finelock Mode
+18:34:24 - Prism: 25 - DoMeasure success.
+18:34:24 - Prism: 26 - C05, angleH: 34.4877, angleV: 94.5086, Distance: 712.034, Lockmode: Long Range Finelock Mode
+18:34:44 - Prism: 26 - DoMeasure success.
+18:34:44 - Prism: 26 - C05, angleH: 234.488, angleV: 305.491, Distance: 712.034, Lockmode: Long Range Finelock Mode
+18:35:03 - Prism: 26 - DoMeasure success.
+18:35:03 - Prism: 27 - C06, angleH: 32.7371, angleV: 94.3285, Distance: 710.047, Lockmode: Long Range Finelock Mode
+18:35:21 - Prism: 27 - DoMeasure success.
+18:35:21 - Prism: 27 - C06, angleH: 232.737, angleV: 305.671, Distance: 710.047, Lockmode: Long Range Finelock Mode
+18:35:40 - Prism: 27 - DoMeasure success.
+18:35:40 - Prism: 28 - C07, angleH: 30.8823, angleV: 94.219, Distance: 708.985, Lockmode: Long Range Finelock Mode
+18:35:58 - Prism: 28 - DoMeasure success.
+18:35:58 - Prism: 28 - C07, angleH: 230.882, angleV: 305.781, Distance: 708.985, Lockmode: Long Range Finelock Mode
+18:36:17 - Prism: 28 - DoMeasure success.
+18:36:17 - Prism: 29 - C08, angleH: 29.0071, angleV: 94.1726, Distance: 708.277, Lockmode: Long Range Finelock Mode
+18:36:36 - Prism: 29 - DoMeasure success.
+18:36:36 - Prism: 29 - C08, angleH: 229.007, angleV: 305.827, Distance: 708.277, Lockmode: Long Range Finelock Mode
+18:36:55 - Prism: 29 - DoMeasure success.
+18:36:55 - Prism: 30 - C09, angleH: 27.1704, angleV: 94.2004, Distance: 708.15, Lockmode: Long Range Finelock Mode
+18:37:14 - Prism: 30 - DoMeasure success.
+18:37:14 - Prism: 30 - C09, angleH: 227.17, angleV: 305.8, Distance: 708.15, Lockmode: Long Range Finelock Mode
+18:37:32 - Prism: 30 - DoMeasure success.
+18:37:32 - Prism: 31 - C012, angleH: 23.6784, angleV: 94.6776, Distance: 709.076, Lockmode: Long Range Finelock Mode
+18:37:51 - Prism: 31 - DoMeasure success.
+18:37:51 - Prism: 31 - C012, angleH: 223.678, angleV: 305.322, Distance: 709.076, Lockmode: Long Range Finelock Mode
+18:38:10 - Prism: 31 - DoMeasure success.
+18:38:10 - Prism: 32 - C013, angleH: 21.8844, angleV: 94.8065, Distance: 710.445, Lockmode: Long Range Finelock Mode
+18:38:29 - Prism: 32 - DoMeasure success.
+18:38:29 - Prism: 32 - C013, angleH: 221.884, angleV: 305.193, Distance: 710.445, Lockmode: Long Range Finelock Mode
+18:38:47 - Prism: 32 - DoMeasure success.
+18:38:47 - Prism: 33 - C014, angleH: 20.0779, angleV: 94.6965, Distance: 712.686, Lockmode: Long Range Finelock Mode
+18:39:06 - Prism: 33 - DoMeasure success.
+18:39:06 - Prism: 33 - C014, angleH: 220.078, angleV: 305.303, Distance: 712.686, Lockmode: Long Range Finelock Mode
+18:39:25 - Prism: 33 - DoMeasure success.
+18:39:25 - Prism: 34 - C015, angleH: 17.7297, angleV: 94.2236, Distance: 726.219, Lockmode: Long Range Finelock Mode
+18:39:44 - Prism: 34 - DoMeasure success.
+18:39:45 - Prism: 34 - C015, angleH: 217.73, angleV: 305.776, Distance: 726.219, Lockmode: Long Range Finelock Mode
+18:40:03 - Prism: 34 - DoMeasure success.
+18:40:03 - Prism: 35 - E01, angleH: 23.7022, angleV: 96.0208, Distance: 611.922, Lockmode: Long Range Finelock Mode
+18:40:21 - Prism: 35 - DoMeasure success.
+18:40:22 - Prism: 35 - E01, angleH: 223.702, angleV: 303.979, Distance: 611.922, Lockmode: Long Range Finelock Mode
+18:40:39 - Prism: 35 - DoMeasure success.
+18:40:39 - Prism: 36 - E02, angleH: 30.8301, angleV: 95.7946, Distance: 601.015, Lockmode: Long Range Finelock Mode
+18:40:58 - Prism: 36 - DoMeasure success.
+18:40:59 - Prism: 36 - E02, angleH: 230.83, angleV: 304.205, Distance: 601.015, Lockmode: Long Range Finelock Mode
+18:41:16 - Prism: 36 - DoMeasure success.
+18:41:16 - Prism: 37 - D013, angleH: 37.4005, angleV: 97.67, Distance: 572.08, Lockmode: Long Range Finelock Mode
+18:41:35 - Prism: 37 - DoMeasure success.
+18:41:35 - Prism: 37 - D013, angleH: 237.4, angleV: 302.33, Distance: 572.08, Lockmode: Long Range Finelock Mode
+18:41:53 - Prism: 37 - DoMeasure success.
+18:41:53 - Prism: 38 - E06, angleH: 33.8396, angleV: 98.7909, Distance: 543.559, Lockmode: Long Range Finelock Mode
+18:42:11 - Prism: 38 - DoMeasure success.
+18:42:11 - Prism: 38 - E06, angleH: 233.84, angleV: 301.209, Distance: 543.559, Lockmode: Long Range Finelock Mode
+18:42:29 - Prism: 38 - DoMeasure success.
+18:42:29 - Prism: 39 - F03, angleH: 26.1045, angleV: 97.9348, Distance: 533.16, Lockmode: Long Range Finelock Mode
+18:42:48 - Prism: 39 - DoMeasure success.
+18:42:48 - Prism: 39 - F03, angleH: 226.105, angleV: 302.065, Distance: 533.16, Lockmode: Long Range Finelock Mode
+18:43:07 - Prism: 39 - DoMeasure success.
+18:43:07 - Prism: 40 - D015, angleH: 19.6758, angleV: 96.6789, Distance: 576.729, Lockmode: Long Range Finelock Mode
+18:43:25 - Prism: 40 - DoMeasure success.
+18:43:25 - Prism: 40 - D015, angleH: 219.676, angleV: 303.321, Distance: 576.729, Lockmode: Long Range Finelock Mode
+18:43:44 - Prism: 40 - DoMeasure success.
+18:43:44 - Prism: 41 - F07, angleH: 19.2587, angleV: 99.1965, Distance: 497.064, Lockmode: Long Range Finelock Mode
+18:44:02 - Prism: 41 - DoMeasure success.
+18:44:02 - Prism: 41 - F07, angleH: 219.259, angleV: 300.803, Distance: 497.064, Lockmode: Long Range Finelock Mode
+18:44:21 - Prism: 41 - DoMeasure success.
+18:44:21 - Prism: 42 - E03, angleH: 23.7713, angleV: 99.1818, Distance: 506.001, Lockmode: Long Range Finelock Mode
+18:44:39 - Prism: 42 - DoMeasure success.
+18:44:39 - Prism: 42 - E03, angleH: 223.771, angleV: 300.818, Distance: 506.001, Lockmode: Long Range Finelock Mode
+18:44:58 - Prism: 42 - DoMeasure success.
+18:44:58 - Prism: 43 - F08, angleH: 33.2077, angleV: 101.044, Distance: 480.376, Lockmode: Long Range Finelock Mode
+18:45:16 - Prism: 43 - DoMeasure success.
+18:45:17 - Prism: 43 - F08, angleH: 233.208, angleV: 298.956, Distance: 480.376, Lockmode: Long Range Finelock Mode
+18:45:35 - Prism: 43 - DoMeasure success.
+18:45:35 - Prism: 44 - E05, angleH: 36.2579, angleV: 101.318, Distance: 478.633, Lockmode: Long Range Finelock Mode
+18:45:54 - Prism: 44 - DoMeasure success.
+18:45:54 - Prism: 44 - E05, angleH: 236.258, angleV: 298.682, Distance: 478.633, Lockmode: Long Range Finelock Mode
+18:46:12 - Prism: 44 - DoMeasure success.
+18:46:12 - Prism: 45 - D012, angleH: 44.7371, angleV: 101.694, Distance: 476.717, Lockmode: Long Range Finelock Mode
+18:46:30 - Prism: 45 - DoMeasure success.
+18:46:30 - Prism: 45 - D012, angleH: 244.737, angleV: 298.306, Distance: 476.717, Lockmode: Long Range Finelock Mode
+18:46:49 - Prism: 45 - DoMeasure success.
+18:46:49 - Prism: 46 - F09, angleH: 39.5513, angleV: 104.783, Distance: 417.459, Lockmode: Long Range Finelock Mode
+18:47:07 - Prism: 46 - DoMeasure success.
+18:47:08 - Prism: 46 - F09, angleH: 239.551, angleV: 295.217, Distance: 417.459, Lockmode: Long Range Finelock Mode
+18:47:26 - Prism: 46 - DoMeasure success.
+18:47:26 - Prism: 47 - F05, angleH: 27.0866, angleV: 104.166, Distance: 407.93, Lockmode: Long Range Finelock Mode
+18:47:45 - Prism: 47 - DoMeasure success.
+18:47:45 - Prism: 47 - F05, angleH: 227.087, angleV: 295.834, Distance: 407.93, Lockmode: Long Range Finelock Mode
+18:48:04 - Prism: 47 - DoMeasure success.
+18:48:04 - Prism: 48 - F04, angleH: 22.3684, angleV: 103.584, Distance: 409.812, Lockmode: Long Range Finelock Mode
+18:48:22 - Prism: 48 - DoMeasure success.
+18:48:22 - Prism: 48 - F04, angleH: 222.368, angleV: 296.416, Distance: 409.812, Lockmode: Long Range Finelock Mode
+18:48:40 - Prism: 48 - DoMeasure success.
+18:48:40 - Prism: 49 - F06, angleH: 25.9994, angleV: 108.298, Distance: 348.565, Lockmode: Finelock Mode
+18:48:50 - Prism: 49 - DoMeasure success.
+18:48:50 - Prism: 49 - F06, angleH: 225.999, angleV: 291.702, Distance: 348.565, Lockmode: Finelock Mode
+18:49:00 - Prism: 49 - DoMeasure success.
+18:49:00 - Prism: 50 - F010, angleH: 38.6597, angleV: 107.947, Distance: 369.253, Lockmode: Finelock Mode
+18:49:06 - Prism: 50 - Domeasure failed (2003).
+18:49:07 - Prism: 50 - F010, angleH: 238.66, angleV: 292.053, Distance: 369.253, Lockmode: Finelock Mode
+18:49:15 - Prism: 50 - Domeasure failed (2003).
+18:49:15 - Prism: 51 - E04, angleH: 27.9135, angleV: 108.855, Distance: 346.759, Lockmode: Finelock Mode
+18:49:27 - Prism: 51 - DoMeasure success.
+18:49:27 - Prism: 51 - E04, angleH: 227.913, angleV: 291.145, Distance: 346.759, Lockmode: Finelock Mode
+18:49:37 - Prism: 51 - DoMeasure success.
+18:49:37 - Prism: 52 - D016, angleH: 46.5, angleV: 105.716, Distance: 386.059, Lockmode: Finelock Mode
+18:49:47 - Prism: 52 - DoMeasure success.
+18:49:47 - Prism: 52 - D016, angleH: 246.5, angleV: 294.284, Distance: 386.059, Lockmode: Finelock Mode
+18:49:57 - Prism: 52 - DoMeasure success.
+18:49:57 - Prism: 53 - REF_F02, angleH: 28.0882, angleV: 97.0788, Distance: 556.198, Lockmode: Long Range Finelock Mode
+18:50:15 - Prism: 53 - DoMeasure success.
+18:50:15 - Prism: 53 - REF_F02, angleH: 228.088, angleV: 302.921, Distance: 556.198, Lockmode: Long Range Finelock Mode
+18:50:33 - Prism: 53 - DoMeasure success.
+18:50:34 - Prism: 54 - REF_D014, angleH: 46.0412, angleV: 97.4979, Distance: 577.79, Lockmode: Long Range Finelock Mode
+18:50:52 - Prism: 54 - DoMeasure success.
+18:50:52 - Prism: 54 - REF_D014, angleH: 246.041, angleV: 302.502, Distance: 577.79, Lockmode: Long Range Finelock Mode
+18:51:10 - Prism: 54 - DoMeasure success.
+18:51:10 - Prism: 55 - A06, angleH: 23.2588, angleV: 85.7158, Distance: 1635.13, Lockmode: Long Range Finelock Mode
+18:51:29 - Prism: 55 - DoMeasure success.
+18:51:29 - Prism: 55 - A06, angleH: 223.259, angleV: 314.284, Distance: 1635.13, Lockmode: Long Range Finelock Mode
+18:51:47 - Prism: 55 - DoMeasure success.
+18:51:47 - Prism: 56 - A03, angleH: 15.0485, angleV: 87.025, Distance: 1490.26, Lockmode: Long Range Finelock Mode
+18:52:06 - Prism: 56 - DoMeasure success.
+18:52:06 - Prism: 56 - A03, angleH: 215.048, angleV: 312.975, Distance: 1490.26, Lockmode: Long Range Finelock Mode
+18:52:25 - Prism: 56 - DoMeasure success.
+18:52:26 - Prism: 57 - C05B, angleH: 34.5069, angleV: 94.5109, Distance: 709.076, Lockmode: Long Range Finelock Mode
+18:52:44 - Prism: 57 - DoMeasure success.
+18:52:44 - Prism: 57 - C05B, angleH: 234.507, angleV: 305.489, Distance: 709.076, Lockmode: Long Range Finelock Mode
+18:53:01 - Prism: 57 - DoMeasure success.
+18:53:02 - Prism: 58 - C11, angleH: 25.5118, angleV: 94.3407, Distance: 709.076, Lockmode: Long Range Finelock Mode
+18:53:19 - Prism: 58 - DoMeasure success.
+18:53:19 - Prism: 58 - C11, angleH: 225.512, angleV: 305.659, Distance: 709.076, Lockmode: Long Range Finelock Mode
+18:53:38 - Prism: 58 - DoMeasure success.
+18:53:46 - RoundsOK is (1).
+18:53:49 - Exit from functin StartMonitoring.
+19:00:36 - Prism: 1 - stLval - Face 1 - not enabled
+19:00:36 - Prism: 1 - stLval - Face 2 - not enabled
+19:00:36 - Prism: 2 - ref100, angleH: 0.0115, angleV: 89.7952, Distance: 1091.49, Lockmode: Long Range Finelock Mode
+19:00:54 - Prism: 2 - DoMeasure success.
+19:00:54 - Prism: 2 - ref100, angleH: 200.012, angleV: 310.205, Distance: 1091.49, Lockmode: Long Range Finelock Mode
+19:01:13 - Prism: 2 - DoMeasure success.
+19:01:13 - Prism: 3 - F02 - Face 1 - not enabled
+19:01:13 - Prism: 3 - F02 - Face 2 - not enabled
+19:01:13 - Prism: 4 - REF0200, angleH: 73.7947, angleV: 97.9128, Distance: 819.185, Lockmode: Long Range Finelock Mode
+19:01:32 - Prism: 4 - DoMeasure success.
+19:01:32 - Prism: 4 - REF0200, angleH: 273.795, angleV: 302.087, Distance: 819.185, Lockmode: Long Range Finelock Mode
+19:01:50 - Prism: 4 - DoMeasure success.
+19:01:50 - Prism: 5 - D014 - Face 1 - not enabled
+19:01:50 - Prism: 5 - D014 - Face 2 - not enabled
+19:01:50 - Prism: 6 - A015, angleH: 20.4082, angleV: 81.3884, Distance: 2328.78, Lockmode: Long Range Finelock Mode
+19:02:09 - Prism: 6 - DoMeasure success.
+19:02:09 - Prism: 6 - A015, angleH: 220.408, angleV: 318.612, Distance: 2328.78, Lockmode: Long Range Finelock Mode
+19:02:27 - Prism: 6 - DoMeasure success.
+19:02:27 - Prism: 7 - A016, angleH: 22.2227, angleV: 81.2121, Distance: 2324.48, Lockmode: Long Range Finelock Mode
+19:02:49 - Prism: 7 - Domeasure failed (1002).
+19:02:49 - Prism: 7 - A016, angleH: 222.223, angleV: 318.788, Distance: 2324.48, Lockmode: Long Range Finelock Mode
+19:03:12 - Prism: 7 - Domeasure failed (1002).
+19:03:12 - Prism: 8 - A013, angleH: 20.8733, angleV: 81.7409, Distance: 2235.91, Lockmode: Long Range Finelock Mode
+19:03:32 - Prism: 8 - DoMeasure success.
+19:03:32 - Prism: 8 - A013, angleH: 220.873, angleV: 318.259, Distance: 2235.91, Lockmode: Long Range Finelock Mode
+19:03:51 - Prism: 8 - DoMeasure success.
+19:03:51 - Prism: 9 - A014, angleH: 23.646, angleV: 81.7505, Distance: 2223.44, Lockmode: Long Range Finelock Mode
+19:04:09 - Prism: 9 - DoMeasure success.
+19:04:09 - Prism: 9 - A014, angleH: 223.646, angleV: 318.25, Distance: 2223.44, Lockmode: Long Range Finelock Mode
+19:04:28 - Prism: 9 - DoMeasure success.
+19:04:28 - Prism: 10 - A012, angleH: 21.264, angleV: 83.474, Distance: 1988.72, Lockmode: Long Range Finelock Mode
+19:04:47 - Prism: 10 - DoMeasure success.
+19:04:47 - Prism: 10 - A012, angleH: 221.264, angleV: 316.526, Distance: 1988.72, Lockmode: Long Range Finelock Mode
+19:05:06 - Prism: 10 - DoMeasure success.
+19:05:06 - Prism: 11 - A011, angleH: 24.8036, angleV: 83.8805, Distance: 1886.07, Lockmode: Long Range Finelock Mode
+19:05:25 - Prism: 11 - DoMeasure success.
+19:05:25 - Prism: 11 - A011, angleH: 224.804, angleV: 316.12, Distance: 1886.07, Lockmode: Long Range Finelock Mode
+19:05:44 - Prism: 11 - DoMeasure success.
+19:05:44 - Prism: 12 - A08, angleH: 30.8716, angleV: 83.2296, Distance: 1889.31, Lockmode: Long Range Finelock Mode
+19:06:02 - Prism: 12 - DoMeasure success.
+19:06:02 - Prism: 12 - A08, angleH: 230.872, angleV: 316.77, Distance: 1889.31, Lockmode: Long Range Finelock Mode
+19:06:21 - Prism: 12 - DoMeasure success.
+19:06:21 - Prism: 13 - A04, angleH: 17.1629, angleV: 85.9566, Distance: 1717, Lockmode: Long Range Finelock Mode
+19:06:39 - Prism: 13 - DoMeasure success.
+19:06:40 - Prism: 13 - A04, angleH: 217.163, angleV: 314.043, Distance: 1717, Lockmode: Long Range Finelock Mode
+19:06:58 - Prism: 13 - DoMeasure success.
+19:06:58 - Prism: 14 - A05, angleH: 18.4331, angleV: 85.8019, Distance: 1666.77, Lockmode: Long Range Finelock Mode
+19:07:16 - Prism: 14 - DoMeasure success.
+19:07:17 - Prism: 14 - A05, angleH: 218.433, angleV: 314.198, Distance: 1666.77, Lockmode: Long Range Finelock Mode
+19:07:35 - Prism: 14 - DoMeasure success.
+19:07:35 - Prism: 15 - A07, angleH: 28.2551, angleV: 85.6009, Distance: 1643.71, Lockmode: Long Range Finelock Mode
+19:07:54 - Prism: 15 - DoMeasure success.
+19:07:54 - Prism: 15 - A07, angleH: 228.255, angleV: 314.399, Distance: 1643.71, Lockmode: Long Range Finelock Mode
+19:08:13 - Prism: 15 - DoMeasure success.
+19:08:13 - Prism: 16 - A09, angleH: 26.7206, angleV: 87.2721, Distance: 1452.84, Lockmode: Long Range Finelock Mode
+19:08:32 - Prism: 16 - DoMeasure success.
+19:08:32 - Prism: 16 - A09, angleH: 226.721, angleV: 312.728, Distance: 1452.84, Lockmode: Long Range Finelock Mode
+19:08:50 - Prism: 16 - DoMeasure success.
+19:08:50 - Prism: 17 - A010, angleH: 31.8095, angleV: 87.2528, Distance: 1445.69, Lockmode: Long Range Finelock Mode
+19:09:09 - Prism: 17 - DoMeasure success.
+19:09:09 - Prism: 17 - A010, angleH: 231.81, angleV: 312.747, Distance: 1445.69, Lockmode: Long Range Finelock Mode
+19:09:28 - Prism: 17 - DoMeasure success.
+19:09:28 - Prism: 18 - A02, angleH: 36.394, angleV: 86.6457, Distance: 1460.77, Lockmode: Long Range Finelock Mode
+19:09:47 - Prism: 18 - DoMeasure success.
+19:09:48 - Prism: 18 - A02, angleH: 236.394, angleV: 313.354, Distance: 1460.77, Lockmode: Long Range Finelock Mode
+19:10:06 - Prism: 18 - DoMeasure success.
+19:10:06 - Prism: 19 - C02, angleH: 26.1602, angleV: 90.9752, Distance: 1015.34, Lockmode: Long Range Finelock Mode
+19:10:25 - Prism: 19 - DoMeasure success.
+19:10:25 - Prism: 19 - C02, angleH: 226.16, angleV: 309.025, Distance: 1015.34, Lockmode: Long Range Finelock Mode
+19:10:44 - Prism: 19 - DoMeasure success.
+19:10:44 - Prism: 20 - C01, angleH: 31.1817, angleV: 91.2202, Distance: 1049.66, Lockmode: Long Range Finelock Mode
+19:11:03 - Prism: 20 - DoMeasure success.
+19:11:03 - Prism: 20 - C01, angleH: 231.182, angleV: 308.78, Distance: 1049.66, Lockmode: Long Range Finelock Mode
+19:11:22 - Prism: 20 - DoMeasure success.
+19:11:22 - Prism: 21 - C03, angleH: 25.947, angleV: 92.3908, Distance: 899.554, Lockmode: Long Range Finelock Mode
+19:11:42 - Prism: 21 - DoMeasure success.
+19:11:42 - Prism: 21 - C03, angleH: 225.947, angleV: 307.609, Distance: 899.554, Lockmode: Long Range Finelock Mode
+19:12:00 - Prism: 21 - DoMeasure success.
+19:12:00 - Prism: 22 - C04, angleH: 30.8165, angleV: 92.5272, Distance: 868.678, Lockmode: Long Range Finelock Mode
+19:12:19 - Prism: 22 - DoMeasure success.
+19:12:19 - Prism: 22 - C04, angleH: 230.816, angleV: 307.473, Distance: 868.678, Lockmode: Long Range Finelock Mode
+19:12:38 - Prism: 22 - DoMeasure success.
+19:12:38 - Prism: 23 - D017, angleH: 23.383, angleV: 93.4638, Distance: 792.499, Lockmode: Long Range Finelock Mode
+19:12:57 - Prism: 23 - DoMeasure success.
+19:12:57 - Prism: 23 - D017, angleH: 223.383, angleV: 306.536, Distance: 792.499, Lockmode: Long Range Finelock Mode
+19:13:15 - Prism: 23 - DoMeasure success.
+19:13:15 - Prism: 24 - D018, angleH: 27.2731, angleV: 93.1846, Distance: 784.385, Lockmode: Long Range Finelock Mode
+19:13:34 - Prism: 24 - DoMeasure success.
+19:13:34 - Prism: 24 - D018, angleH: 227.273, angleV: 306.815, Distance: 784.385, Lockmode: Long Range Finelock Mode
+19:13:53 - Prism: 24 - DoMeasure success.
+19:13:53 - Prism: 25 - D019, angleH: 33.119, angleV: 93.7703, Distance: 771.886, Lockmode: Long Range Finelock Mode
+19:14:12 - Prism: 25 - DoMeasure success.
+19:14:12 - Prism: 25 - D019, angleH: 233.119, angleV: 306.23, Distance: 771.886, Lockmode: Long Range Finelock Mode
+19:14:30 - Prism: 25 - DoMeasure success.
+19:14:30 - Prism: 26 - C05, angleH: 34.4877, angleV: 94.5086, Distance: 712.034, Lockmode: Long Range Finelock Mode
+19:14:49 - Prism: 26 - DoMeasure success.
+19:14:49 - Prism: 26 - C05, angleH: 234.488, angleV: 305.491, Distance: 712.034, Lockmode: Long Range Finelock Mode
+19:15:07 - Prism: 26 - DoMeasure success.
+19:15:07 - Prism: 27 - C06, angleH: 32.7371, angleV: 94.3285, Distance: 710.047, Lockmode: Long Range Finelock Mode
+19:15:26 - Prism: 27 - DoMeasure success.
+19:15:26 - Prism: 27 - C06, angleH: 232.737, angleV: 305.671, Distance: 710.047, Lockmode: Long Range Finelock Mode
+19:15:44 - Prism: 27 - DoMeasure success.
+19:15:44 - Prism: 28 - C07, angleH: 30.8823, angleV: 94.219, Distance: 708.985, Lockmode: Long Range Finelock Mode
+19:16:03 - Prism: 28 - DoMeasure success.
+19:16:03 - Prism: 28 - C07, angleH: 230.882, angleV: 305.781, Distance: 708.985, Lockmode: Long Range Finelock Mode
+19:16:22 - Prism: 28 - DoMeasure success.
+19:16:22 - Prism: 29 - C08, angleH: 29.0071, angleV: 94.1726, Distance: 708.277, Lockmode: Long Range Finelock Mode
+19:16:41 - Prism: 29 - DoMeasure success.
+19:16:41 - Prism: 29 - C08, angleH: 229.007, angleV: 305.827, Distance: 708.277, Lockmode: Long Range Finelock Mode
+19:17:00 - Prism: 29 - DoMeasure success.
+19:17:00 - Prism: 30 - C09, angleH: 27.1704, angleV: 94.2004, Distance: 708.15, Lockmode: Long Range Finelock Mode
+19:17:19 - Prism: 30 - DoMeasure success.
+19:17:19 - Prism: 30 - C09, angleH: 227.17, angleV: 305.8, Distance: 708.15, Lockmode: Long Range Finelock Mode
+19:17:38 - Prism: 30 - DoMeasure success.
+19:17:38 - Prism: 31 - C012, angleH: 23.6784, angleV: 94.6776, Distance: 709.076, Lockmode: Long Range Finelock Mode
+19:17:57 - Prism: 31 - DoMeasure success.
+19:17:57 - Prism: 31 - C012, angleH: 223.678, angleV: 305.322, Distance: 709.076, Lockmode: Long Range Finelock Mode
+19:18:16 - Prism: 31 - DoMeasure success.
+19:18:16 - Prism: 32 - C013, angleH: 21.8844, angleV: 94.8065, Distance: 710.445, Lockmode: Long Range Finelock Mode
+19:18:34 - Prism: 32 - DoMeasure success.
+19:18:35 - Prism: 32 - C013, angleH: 221.884, angleV: 305.193, Distance: 710.445, Lockmode: Long Range Finelock Mode
+19:18:54 - Prism: 32 - DoMeasure success.
+19:18:54 - Prism: 33 - C014, angleH: 20.0779, angleV: 94.6965, Distance: 712.686, Lockmode: Long Range Finelock Mode
+19:19:13 - Prism: 33 - DoMeasure success.
+19:19:13 - Prism: 33 - C014, angleH: 220.078, angleV: 305.303, Distance: 712.686, Lockmode: Long Range Finelock Mode
+19:19:31 - Prism: 33 - DoMeasure success.
+19:19:32 - Prism: 34 - C015, angleH: 17.7297, angleV: 94.2236, Distance: 726.219, Lockmode: Long Range Finelock Mode
+19:19:50 - Prism: 34 - DoMeasure success.
+19:19:51 - Prism: 34 - C015, angleH: 217.73, angleV: 305.776, Distance: 726.219, Lockmode: Long Range Finelock Mode
+19:20:09 - Prism: 34 - DoMeasure success.
+19:20:09 - Prism: 35 - E01, angleH: 23.7022, angleV: 96.0208, Distance: 611.922, Lockmode: Long Range Finelock Mode
+19:20:28 - Prism: 35 - DoMeasure success.
+19:20:28 - Prism: 35 - E01, angleH: 223.702, angleV: 303.979, Distance: 611.922, Lockmode: Long Range Finelock Mode
+19:20:46 - Prism: 35 - DoMeasure success.
+19:20:46 - Prism: 36 - E02, angleH: 30.8301, angleV: 95.7946, Distance: 601.015, Lockmode: Long Range Finelock Mode
+19:21:05 - Prism: 36 - DoMeasure success.
+19:21:05 - Prism: 36 - E02, angleH: 230.83, angleV: 304.205, Distance: 601.015, Lockmode: Long Range Finelock Mode
+19:21:23 - Prism: 36 - DoMeasure success.
+19:21:23 - Prism: 37 - D013, angleH: 37.4005, angleV: 97.67, Distance: 572.08, Lockmode: Long Range Finelock Mode
+19:21:42 - Prism: 37 - DoMeasure success.
+19:21:43 - Prism: 37 - D013, angleH: 237.4, angleV: 302.33, Distance: 572.08, Lockmode: Long Range Finelock Mode
+19:22:00 - Prism: 37 - DoMeasure success.
+19:22:01 - Prism: 38 - E06, angleH: 33.8396, angleV: 98.7909, Distance: 543.559, Lockmode: Long Range Finelock Mode
+19:22:19 - Prism: 38 - DoMeasure success.
+19:22:19 - Prism: 38 - E06, angleH: 233.84, angleV: 301.209, Distance: 543.559, Lockmode: Long Range Finelock Mode
+19:22:37 - Prism: 38 - DoMeasure success.
+19:22:37 - Prism: 39 - F03, angleH: 26.1045, angleV: 97.9348, Distance: 533.16, Lockmode: Long Range Finelock Mode
+19:22:56 - Prism: 39 - DoMeasure success.
+19:22:56 - Prism: 39 - F03, angleH: 226.105, angleV: 302.065, Distance: 533.16, Lockmode: Long Range Finelock Mode
+19:23:15 - Prism: 39 - DoMeasure success.
+19:23:15 - Prism: 40 - D015, angleH: 19.6758, angleV: 96.6789, Distance: 576.729, Lockmode: Long Range Finelock Mode
+19:23:33 - Prism: 40 - DoMeasure success.
+19:23:33 - Prism: 40 - D015, angleH: 219.676, angleV: 303.321, Distance: 576.729, Lockmode: Long Range Finelock Mode
+19:23:52 - Prism: 40 - DoMeasure success.
+19:23:52 - Prism: 41 - F07, angleH: 19.2587, angleV: 99.1965, Distance: 497.064, Lockmode: Long Range Finelock Mode
+19:24:10 - Prism: 41 - DoMeasure success.
+19:24:10 - Prism: 41 - F07, angleH: 219.259, angleV: 300.803, Distance: 497.064, Lockmode: Long Range Finelock Mode
+19:24:29 - Prism: 41 - DoMeasure success.
+19:24:29 - Prism: 42 - E03, angleH: 23.7713, angleV: 99.1818, Distance: 506.001, Lockmode: Long Range Finelock Mode
+19:24:47 - Prism: 42 - DoMeasure success.
+19:24:47 - Prism: 42 - E03, angleH: 223.771, angleV: 300.818, Distance: 506.001, Lockmode: Long Range Finelock Mode
+19:25:06 - Prism: 42 - DoMeasure success.
+19:25:06 - Prism: 43 - F08, angleH: 33.2077, angleV: 101.044, Distance: 480.376, Lockmode: Long Range Finelock Mode
+19:25:25 - Prism: 43 - DoMeasure success.
+19:25:25 - Prism: 43 - F08, angleH: 233.208, angleV: 298.956, Distance: 480.376, Lockmode: Long Range Finelock Mode
+19:25:43 - Prism: 43 - DoMeasure success.
+19:25:43 - Prism: 44 - E05, angleH: 36.2579, angleV: 101.318, Distance: 478.633, Lockmode: Long Range Finelock Mode
+19:26:01 - Prism: 44 - DoMeasure success.
+19:26:01 - Prism: 44 - E05, angleH: 236.258, angleV: 298.682, Distance: 478.633, Lockmode: Long Range Finelock Mode
+19:26:19 - Prism: 44 - DoMeasure success.
+19:26:19 - Prism: 45 - D012, angleH: 44.7371, angleV: 101.694, Distance: 476.717, Lockmode: Long Range Finelock Mode
+19:26:38 - Prism: 45 - DoMeasure success.
+19:26:38 - Prism: 45 - D012, angleH: 244.737, angleV: 298.306, Distance: 476.717, Lockmode: Long Range Finelock Mode
+19:26:56 - Prism: 45 - DoMeasure success.
+19:26:56 - Prism: 46 - F09, angleH: 39.5513, angleV: 104.783, Distance: 417.459, Lockmode: Long Range Finelock Mode
+19:27:15 - Prism: 46 - DoMeasure success.
+19:27:15 - Prism: 46 - F09, angleH: 239.551, angleV: 295.217, Distance: 417.459, Lockmode: Long Range Finelock Mode
+19:27:34 - Prism: 46 - DoMeasure success.
+19:27:34 - Prism: 47 - F05, angleH: 27.0866, angleV: 104.166, Distance: 407.93, Lockmode: Long Range Finelock Mode
+19:27:53 - Prism: 47 - DoMeasure success.
+19:27:53 - Prism: 47 - F05, angleH: 227.087, angleV: 295.834, Distance: 407.93, Lockmode: Long Range Finelock Mode
+19:28:11 - Prism: 47 - DoMeasure success.
+19:28:11 - Prism: 48 - F04, angleH: 22.3684, angleV: 103.584, Distance: 409.812, Lockmode: Long Range Finelock Mode
+19:28:29 - Prism: 48 - DoMeasure success.
+19:28:30 - Prism: 48 - F04, angleH: 222.368, angleV: 296.416, Distance: 409.812, Lockmode: Long Range Finelock Mode
+19:28:48 - Prism: 48 - DoMeasure success.
+19:28:48 - Prism: 49 - F06, angleH: 25.9994, angleV: 108.298, Distance: 348.565, Lockmode: Finelock Mode
+19:28:58 - Prism: 49 - DoMeasure success.
+19:28:58 - Prism: 49 - F06, angleH: 225.999, angleV: 291.702, Distance: 348.565, Lockmode: Finelock Mode
+19:29:08 - Prism: 49 - DoMeasure success.
+19:29:08 - Prism: 50 - F010, angleH: 38.6597, angleV: 107.947, Distance: 369.253, Lockmode: Finelock Mode
+19:29:14 - Prism: 50 - Domeasure failed (2003).
+19:29:14 - Prism: 50 - F010, angleH: 238.66, angleV: 292.053, Distance: 369.253, Lockmode: Finelock Mode
+19:29:26 - Prism: 50 - Domeasure failed (2003).
+19:29:26 - Prism: 51 - E04, angleH: 27.9135, angleV: 108.855, Distance: 346.759, Lockmode: Finelock Mode
+19:29:38 - Prism: 51 - DoMeasure success.
+19:29:38 - Prism: 51 - E04, angleH: 227.913, angleV: 291.145, Distance: 346.759, Lockmode: Finelock Mode
+19:29:49 - Prism: 51 - DoMeasure success.
+19:29:49 - Prism: 52 - D016, angleH: 46.5, angleV: 105.716, Distance: 386.059, Lockmode: Finelock Mode
+19:29:59 - Prism: 52 - DoMeasure success.
+19:29:59 - Prism: 52 - D016, angleH: 246.5, angleV: 294.284, Distance: 386.059, Lockmode: Finelock Mode
+19:30:10 - Prism: 52 - DoMeasure success.
+19:30:10 - Prism: 53 - REF_F02, angleH: 28.0882, angleV: 97.0788, Distance: 556.198, Lockmode: Long Range Finelock Mode
+19:30:28 - Prism: 53 - DoMeasure success.
+19:30:28 - Prism: 53 - REF_F02, angleH: 228.088, angleV: 302.921, Distance: 556.198, Lockmode: Long Range Finelock Mode
+19:30:46 - Prism: 53 - DoMeasure success.
+19:30:46 - Prism: 54 - REF_D014, angleH: 46.0412, angleV: 97.4979, Distance: 577.79, Lockmode: Long Range Finelock Mode
+19:31:04 - Prism: 54 - DoMeasure success.
+19:31:05 - Prism: 54 - REF_D014, angleH: 246.041, angleV: 302.502, Distance: 577.79, Lockmode: Long Range Finelock Mode
+19:31:22 - Prism: 54 - DoMeasure success.
+19:31:23 - Prism: 55 - A06, angleH: 23.2588, angleV: 85.7158, Distance: 1635.13, Lockmode: Long Range Finelock Mode
+19:31:41 - Prism: 55 - DoMeasure success.
+19:31:41 - Prism: 55 - A06, angleH: 223.259, angleV: 314.284, Distance: 1635.13, Lockmode: Long Range Finelock Mode
+19:32:00 - Prism: 55 - DoMeasure success.
+19:32:00 - Prism: 56 - A03, angleH: 15.0485, angleV: 87.025, Distance: 1490.26, Lockmode: Long Range Finelock Mode
+19:32:18 - Prism: 56 - DoMeasure success.
+19:32:18 - Prism: 56 - A03, angleH: 215.048, angleV: 312.975, Distance: 1490.26, Lockmode: Long Range Finelock Mode
+19:32:37 - Prism: 56 - DoMeasure success.
+19:32:37 - Prism: 57 - C05B, angleH: 34.5069, angleV: 94.5109, Distance: 709.076, Lockmode: Long Range Finelock Mode
+19:32:56 - Prism: 57 - DoMeasure success.
+19:32:56 - Prism: 57 - C05B, angleH: 234.507, angleV: 305.489, Distance: 709.076, Lockmode: Long Range Finelock Mode
+19:33:14 - Prism: 57 - DoMeasure success.
+19:33:14 - Prism: 58 - C11, angleH: 25.5118, angleV: 94.3407, Distance: 709.076, Lockmode: Long Range Finelock Mode
+19:33:32 - Prism: 58 - DoMeasure success.
+19:33:33 - Prism: 58 - C11, angleH: 225.512, angleV: 305.659, Distance: 709.076, Lockmode: Long Range Finelock Mode
+19:33:51 - Prism: 58 - DoMeasure success.
+19:33:59 - RoundsOK is (1).
+19:34:02 - Exit from functin StartMonitoring.
+19:40:37 - Prism: 1 - stLval - Face 1 - not enabled
+19:40:37 - Prism: 1 - stLval - Face 2 - not enabled
+19:40:37 - Prism: 2 - ref100, angleH: 0.0115, angleV: 89.7952, Distance: 1091.49, Lockmode: Long Range Finelock Mode
+19:40:55 - Prism: 2 - DoMeasure success.
+19:40:55 - Prism: 2 - ref100, angleH: 200.012, angleV: 310.205, Distance: 1091.49, Lockmode: Long Range Finelock Mode
+19:41:14 - Prism: 2 - DoMeasure success.
+19:41:14 - Prism: 3 - F02 - Face 1 - not enabled
+19:41:14 - Prism: 3 - F02 - Face 2 - not enabled
+19:41:14 - Prism: 4 - REF0200, angleH: 73.7947, angleV: 97.9128, Distance: 819.185, Lockmode: Long Range Finelock Mode
+19:41:32 - Prism: 4 - DoMeasure success.
+19:41:32 - Prism: 4 - REF0200, angleH: 273.795, angleV: 302.087, Distance: 819.185, Lockmode: Long Range Finelock Mode
+19:41:51 - Prism: 4 - DoMeasure success.
+19:41:51 - Prism: 5 - D014 - Face 1 - not enabled
+19:41:51 - Prism: 5 - D014 - Face 2 - not enabled
+19:41:51 - Prism: 6 - A015, angleH: 20.4082, angleV: 81.3884, Distance: 2328.78, Lockmode: Long Range Finelock Mode
+19:42:10 - Prism: 6 - DoMeasure success.
+19:42:10 - Prism: 6 - A015, angleH: 220.408, angleV: 318.612, Distance: 2328.78, Lockmode: Long Range Finelock Mode
+19:42:29 - Prism: 6 - DoMeasure success.
+19:42:29 - Prism: 7 - A016, angleH: 22.2227, angleV: 81.2121, Distance: 2324.48, Lockmode: Long Range Finelock Mode
+19:42:51 - Prism: 7 - Domeasure failed (1002).
+19:42:51 - Prism: 7 - A016, angleH: 222.223, angleV: 318.788, Distance: 2324.48, Lockmode: Long Range Finelock Mode
+19:43:14 - Prism: 7 - Domeasure failed (1002).
+19:43:14 - Prism: 8 - A013, angleH: 20.8733, angleV: 81.7409, Distance: 2235.91, Lockmode: Long Range Finelock Mode
+19:43:34 - Prism: 8 - DoMeasure success.
+19:43:34 - Prism: 8 - A013, angleH: 220.873, angleV: 318.259, Distance: 2235.91, Lockmode: Long Range Finelock Mode
+19:43:53 - Prism: 8 - DoMeasure success.
+19:43:53 - Prism: 9 - A014, angleH: 23.646, angleV: 81.7505, Distance: 2223.44, Lockmode: Long Range Finelock Mode
+19:44:11 - Prism: 9 - DoMeasure success.
+19:44:11 - Prism: 9 - A014, angleH: 223.646, angleV: 318.25, Distance: 2223.44, Lockmode: Long Range Finelock Mode
+19:44:30 - Prism: 9 - DoMeasure success.
+19:44:30 - Prism: 10 - A012, angleH: 21.264, angleV: 83.474, Distance: 1988.72, Lockmode: Long Range Finelock Mode
+19:44:49 - Prism: 10 - DoMeasure success.
+19:44:49 - Prism: 10 - A012, angleH: 221.264, angleV: 316.526, Distance: 1988.72, Lockmode: Long Range Finelock Mode
+19:45:08 - Prism: 10 - DoMeasure success.
+19:45:08 - Prism: 11 - A011, angleH: 24.8036, angleV: 83.8805, Distance: 1886.07, Lockmode: Long Range Finelock Mode
+19:45:27 - Prism: 11 - DoMeasure success.
+19:45:27 - Prism: 11 - A011, angleH: 224.804, angleV: 316.12, Distance: 1886.07, Lockmode: Long Range Finelock Mode
+19:45:46 - Prism: 11 - DoMeasure success.
+19:45:46 - Prism: 12 - A08, angleH: 30.8716, angleV: 83.2296, Distance: 1889.31, Lockmode: Long Range Finelock Mode
+19:46:04 - Prism: 12 - DoMeasure success.
+19:46:04 - Prism: 12 - A08, angleH: 230.872, angleV: 316.77, Distance: 1889.31, Lockmode: Long Range Finelock Mode
+19:46:23 - Prism: 12 - DoMeasure success.
+19:46:23 - Prism: 13 - A04, angleH: 17.1629, angleV: 85.9566, Distance: 1717, Lockmode: Long Range Finelock Mode
+19:46:41 - Prism: 13 - DoMeasure success.
+19:46:42 - Prism: 13 - A04, angleH: 217.163, angleV: 314.043, Distance: 1717, Lockmode: Long Range Finelock Mode
+19:47:00 - Prism: 13 - DoMeasure success.
+19:47:00 - Prism: 14 - A05, angleH: 18.4331, angleV: 85.8019, Distance: 1666.77, Lockmode: Long Range Finelock Mode
+19:47:18 - Prism: 14 - DoMeasure success.
+19:47:18 - Prism: 14 - A05, angleH: 218.433, angleV: 314.198, Distance: 1666.77, Lockmode: Long Range Finelock Mode
+19:47:37 - Prism: 14 - DoMeasure success.
+19:47:37 - Prism: 15 - A07, angleH: 28.2551, angleV: 85.6009, Distance: 1643.71, Lockmode: Long Range Finelock Mode
+19:47:55 - Prism: 15 - DoMeasure success.
+19:47:56 - Prism: 15 - A07, angleH: 228.255, angleV: 314.399, Distance: 1643.71, Lockmode: Long Range Finelock Mode
+19:48:14 - Prism: 15 - DoMeasure success.
+19:48:14 - Prism: 16 - A09, angleH: 26.7206, angleV: 87.2721, Distance: 1452.84, Lockmode: Long Range Finelock Mode
+19:48:33 - Prism: 16 - DoMeasure success.
+19:48:33 - Prism: 16 - A09, angleH: 226.721, angleV: 312.728, Distance: 1452.84, Lockmode: Long Range Finelock Mode
+19:48:52 - Prism: 16 - DoMeasure success.
+19:48:52 - Prism: 17 - A010, angleH: 31.8095, angleV: 87.2528, Distance: 1445.69, Lockmode: Long Range Finelock Mode
+19:49:11 - Prism: 17 - DoMeasure success.
+19:49:11 - Prism: 17 - A010, angleH: 231.81, angleV: 312.747, Distance: 1445.69, Lockmode: Long Range Finelock Mode
+19:49:29 - Prism: 17 - DoMeasure success.
+19:49:29 - Prism: 18 - A02, angleH: 36.394, angleV: 86.6457, Distance: 1460.77, Lockmode: Long Range Finelock Mode
+19:49:48 - Prism: 18 - DoMeasure success.
+19:49:48 - Prism: 18 - A02, angleH: 236.394, angleV: 313.354, Distance: 1460.77, Lockmode: Long Range Finelock Mode
+19:50:06 - Prism: 18 - DoMeasure success.
+19:50:06 - Prism: 19 - C02, angleH: 26.1602, angleV: 90.9752, Distance: 1015.34, Lockmode: Long Range Finelock Mode
+19:50:26 - Prism: 19 - DoMeasure success.
+19:50:26 - Prism: 19 - C02, angleH: 226.16, angleV: 309.025, Distance: 1015.34, Lockmode: Long Range Finelock Mode
+19:50:44 - Prism: 19 - DoMeasure success.
+19:50:44 - Prism: 20 - C01, angleH: 31.1817, angleV: 91.2202, Distance: 1049.66, Lockmode: Long Range Finelock Mode
+19:51:03 - Prism: 20 - DoMeasure success.
+19:51:03 - Prism: 20 - C01, angleH: 231.182, angleV: 308.78, Distance: 1049.66, Lockmode: Long Range Finelock Mode
+19:51:22 - Prism: 20 - DoMeasure success.
+19:51:22 - Prism: 21 - C03, angleH: 25.947, angleV: 92.3908, Distance: 899.554, Lockmode: Long Range Finelock Mode
+19:51:40 - Prism: 21 - DoMeasure success.
+19:51:41 - Prism: 21 - C03, angleH: 225.947, angleV: 307.609, Distance: 899.554, Lockmode: Long Range Finelock Mode
+19:52:00 - Prism: 21 - DoMeasure success.
+19:52:00 - Prism: 22 - C04, angleH: 30.8165, angleV: 92.5272, Distance: 868.678, Lockmode: Long Range Finelock Mode
+19:52:18 - Prism: 22 - DoMeasure success.
+19:52:18 - Prism: 22 - C04, angleH: 230.816, angleV: 307.473, Distance: 868.678, Lockmode: Long Range Finelock Mode
+19:52:37 - Prism: 22 - DoMeasure success.
+19:52:37 - Prism: 23 - D017, angleH: 23.383, angleV: 93.4638, Distance: 792.499, Lockmode: Long Range Finelock Mode
+19:52:56 - Prism: 23 - DoMeasure success.
+19:52:56 - Prism: 23 - D017, angleH: 223.383, angleV: 306.536, Distance: 792.499, Lockmode: Long Range Finelock Mode
+19:53:15 - Prism: 23 - DoMeasure success.
+19:53:15 - Prism: 24 - D018, angleH: 27.2731, angleV: 93.1846, Distance: 784.385, Lockmode: Long Range Finelock Mode
+19:53:32 - Prism: 24 - DoMeasure success.
+19:53:33 - Prism: 24 - D018, angleH: 227.273, angleV: 306.815, Distance: 784.385, Lockmode: Long Range Finelock Mode
+19:53:51 - Prism: 24 - DoMeasure success.
+19:53:51 - Prism: 25 - D019, angleH: 33.119, angleV: 93.7703, Distance: 771.886, Lockmode: Long Range Finelock Mode
+19:54:10 - Prism: 25 - DoMeasure success.
+19:54:10 - Prism: 25 - D019, angleH: 233.119, angleV: 306.23, Distance: 771.886, Lockmode: Long Range Finelock Mode
+19:54:28 - Prism: 25 - DoMeasure success.
+19:54:28 - Prism: 26 - C05, angleH: 34.4877, angleV: 94.5086, Distance: 712.034, Lockmode: Long Range Finelock Mode
+19:54:47 - Prism: 26 - DoMeasure success.
+19:54:47 - Prism: 26 - C05, angleH: 234.488, angleV: 305.491, Distance: 712.034, Lockmode: Long Range Finelock Mode
+19:55:06 - Prism: 26 - DoMeasure success.
+19:55:06 - Prism: 27 - C06, angleH: 32.7371, angleV: 94.3285, Distance: 710.047, Lockmode: Long Range Finelock Mode
+19:55:24 - Prism: 27 - DoMeasure success.
+19:55:25 - Prism: 27 - C06, angleH: 232.737, angleV: 305.671, Distance: 710.047, Lockmode: Long Range Finelock Mode
+19:55:43 - Prism: 27 - DoMeasure success.
+19:55:43 - Prism: 28 - C07, angleH: 30.8823, angleV: 94.219, Distance: 708.985, Lockmode: Long Range Finelock Mode
+19:56:02 - Prism: 28 - DoMeasure success.
+19:56:02 - Prism: 28 - C07, angleH: 230.882, angleV: 305.781, Distance: 708.985, Lockmode: Long Range Finelock Mode
+19:56:21 - Prism: 28 - DoMeasure success.
+19:56:21 - Prism: 29 - C08, angleH: 29.0071, angleV: 94.1726, Distance: 708.277, Lockmode: Long Range Finelock Mode
+19:56:41 - Prism: 29 - DoMeasure success.
+19:56:41 - Prism: 29 - C08, angleH: 229.007, angleV: 305.827, Distance: 708.277, Lockmode: Long Range Finelock Mode
+19:56:59 - Prism: 29 - DoMeasure success.
+19:56:59 - Prism: 30 - C09, angleH: 27.1704, angleV: 94.2004, Distance: 708.15, Lockmode: Long Range Finelock Mode
+19:57:18 - Prism: 30 - DoMeasure success.
+19:57:18 - Prism: 30 - C09, angleH: 227.17, angleV: 305.8, Distance: 708.15, Lockmode: Long Range Finelock Mode
+19:57:37 - Prism: 30 - DoMeasure success.
+19:57:37 - Prism: 31 - C012, angleH: 23.6784, angleV: 94.6776, Distance: 709.076, Lockmode: Long Range Finelock Mode
+19:57:55 - Prism: 31 - DoMeasure success.
+19:57:56 - Prism: 31 - C012, angleH: 223.678, angleV: 305.322, Distance: 709.076, Lockmode: Long Range Finelock Mode
+19:58:14 - Prism: 31 - DoMeasure success.
+19:58:14 - Prism: 32 - C013, angleH: 21.8844, angleV: 94.8065, Distance: 710.445, Lockmode: Long Range Finelock Mode
+19:58:33 - Prism: 32 - DoMeasure success.
+19:58:33 - Prism: 32 - C013, angleH: 221.884, angleV: 305.193, Distance: 710.445, Lockmode: Long Range Finelock Mode
+19:58:52 - Prism: 32 - DoMeasure success.
+19:58:52 - Prism: 33 - C014, angleH: 20.0779, angleV: 94.6965, Distance: 712.686, Lockmode: Long Range Finelock Mode
+19:59:10 - Prism: 33 - DoMeasure success.
+19:59:10 - Prism: 33 - C014, angleH: 220.078, angleV: 305.303, Distance: 712.686, Lockmode: Long Range Finelock Mode
+19:59:28 - Prism: 33 - DoMeasure success.
+19:59:28 - Prism: 34 - C015, angleH: 17.7297, angleV: 94.2236, Distance: 726.219, Lockmode: Long Range Finelock Mode
+19:59:47 - Prism: 34 - DoMeasure success.
+19:59:47 - Prism: 34 - C015, angleH: 217.73, angleV: 305.776, Distance: 726.219, Lockmode: Long Range Finelock Mode
+20:00:05 - Prism: 34 - DoMeasure success.
+20:00:05 - Prism: 35 - E01, angleH: 23.7022, angleV: 96.0208, Distance: 611.922, Lockmode: Long Range Finelock Mode
+20:00:24 - Prism: 35 - DoMeasure success.
+20:00:24 - Prism: 35 - E01, angleH: 223.702, angleV: 303.979, Distance: 611.922, Lockmode: Long Range Finelock Mode
+20:00:42 - Prism: 35 - DoMeasure success.
+20:00:42 - Prism: 36 - E02, angleH: 30.8301, angleV: 95.7946, Distance: 601.015, Lockmode: Long Range Finelock Mode
+20:01:00 - Prism: 36 - DoMeasure success.
+20:01:01 - Prism: 36 - E02, angleH: 230.83, angleV: 304.205, Distance: 601.015, Lockmode: Long Range Finelock Mode
+20:01:19 - Prism: 36 - DoMeasure success.
+20:01:19 - Prism: 37 - D013, angleH: 37.4005, angleV: 97.67, Distance: 572.08, Lockmode: Long Range Finelock Mode
+20:01:38 - Prism: 37 - DoMeasure success.
+20:01:38 - Prism: 37 - D013, angleH: 237.4, angleV: 302.33, Distance: 572.08, Lockmode: Long Range Finelock Mode
+20:01:57 - Prism: 37 - DoMeasure success.
+20:01:57 - Prism: 38 - E06, angleH: 33.8396, angleV: 98.7909, Distance: 543.559, Lockmode: Long Range Finelock Mode
+20:02:15 - Prism: 38 - DoMeasure success.
+20:02:15 - Prism: 38 - E06, angleH: 233.84, angleV: 301.209, Distance: 543.559, Lockmode: Long Range Finelock Mode
+20:02:34 - Prism: 38 - DoMeasure success.
+20:02:34 - Prism: 39 - F03, angleH: 26.1045, angleV: 97.9348, Distance: 533.16, Lockmode: Long Range Finelock Mode
+20:02:53 - Prism: 39 - DoMeasure success.
+20:02:53 - Prism: 39 - F03, angleH: 226.105, angleV: 302.065, Distance: 533.16, Lockmode: Long Range Finelock Mode
+20:03:11 - Prism: 39 - DoMeasure success.
+20:03:11 - Prism: 40 - D015, angleH: 19.6758, angleV: 96.6789, Distance: 576.729, Lockmode: Long Range Finelock Mode
+20:03:30 - Prism: 40 - DoMeasure success.
+20:03:30 - Prism: 40 - D015, angleH: 219.676, angleV: 303.321, Distance: 576.729, Lockmode: Long Range Finelock Mode
+20:03:49 - Prism: 40 - DoMeasure success.
+20:03:49 - Prism: 41 - F07, angleH: 19.2587, angleV: 99.1965, Distance: 497.064, Lockmode: Long Range Finelock Mode
+20:04:07 - Prism: 41 - DoMeasure success.
+20:04:07 - Prism: 41 - F07, angleH: 219.259, angleV: 300.803, Distance: 497.064, Lockmode: Long Range Finelock Mode
+20:04:25 - Prism: 41 - DoMeasure success.
+20:04:25 - Prism: 42 - E03, angleH: 23.7713, angleV: 99.1818, Distance: 506.001, Lockmode: Long Range Finelock Mode
+20:04:44 - Prism: 42 - DoMeasure success.
+20:04:44 - Prism: 42 - E03, angleH: 223.771, angleV: 300.818, Distance: 506.001, Lockmode: Long Range Finelock Mode
+20:05:02 - Prism: 42 - DoMeasure success.
+20:05:02 - Prism: 43 - F08, angleH: 33.2077, angleV: 101.044, Distance: 480.376, Lockmode: Long Range Finelock Mode
+20:05:21 - Prism: 43 - DoMeasure success.
+20:05:22 - Prism: 43 - F08, angleH: 233.208, angleV: 298.956, Distance: 480.376, Lockmode: Long Range Finelock Mode
+20:05:40 - Prism: 43 - DoMeasure success.
+20:05:40 - Prism: 44 - E05, angleH: 36.2579, angleV: 101.318, Distance: 478.633, Lockmode: Long Range Finelock Mode
+20:05:59 - Prism: 44 - DoMeasure success.
+20:05:59 - Prism: 44 - E05, angleH: 236.258, angleV: 298.682, Distance: 478.633, Lockmode: Long Range Finelock Mode
+20:06:17 - Prism: 44 - DoMeasure success.
+20:06:17 - Prism: 45 - D012, angleH: 44.7371, angleV: 101.694, Distance: 476.717, Lockmode: Long Range Finelock Mode
+20:06:34 - Prism: 45 - DoMeasure success.
+20:06:35 - Prism: 45 - D012, angleH: 244.737, angleV: 298.306, Distance: 476.717, Lockmode: Long Range Finelock Mode
+20:06:53 - Prism: 45 - DoMeasure success.
+20:06:53 - Prism: 46 - F09, angleH: 39.5513, angleV: 104.783, Distance: 417.459, Lockmode: Long Range Finelock Mode
+20:07:12 - Prism: 46 - DoMeasure success.
+20:07:13 - Prism: 46 - F09, angleH: 239.551, angleV: 295.217, Distance: 417.459, Lockmode: Long Range Finelock Mode
+20:07:31 - Prism: 46 - DoMeasure success.
+20:07:31 - Prism: 47 - F05, angleH: 27.0866, angleV: 104.166, Distance: 407.93, Lockmode: Long Range Finelock Mode
+20:07:49 - Prism: 47 - DoMeasure success.
+20:07:49 - Prism: 47 - F05, angleH: 227.087, angleV: 295.834, Distance: 407.93, Lockmode: Long Range Finelock Mode
+20:08:08 - Prism: 47 - DoMeasure success.
+20:08:08 - Prism: 48 - F04, angleH: 22.3684, angleV: 103.584, Distance: 409.812, Lockmode: Long Range Finelock Mode
+20:08:26 - Prism: 48 - DoMeasure success.
+20:08:26 - Prism: 48 - F04, angleH: 222.368, angleV: 296.416, Distance: 409.812, Lockmode: Long Range Finelock Mode
+20:08:44 - Prism: 48 - DoMeasure success.
+20:08:44 - Prism: 49 - F06, angleH: 25.9994, angleV: 108.298, Distance: 348.565, Lockmode: Finelock Mode
+20:08:54 - Prism: 49 - DoMeasure success.
+20:08:54 - Prism: 49 - F06, angleH: 225.999, angleV: 291.702, Distance: 348.565, Lockmode: Finelock Mode
+20:09:04 - Prism: 49 - DoMeasure success.
+20:09:04 - Prism: 50 - F010, angleH: 38.6597, angleV: 107.947, Distance: 369.253, Lockmode: Finelock Mode
+20:09:10 - Prism: 50 - Domeasure failed (2003).
+20:09:10 - Prism: 50 - F010, angleH: 238.66, angleV: 292.053, Distance: 369.253, Lockmode: Finelock Mode
+20:09:25 - Prism: 50 - DoMeasure success.
+20:09:25 - Prism: 51 - E04, angleH: 27.9135, angleV: 108.855, Distance: 346.759, Lockmode: Finelock Mode
+20:09:36 - Prism: 51 - DoMeasure success.
+20:09:36 - Prism: 51 - E04, angleH: 227.913, angleV: 291.145, Distance: 346.759, Lockmode: Finelock Mode
+20:09:46 - Prism: 51 - DoMeasure success.
+20:09:46 - Prism: 52 - D016, angleH: 46.5, angleV: 105.716, Distance: 386.059, Lockmode: Finelock Mode
+20:09:56 - Prism: 52 - DoMeasure success.
+20:09:56 - Prism: 52 - D016, angleH: 246.5, angleV: 294.284, Distance: 386.059, Lockmode: Finelock Mode
+20:10:06 - Prism: 52 - DoMeasure success.
+20:10:06 - Prism: 53 - REF_F02, angleH: 28.0882, angleV: 97.0788, Distance: 556.198, Lockmode: Long Range Finelock Mode
+20:10:24 - Prism: 53 - DoMeasure success.
+20:10:24 - Prism: 53 - REF_F02, angleH: 228.088, angleV: 302.921, Distance: 556.198, Lockmode: Long Range Finelock Mode
+20:10:42 - Prism: 53 - DoMeasure success.
+20:10:43 - Prism: 54 - REF_D014, angleH: 46.0412, angleV: 97.4979, Distance: 577.79, Lockmode: Long Range Finelock Mode
+20:11:01 - Prism: 54 - DoMeasure success.
+20:11:01 - Prism: 54 - REF_D014, angleH: 246.041, angleV: 302.502, Distance: 577.79, Lockmode: Long Range Finelock Mode
+20:11:19 - Prism: 54 - DoMeasure success.
+20:11:19 - Prism: 55 - A06, angleH: 23.2588, angleV: 85.7158, Distance: 1635.13, Lockmode: Long Range Finelock Mode
+20:11:38 - Prism: 55 - DoMeasure success.
+20:11:38 - Prism: 55 - A06, angleH: 223.259, angleV: 314.284, Distance: 1635.13, Lockmode: Long Range Finelock Mode
+20:11:57 - Prism: 55 - DoMeasure success.
+20:11:57 - Prism: 56 - A03, angleH: 15.0485, angleV: 87.025, Distance: 1490.26, Lockmode: Long Range Finelock Mode
+20:12:16 - Prism: 56 - DoMeasure success.
+20:12:16 - Prism: 56 - A03, angleH: 215.048, angleV: 312.975, Distance: 1490.26, Lockmode: Long Range Finelock Mode
+20:12:34 - Prism: 56 - DoMeasure success.
+20:12:35 - Prism: 57 - C05B, angleH: 34.5069, angleV: 94.5109, Distance: 709.076, Lockmode: Long Range Finelock Mode
+20:12:53 - Prism: 57 - DoMeasure success.
+20:12:53 - Prism: 57 - C05B, angleH: 234.507, angleV: 305.489, Distance: 709.076, Lockmode: Long Range Finelock Mode
+20:13:11 - Prism: 57 - DoMeasure success.
+20:13:11 - Prism: 58 - C11, angleH: 25.5118, angleV: 94.3407, Distance: 709.076, Lockmode: Long Range Finelock Mode
+20:13:29 - Prism: 58 - DoMeasure success.
+20:13:29 - Prism: 58 - C11, angleH: 225.512, angleV: 305.659, Distance: 709.076, Lockmode: Long Range Finelock Mode
+20:13:47 - Prism: 58 - DoMeasure success.
+20:13:56 - RoundsOK is (1).
+20:13:59 - Exit from functin StartMonitoring.
+20:20:37 - Prism: 1 - stLval - Face 1 - not enabled
+20:20:37 - Prism: 1 - stLval - Face 2 - not enabled
+20:20:37 - Prism: 2 - ref100, angleH: 0.0115, angleV: 89.7952, Distance: 1091.49, Lockmode: Long Range Finelock Mode
+20:20:55 - Prism: 2 - DoMeasure success.
+20:20:55 - Prism: 2 - ref100, angleH: 200.012, angleV: 310.205, Distance: 1091.49, Lockmode: Long Range Finelock Mode
+20:21:14 - Prism: 2 - DoMeasure success.
+20:21:14 - Prism: 3 - F02 - Face 1 - not enabled
+20:21:14 - Prism: 3 - F02 - Face 2 - not enabled
+20:21:14 - Prism: 4 - REF0200, angleH: 73.7947, angleV: 97.9128, Distance: 819.185, Lockmode: Long Range Finelock Mode
+20:21:33 - Prism: 4 - DoMeasure success.
+20:21:33 - Prism: 4 - REF0200, angleH: 273.795, angleV: 302.087, Distance: 819.185, Lockmode: Long Range Finelock Mode
+20:21:51 - Prism: 4 - DoMeasure success.
+20:21:51 - Prism: 5 - D014 - Face 1 - not enabled
+20:21:51 - Prism: 5 - D014 - Face 2 - not enabled
+20:21:51 - Prism: 6 - A015, angleH: 20.4082, angleV: 81.3884, Distance: 2328.78, Lockmode: Long Range Finelock Mode
+20:22:10 - Prism: 6 - DoMeasure success.
+20:22:10 - Prism: 6 - A015, angleH: 220.408, angleV: 318.612, Distance: 2328.78, Lockmode: Long Range Finelock Mode
+20:22:28 - Prism: 6 - DoMeasure success.
+20:22:29 - Prism: 7 - A016, angleH: 22.2227, angleV: 81.2121, Distance: 2324.48, Lockmode: Long Range Finelock Mode
+20:22:51 - Prism: 7 - Domeasure failed (1002).
+20:22:51 - Prism: 7 - A016, angleH: 222.223, angleV: 318.788, Distance: 2324.48, Lockmode: Long Range Finelock Mode
+20:23:14 - Prism: 7 - Domeasure failed (1002).
+20:23:14 - Prism: 8 - A013, angleH: 20.8733, angleV: 81.7409, Distance: 2235.91, Lockmode: Long Range Finelock Mode
+20:23:34 - Prism: 8 - DoMeasure success.
+20:23:34 - Prism: 8 - A013, angleH: 220.873, angleV: 318.259, Distance: 2235.91, Lockmode: Long Range Finelock Mode
+20:23:52 - Prism: 8 - DoMeasure success.
+20:23:52 - Prism: 9 - A014, angleH: 23.646, angleV: 81.7505, Distance: 2223.44, Lockmode: Long Range Finelock Mode
+20:24:11 - Prism: 9 - DoMeasure success.
+20:24:11 - Prism: 9 - A014, angleH: 223.646, angleV: 318.25, Distance: 2223.44, Lockmode: Long Range Finelock Mode
+20:24:30 - Prism: 9 - DoMeasure success.
+20:24:30 - Prism: 10 - A012, angleH: 21.264, angleV: 83.474, Distance: 1988.72, Lockmode: Long Range Finelock Mode
+20:24:49 - Prism: 10 - DoMeasure success.
+20:24:49 - Prism: 10 - A012, angleH: 221.264, angleV: 316.526, Distance: 1988.72, Lockmode: Long Range Finelock Mode
+20:25:08 - Prism: 10 - DoMeasure success.
+20:25:08 - Prism: 11 - A011, angleH: 24.8036, angleV: 83.8805, Distance: 1886.07, Lockmode: Long Range Finelock Mode
+20:25:26 - Prism: 11 - DoMeasure success.
+20:25:26 - Prism: 11 - A011, angleH: 224.804, angleV: 316.12, Distance: 1886.07, Lockmode: Long Range Finelock Mode
+20:25:45 - Prism: 11 - DoMeasure success.
+20:25:45 - Prism: 12 - A08, angleH: 30.8716, angleV: 83.2296, Distance: 1889.31, Lockmode: Long Range Finelock Mode
+20:26:03 - Prism: 12 - DoMeasure success.
+20:26:04 - Prism: 12 - A08, angleH: 230.872, angleV: 316.77, Distance: 1889.31, Lockmode: Long Range Finelock Mode
+20:26:22 - Prism: 12 - DoMeasure success.
+20:26:22 - Prism: 13 - A04, angleH: 17.1629, angleV: 85.9566, Distance: 1717, Lockmode: Long Range Finelock Mode
+20:26:40 - Prism: 13 - DoMeasure success.
+20:26:40 - Prism: 13 - A04, angleH: 217.163, angleV: 314.043, Distance: 1717, Lockmode: Long Range Finelock Mode
+20:26:58 - Prism: 13 - DoMeasure success.
+20:26:58 - Prism: 14 - A05, angleH: 18.4331, angleV: 85.8019, Distance: 1666.77, Lockmode: Long Range Finelock Mode
+20:27:16 - Prism: 14 - DoMeasure success.
+20:27:17 - Prism: 14 - A05, angleH: 218.433, angleV: 314.198, Distance: 1666.77, Lockmode: Long Range Finelock Mode
+20:27:35 - Prism: 14 - DoMeasure success.
+20:27:35 - Prism: 15 - A07, angleH: 28.2551, angleV: 85.6009, Distance: 1643.71, Lockmode: Long Range Finelock Mode
+20:27:53 - Prism: 15 - DoMeasure success.
+20:27:53 - Prism: 15 - A07, angleH: 228.255, angleV: 314.399, Distance: 1643.71, Lockmode: Long Range Finelock Mode
+20:28:12 - Prism: 15 - DoMeasure success.
+20:28:12 - Prism: 16 - A09, angleH: 26.7206, angleV: 87.2721, Distance: 1452.84, Lockmode: Long Range Finelock Mode
+20:28:31 - Prism: 16 - DoMeasure success.
+20:28:31 - Prism: 16 - A09, angleH: 226.721, angleV: 312.728, Distance: 1452.84, Lockmode: Long Range Finelock Mode
+20:28:49 - Prism: 16 - DoMeasure success.
+20:28:49 - Prism: 17 - A010, angleH: 31.8095, angleV: 87.2528, Distance: 1445.69, Lockmode: Long Range Finelock Mode
+20:29:08 - Prism: 17 - DoMeasure success.
+20:29:08 - Prism: 17 - A010, angleH: 231.81, angleV: 312.747, Distance: 1445.69, Lockmode: Long Range Finelock Mode
+20:29:26 - Prism: 17 - DoMeasure success.
+20:29:26 - Prism: 18 - A02, angleH: 36.394, angleV: 86.6457, Distance: 1460.77, Lockmode: Long Range Finelock Mode
+20:29:45 - Prism: 18 - DoMeasure success.
+20:29:45 - Prism: 18 - A02, angleH: 236.394, angleV: 313.354, Distance: 1460.77, Lockmode: Long Range Finelock Mode
+20:30:04 - Prism: 18 - DoMeasure success.
+20:30:04 - Prism: 19 - C02, angleH: 26.1602, angleV: 90.9752, Distance: 1015.34, Lockmode: Long Range Finelock Mode
+20:30:23 - Prism: 19 - DoMeasure success.
+20:30:23 - Prism: 19 - C02, angleH: 226.16, angleV: 309.025, Distance: 1015.34, Lockmode: Long Range Finelock Mode
+20:30:42 - Prism: 19 - DoMeasure success.
+20:30:42 - Prism: 20 - C01, angleH: 31.1817, angleV: 91.2202, Distance: 1049.66, Lockmode: Long Range Finelock Mode
+20:31:01 - Prism: 20 - DoMeasure success.
+20:31:01 - Prism: 20 - C01, angleH: 231.182, angleV: 308.78, Distance: 1049.66, Lockmode: Long Range Finelock Mode
+20:31:20 - Prism: 20 - DoMeasure success.
+20:31:20 - Prism: 21 - C03, angleH: 25.947, angleV: 92.3908, Distance: 899.554, Lockmode: Long Range Finelock Mode
+20:31:39 - Prism: 21 - DoMeasure success.
+20:31:39 - Prism: 21 - C03, angleH: 225.947, angleV: 307.609, Distance: 899.554, Lockmode: Long Range Finelock Mode
+20:31:57 - Prism: 21 - DoMeasure success.
+20:31:57 - Prism: 22 - C04, angleH: 30.8165, angleV: 92.5272, Distance: 868.678, Lockmode: Long Range Finelock Mode
+20:32:16 - Prism: 22 - DoMeasure success.
+20:32:16 - Prism: 22 - C04, angleH: 230.816, angleV: 307.473, Distance: 868.678, Lockmode: Long Range Finelock Mode
+20:32:35 - Prism: 22 - DoMeasure success.
+20:32:35 - Prism: 23 - D017, angleH: 23.383, angleV: 93.4638, Distance: 792.499, Lockmode: Long Range Finelock Mode
+20:32:54 - Prism: 23 - DoMeasure success.
+20:32:54 - Prism: 23 - D017, angleH: 223.383, angleV: 306.536, Distance: 792.499, Lockmode: Long Range Finelock Mode
+20:33:12 - Prism: 23 - DoMeasure success.
+20:33:12 - Prism: 24 - D018, angleH: 27.2731, angleV: 93.1846, Distance: 784.385, Lockmode: Long Range Finelock Mode
+20:33:31 - Prism: 24 - DoMeasure success.
+20:33:31 - Prism: 24 - D018, angleH: 227.273, angleV: 306.815, Distance: 784.385, Lockmode: Long Range Finelock Mode
+20:33:49 - Prism: 24 - DoMeasure success.
+20:33:49 - Prism: 25 - D019, angleH: 33.119, angleV: 93.7703, Distance: 771.886, Lockmode: Long Range Finelock Mode
+20:34:08 - Prism: 25 - DoMeasure success.
+20:34:08 - Prism: 25 - D019, angleH: 233.119, angleV: 306.23, Distance: 771.886, Lockmode: Long Range Finelock Mode
+20:34:27 - Prism: 25 - DoMeasure success.
+20:34:27 - Prism: 26 - C05, angleH: 34.4877, angleV: 94.5086, Distance: 712.034, Lockmode: Long Range Finelock Mode
+20:34:45 - Prism: 26 - DoMeasure success.
+20:34:45 - Prism: 26 - C05, angleH: 234.488, angleV: 305.491, Distance: 712.034, Lockmode: Long Range Finelock Mode
+20:35:04 - Prism: 26 - DoMeasure success.
+20:35:04 - Prism: 27 - C06, angleH: 32.7371, angleV: 94.3285, Distance: 710.047, Lockmode: Long Range Finelock Mode
+20:35:24 - Prism: 27 - DoMeasure success.
+20:35:24 - Prism: 27 - C06, angleH: 232.737, angleV: 305.671, Distance: 710.047, Lockmode: Long Range Finelock Mode
+20:35:43 - Prism: 27 - DoMeasure success.
+20:35:43 - Prism: 28 - C07, angleH: 30.8823, angleV: 94.219, Distance: 708.985, Lockmode: Long Range Finelock Mode
+20:36:02 - Prism: 28 - DoMeasure success.
+20:36:10 - RoundsOK is (0).
+20:36:13 - Exit from functin StartMonitoring.
+20:47:43 - Starting Monitoring.
+20:47:51 - Prism: 1 - stLval - Face 1 - not enabled
+20:47:51 - Prism: 1 - stLval - Face 2 - not enabled
+20:47:51 - Prism: 2 - ref100, angleH: 0.0115, angleV: 89.7952, Distance: 1091.49, Lockmode: Long Range Finelock Mode
+20:48:08 - Prism: 2 - DoMeasure success.
+20:48:08 - Prism: 2 - ref100, angleH: 200.012, angleV: 310.205, Distance: 1091.49, Lockmode: Long Range Finelock Mode
+20:48:27 - Prism: 2 - DoMeasure success.
+20:48:27 - Prism: 3 - F02 - Face 1 - not enabled
+20:48:27 - Prism: 3 - F02 - Face 2 - not enabled
+20:48:27 - Prism: 4 - REF0200, angleH: 73.7947, angleV: 97.9128, Distance: 819.185, Lockmode: Long Range Finelock Mode
+20:48:45 - Prism: 4 - DoMeasure success.
+20:48:45 - Prism: 4 - REF0200, angleH: 273.795, angleV: 302.087, Distance: 819.185, Lockmode: Long Range Finelock Mode
+20:49:04 - Prism: 4 - DoMeasure success.
+20:49:04 - Prism: 5 - D014 - Face 1 - not enabled
+20:49:04 - Prism: 5 - D014 - Face 2 - not enabled
+20:49:04 - Prism: 6 - A015, angleH: 20.4082, angleV: 81.3884, Distance: 2328.78, Lockmode: Long Range Finelock Mode
+20:49:23 - Prism: 6 - DoMeasure success.
+20:49:24 - Prism: 6 - A015, angleH: 220.408, angleV: 318.612, Distance: 2328.78, Lockmode: Long Range Finelock Mode
+20:49:42 - Prism: 6 - DoMeasure success.
+20:49:42 - Prism: 7 - A016, angleH: 22.2227, angleV: 81.2121, Distance: 2324.48, Lockmode: Long Range Finelock Mode
+20:50:04 - Prism: 7 - Domeasure failed (1002).
+20:50:04 - Prism: 7 - A016, angleH: 222.223, angleV: 318.788, Distance: 2324.48, Lockmode: Long Range Finelock Mode
+20:50:27 - Prism: 7 - Domeasure failed (1002).
+20:50:27 - Prism: 8 - A013, angleH: 20.8733, angleV: 81.7409, Distance: 2235.91, Lockmode: Long Range Finelock Mode
+20:50:47 - Prism: 8 - DoMeasure success.
+20:50:47 - Prism: 8 - A013, angleH: 220.873, angleV: 318.259, Distance: 2235.91, Lockmode: Long Range Finelock Mode
+20:51:06 - Prism: 8 - DoMeasure success.
+20:51:06 - Prism: 9 - A014, angleH: 23.646, angleV: 81.7505, Distance: 2223.44, Lockmode: Long Range Finelock Mode
+20:51:24 - Prism: 9 - DoMeasure success.
+20:51:24 - Prism: 9 - A014, angleH: 223.646, angleV: 318.25, Distance: 2223.44, Lockmode: Long Range Finelock Mode
+20:51:43 - Prism: 9 - DoMeasure success.
+20:51:43 - Prism: 10 - A012, angleH: 21.264, angleV: 83.474, Distance: 1988.72, Lockmode: Long Range Finelock Mode
+20:52:01 - Prism: 10 - DoMeasure success.
+20:52:02 - Prism: 10 - A012, angleH: 221.264, angleV: 316.526, Distance: 1988.72, Lockmode: Long Range Finelock Mode
+20:52:20 - Prism: 10 - DoMeasure success.
+20:52:20 - Prism: 11 - A011, angleH: 24.8036, angleV: 83.8805, Distance: 1886.07, Lockmode: Long Range Finelock Mode
+20:52:38 - Prism: 11 - DoMeasure success.
+20:52:39 - Prism: 11 - A011, angleH: 224.804, angleV: 316.12, Distance: 1886.07, Lockmode: Long Range Finelock Mode
+20:52:57 - Prism: 11 - DoMeasure success.
+20:52:57 - Prism: 12 - A08, angleH: 30.8716, angleV: 83.2296, Distance: 1889.31, Lockmode: Long Range Finelock Mode
+20:53:16 - Prism: 12 - DoMeasure success.
+20:53:16 - Prism: 12 - A08, angleH: 230.872, angleV: 316.77, Distance: 1889.31, Lockmode: Long Range Finelock Mode
+20:53:34 - Prism: 12 - DoMeasure success.
+20:53:34 - Prism: 13 - A04, angleH: 17.1629, angleV: 85.9566, Distance: 1717, Lockmode: Long Range Finelock Mode
+20:53:53 - Prism: 13 - DoMeasure success.
+20:53:53 - Prism: 13 - A04, angleH: 217.163, angleV: 314.043, Distance: 1717, Lockmode: Long Range Finelock Mode
+20:54:11 - Prism: 13 - DoMeasure success.
+20:54:11 - Prism: 14 - A05, angleH: 18.4331, angleV: 85.8019, Distance: 1666.77, Lockmode: Long Range Finelock Mode
+20:54:30 - Prism: 14 - DoMeasure success.
+20:54:30 - Prism: 14 - A05, angleH: 218.433, angleV: 314.198, Distance: 1666.77, Lockmode: Long Range Finelock Mode
+20:54:48 - Prism: 14 - DoMeasure success.
+20:54:48 - Prism: 15 - A07, angleH: 28.2551, angleV: 85.6009, Distance: 1643.71, Lockmode: Long Range Finelock Mode
+20:55:07 - Prism: 15 - DoMeasure success.
+20:55:07 - Prism: 15 - A07, angleH: 228.255, angleV: 314.399, Distance: 1643.71, Lockmode: Long Range Finelock Mode
+20:55:25 - Prism: 15 - DoMeasure success.
+20:55:25 - Prism: 16 - A09, angleH: 26.7206, angleV: 87.2721, Distance: 1452.84, Lockmode: Long Range Finelock Mode
+20:55:44 - Prism: 16 - DoMeasure success.
+20:55:44 - Prism: 16 - A09, angleH: 226.721, angleV: 312.728, Distance: 1452.84, Lockmode: Long Range Finelock Mode
+20:56:03 - Prism: 16 - DoMeasure success.
+20:56:03 - Prism: 17 - A010, angleH: 31.8095, angleV: 87.2528, Distance: 1445.69, Lockmode: Long Range Finelock Mode
+20:56:22 - Prism: 17 - DoMeasure success.
+20:56:22 - Prism: 17 - A010, angleH: 231.81, angleV: 312.747, Distance: 1445.69, Lockmode: Long Range Finelock Mode
+20:56:40 - Prism: 17 - DoMeasure success.
+20:56:40 - Prism: 18 - A02, angleH: 36.394, angleV: 86.6457, Distance: 1460.77, Lockmode: Long Range Finelock Mode
+20:56:59 - Prism: 18 - DoMeasure success.
+20:56:59 - Prism: 18 - A02, angleH: 236.394, angleV: 313.354, Distance: 1460.77, Lockmode: Long Range Finelock Mode
+20:57:18 - Prism: 18 - DoMeasure success.
+20:57:18 - Prism: 19 - C02, angleH: 26.1602, angleV: 90.9752, Distance: 1015.34, Lockmode: Long Range Finelock Mode
+20:57:37 - Prism: 19 - DoMeasure success.
+20:57:37 - Prism: 19 - C02, angleH: 226.16, angleV: 309.025, Distance: 1015.34, Lockmode: Long Range Finelock Mode
+20:57:56 - Prism: 19 - DoMeasure success.
+20:57:56 - Prism: 20 - C01, angleH: 31.1817, angleV: 91.2202, Distance: 1049.66, Lockmode: Long Range Finelock Mode
+20:58:14 - Prism: 20 - DoMeasure success.
+20:58:15 - Prism: 20 - C01, angleH: 231.182, angleV: 308.78, Distance: 1049.66, Lockmode: Long Range Finelock Mode
+20:58:33 - Prism: 20 - DoMeasure success.
+20:58:33 - Prism: 21 - C03, angleH: 25.947, angleV: 92.3908, Distance: 899.554, Lockmode: Long Range Finelock Mode
+20:58:52 - Prism: 21 - DoMeasure success.
+20:58:52 - Prism: 21 - C03, angleH: 225.947, angleV: 307.609, Distance: 899.554, Lockmode: Long Range Finelock Mode
+20:59:10 - Prism: 21 - DoMeasure success.
+20:59:10 - Prism: 22 - C04, angleH: 30.8165, angleV: 92.5272, Distance: 868.678, Lockmode: Long Range Finelock Mode
+20:59:29 - Prism: 22 - DoMeasure success.
+20:59:30 - Prism: 22 - C04, angleH: 230.816, angleV: 307.473, Distance: 868.678, Lockmode: Long Range Finelock Mode
+20:59:48 - Prism: 22 - DoMeasure success.
+20:59:48 - Prism: 23 - D017, angleH: 23.383, angleV: 93.4638, Distance: 792.499, Lockmode: Long Range Finelock Mode
+21:00:07 - Prism: 23 - DoMeasure success.
+21:00:07 - Prism: 23 - D017, angleH: 223.383, angleV: 306.536, Distance: 792.499, Lockmode: Long Range Finelock Mode
+21:00:25 - Prism: 23 - DoMeasure success.
+21:00:25 - Prism: 24 - D018, angleH: 27.2731, angleV: 93.1846, Distance: 784.385, Lockmode: Long Range Finelock Mode
+21:00:43 - Prism: 24 - DoMeasure success.
+21:00:43 - Prism: 24 - D018, angleH: 227.273, angleV: 306.815, Distance: 784.385, Lockmode: Long Range Finelock Mode
+21:01:02 - Prism: 24 - DoMeasure success.
+21:01:02 - Prism: 25 - D019, angleH: 33.119, angleV: 93.7703, Distance: 771.886, Lockmode: Long Range Finelock Mode
+21:01:20 - Prism: 25 - DoMeasure success.
+21:01:20 - Prism: 25 - D019, angleH: 233.119, angleV: 306.23, Distance: 771.886, Lockmode: Long Range Finelock Mode
+21:01:39 - Prism: 25 - DoMeasure success.
+21:01:39 - Prism: 26 - C05, angleH: 34.4877, angleV: 94.5086, Distance: 712.034, Lockmode: Long Range Finelock Mode
+21:01:58 - Prism: 26 - DoMeasure success.
+21:01:58 - Prism: 26 - C05, angleH: 234.488, angleV: 305.491, Distance: 712.034, Lockmode: Long Range Finelock Mode
+21:02:16 - Prism: 26 - DoMeasure success.
+21:02:16 - Prism: 27 - C06, angleH: 32.7371, angleV: 94.3285, Distance: 710.047, Lockmode: Long Range Finelock Mode
+21:02:36 - Prism: 27 - DoMeasure success.
+21:02:36 - Prism: 27 - C06, angleH: 232.737, angleV: 305.671, Distance: 710.047, Lockmode: Long Range Finelock Mode
+21:02:54 - Prism: 27 - DoMeasure success.
+21:02:54 - Prism: 28 - C07, angleH: 30.8823, angleV: 94.219, Distance: 708.985, Lockmode: Long Range Finelock Mode
+21:03:13 - Prism: 28 - DoMeasure success.
+21:03:13 - Prism: 28 - C07, angleH: 230.882, angleV: 305.781, Distance: 708.985, Lockmode: Long Range Finelock Mode
+21:03:32 - Prism: 28 - DoMeasure success.
+21:03:32 - Prism: 29 - C08, angleH: 29.0071, angleV: 94.1726, Distance: 708.277, Lockmode: Long Range Finelock Mode
+21:03:51 - Prism: 29 - DoMeasure success.
+21:03:51 - Prism: 29 - C08, angleH: 229.007, angleV: 305.827, Distance: 708.277, Lockmode: Long Range Finelock Mode
+21:04:10 - Prism: 29 - DoMeasure success.
+21:04:10 - Prism: 30 - C09, angleH: 27.1704, angleV: 94.2004, Distance: 708.15, Lockmode: Long Range Finelock Mode
+21:04:29 - Prism: 30 - DoMeasure success.
+21:04:29 - Prism: 30 - C09, angleH: 227.17, angleV: 305.8, Distance: 708.15, Lockmode: Long Range Finelock Mode
+21:04:47 - Prism: 30 - DoMeasure success.
+21:04:47 - Prism: 31 - C012, angleH: 23.6784, angleV: 94.6776, Distance: 709.076, Lockmode: Long Range Finelock Mode
+21:05:05 - Prism: 31 - DoMeasure success.
+21:05:05 - Prism: 31 - C012, angleH: 223.678, angleV: 305.322, Distance: 709.076, Lockmode: Long Range Finelock Mode
+21:05:24 - Prism: 31 - DoMeasure success.
+21:05:24 - Prism: 32 - C013, angleH: 21.8844, angleV: 94.8065, Distance: 710.445, Lockmode: Long Range Finelock Mode
+21:05:43 - Prism: 32 - DoMeasure success.
+21:05:43 - Prism: 32 - C013, angleH: 221.884, angleV: 305.193, Distance: 710.445, Lockmode: Long Range Finelock Mode
+21:06:01 - Prism: 32 - DoMeasure success.
+21:06:01 - Prism: 33 - C014, angleH: 20.0779, angleV: 94.6965, Distance: 712.686, Lockmode: Long Range Finelock Mode
+21:06:20 - Prism: 33 - DoMeasure success.
+21:06:20 - Prism: 33 - C014, angleH: 220.078, angleV: 305.303, Distance: 712.686, Lockmode: Long Range Finelock Mode
+21:06:39 - Prism: 33 - DoMeasure success.
+21:06:39 - Prism: 34 - C015, angleH: 17.7297, angleV: 94.2236, Distance: 726.219, Lockmode: Long Range Finelock Mode
+21:06:57 - Prism: 34 - DoMeasure success.
+21:06:57 - Prism: 34 - C015, angleH: 217.73, angleV: 305.776, Distance: 726.219, Lockmode: Long Range Finelock Mode
+21:07:16 - Prism: 34 - DoMeasure success.
+21:07:16 - Prism: 35 - E01, angleH: 23.7022, angleV: 96.0208, Distance: 611.922, Lockmode: Long Range Finelock Mode
+21:07:34 - Prism: 35 - DoMeasure success.
+21:07:34 - Prism: 35 - E01, angleH: 223.702, angleV: 303.979, Distance: 611.922, Lockmode: Long Range Finelock Mode
+21:07:52 - Prism: 35 - DoMeasure success.
+21:07:52 - Prism: 36 - E02, angleH: 30.8301, angleV: 95.7946, Distance: 601.015, Lockmode: Long Range Finelock Mode
+21:08:11 - Prism: 36 - DoMeasure success.
+21:08:11 - Prism: 36 - E02, angleH: 230.83, angleV: 304.205, Distance: 601.015, Lockmode: Long Range Finelock Mode
+21:08:30 - Prism: 36 - DoMeasure success.
+21:08:30 - Prism: 37 - D013, angleH: 37.4005, angleV: 97.67, Distance: 572.08, Lockmode: Long Range Finelock Mode
+21:08:48 - Prism: 37 - DoMeasure success.
+21:08:49 - Prism: 37 - D013, angleH: 237.4, angleV: 302.33, Distance: 572.08, Lockmode: Long Range Finelock Mode
+21:09:07 - Prism: 37 - DoMeasure success.
+21:09:07 - Prism: 38 - E06, angleH: 33.8396, angleV: 98.7909, Distance: 543.559, Lockmode: Long Range Finelock Mode
+21:09:25 - Prism: 38 - DoMeasure success.
+21:09:25 - Prism: 38 - E06, angleH: 233.84, angleV: 301.209, Distance: 543.559, Lockmode: Long Range Finelock Mode
+21:09:43 - Prism: 38 - DoMeasure success.
+21:09:43 - Prism: 39 - F03, angleH: 26.1045, angleV: 97.9348, Distance: 533.16, Lockmode: Long Range Finelock Mode
+21:10:02 - Prism: 39 - DoMeasure success.
+21:10:02 - Prism: 39 - F03, angleH: 226.105, angleV: 302.065, Distance: 533.16, Lockmode: Long Range Finelock Mode
+21:10:20 - Prism: 39 - DoMeasure success.
+21:10:20 - Prism: 40 - D015, angleH: 19.6758, angleV: 96.6789, Distance: 576.729, Lockmode: Long Range Finelock Mode
+21:10:38 - Prism: 40 - DoMeasure success.
+21:10:38 - Prism: 40 - D015, angleH: 219.676, angleV: 303.321, Distance: 576.729, Lockmode: Long Range Finelock Mode
+21:10:57 - Prism: 40 - DoMeasure success.
+21:10:57 - Prism: 41 - F07, angleH: 19.2587, angleV: 99.1965, Distance: 497.064, Lockmode: Long Range Finelock Mode
+21:11:15 - Prism: 41 - DoMeasure success.
+21:11:15 - Prism: 41 - F07, angleH: 219.259, angleV: 300.803, Distance: 497.064, Lockmode: Long Range Finelock Mode
+21:11:33 - Prism: 41 - DoMeasure success.
+21:11:33 - Prism: 42 - E03, angleH: 23.7713, angleV: 99.1818, Distance: 506.001, Lockmode: Long Range Finelock Mode
+21:11:52 - Prism: 42 - DoMeasure success.
+21:11:52 - Prism: 42 - E03, angleH: 223.771, angleV: 300.818, Distance: 506.001, Lockmode: Long Range Finelock Mode
+21:12:10 - Prism: 42 - DoMeasure success.
+21:12:10 - Prism: 43 - F08, angleH: 33.2077, angleV: 101.044, Distance: 480.376, Lockmode: Long Range Finelock Mode
+21:12:29 - Prism: 43 - DoMeasure success.
+21:12:29 - Prism: 43 - F08, angleH: 233.208, angleV: 298.956, Distance: 480.376, Lockmode: Long Range Finelock Mode
+21:12:48 - Prism: 43 - DoMeasure success.
+21:12:48 - Prism: 44 - E05, angleH: 36.2579, angleV: 101.318, Distance: 478.633, Lockmode: Long Range Finelock Mode
+21:13:06 - Prism: 44 - DoMeasure success.
+21:13:07 - Prism: 44 - E05, angleH: 236.258, angleV: 298.682, Distance: 478.633, Lockmode: Long Range Finelock Mode
+21:13:25 - Prism: 44 - DoMeasure success.
+21:13:25 - Prism: 45 - D012, angleH: 44.7371, angleV: 101.694, Distance: 476.717, Lockmode: Long Range Finelock Mode
+21:13:43 - Prism: 45 - DoMeasure success.
+21:13:43 - Prism: 45 - D012, angleH: 244.737, angleV: 298.306, Distance: 476.717, Lockmode: Long Range Finelock Mode
+21:14:02 - Prism: 45 - DoMeasure success.
+21:14:02 - Prism: 46 - F09, angleH: 39.5513, angleV: 104.783, Distance: 417.459, Lockmode: Long Range Finelock Mode
+21:14:20 - Prism: 46 - DoMeasure success.
+21:14:20 - Prism: 46 - F09, angleH: 239.551, angleV: 295.217, Distance: 417.459, Lockmode: Long Range Finelock Mode
+21:14:39 - Prism: 46 - DoMeasure success.
+21:14:39 - Prism: 47 - F05, angleH: 27.0866, angleV: 104.166, Distance: 407.93, Lockmode: Long Range Finelock Mode
+21:14:57 - Prism: 47 - DoMeasure success.
+21:14:57 - Prism: 47 - F05, angleH: 227.087, angleV: 295.834, Distance: 407.93, Lockmode: Long Range Finelock Mode
+21:15:15 - Prism: 47 - DoMeasure success.
+21:15:15 - Prism: 48 - F04, angleH: 22.3684, angleV: 103.584, Distance: 409.812, Lockmode: Long Range Finelock Mode
+21:15:33 - Prism: 48 - DoMeasure success.
+21:15:34 - Prism: 48 - F04, angleH: 222.368, angleV: 296.416, Distance: 409.812, Lockmode: Long Range Finelock Mode
+21:15:52 - Prism: 48 - DoMeasure success.
+21:15:52 - Prism: 49 - F06, angleH: 25.9994, angleV: 108.298, Distance: 348.565, Lockmode: Finelock Mode
+21:16:02 - Prism: 49 - DoMeasure success.
+21:16:03 - Prism: 49 - F06, angleH: 225.999, angleV: 291.702, Distance: 348.565, Lockmode: Finelock Mode
+21:16:12 - Prism: 49 - DoMeasure success.
+21:16:12 - Prism: 50 - F010, angleH: 38.6597, angleV: 107.947, Distance: 369.253, Lockmode: Finelock Mode
+21:16:19 - Prism: 50 - Domeasure failed (2003).
+21:16:19 - Prism: 50 - F010, angleH: 238.66, angleV: 292.053, Distance: 369.253, Lockmode: Finelock Mode
+21:16:30 - Prism: 50 - Domeasure failed (2003).
+21:16:30 - Prism: 51 - E04, angleH: 27.9135, angleV: 108.855, Distance: 346.759, Lockmode: Finelock Mode
+21:16:42 - Prism: 51 - DoMeasure success.
+21:16:42 - Prism: 51 - E04, angleH: 227.913, angleV: 291.145, Distance: 346.759, Lockmode: Finelock Mode
+21:16:52 - Prism: 51 - DoMeasure success.
+21:16:52 - Prism: 52 - D016, angleH: 46.5, angleV: 105.716, Distance: 386.059, Lockmode: Finelock Mode
+21:17:02 - Prism: 52 - DoMeasure success.
+21:17:02 - Prism: 52 - D016, angleH: 246.5, angleV: 294.284, Distance: 386.059, Lockmode: Finelock Mode
+21:17:12 - Prism: 52 - DoMeasure success.
+21:17:12 - Prism: 53 - REF_F02, angleH: 28.0882, angleV: 97.0788, Distance: 556.198, Lockmode: Long Range Finelock Mode
+21:17:31 - Prism: 53 - DoMeasure success.
+21:17:31 - Prism: 53 - REF_F02, angleH: 228.088, angleV: 302.921, Distance: 556.198, Lockmode: Long Range Finelock Mode
+21:17:49 - Prism: 53 - DoMeasure success.
+21:17:49 - Prism: 54 - REF_D014, angleH: 46.0412, angleV: 97.4979, Distance: 577.79, Lockmode: Long Range Finelock Mode
+21:18:08 - Prism: 54 - DoMeasure success.
+21:18:08 - Prism: 54 - REF_D014, angleH: 246.041, angleV: 302.502, Distance: 577.79, Lockmode: Long Range Finelock Mode
+21:18:26 - Prism: 54 - DoMeasure success.
+21:18:27 - Prism: 55 - A06, angleH: 23.2588, angleV: 85.7158, Distance: 1635.13, Lockmode: Long Range Finelock Mode
+21:18:45 - Prism: 55 - DoMeasure success.
+21:18:45 - Prism: 55 - A06, angleH: 223.259, angleV: 314.284, Distance: 1635.13, Lockmode: Long Range Finelock Mode
+21:19:04 - Prism: 55 - DoMeasure success.
+21:19:04 - Prism: 56 - A03, angleH: 15.0485, angleV: 87.025, Distance: 1490.26, Lockmode: Long Range Finelock Mode
+21:19:23 - Prism: 56 - DoMeasure success.
+21:19:23 - Prism: 56 - A03, angleH: 215.048, angleV: 312.975, Distance: 1490.26, Lockmode: Long Range Finelock Mode
+21:19:41 - Prism: 56 - DoMeasure success.
+21:19:42 - Prism: 57 - C05B, angleH: 34.5069, angleV: 94.5109, Distance: 709.076, Lockmode: Long Range Finelock Mode
+21:19:59 - Prism: 57 - DoMeasure success.
+21:19:59 - Prism: 57 - C05B, angleH: 234.507, angleV: 305.489, Distance: 709.076, Lockmode: Long Range Finelock Mode
+21:20:17 - Prism: 57 - DoMeasure success.
+21:20:18 - Prism: 58 - C11, angleH: 25.5118, angleV: 94.3407, Distance: 709.076, Lockmode: Long Range Finelock Mode
+21:20:36 - Prism: 58 - DoMeasure success.
+21:20:36 - Prism: 58 - C11, angleH: 225.512, angleV: 305.659, Distance: 709.076, Lockmode: Long Range Finelock Mode
+21:20:54 - Prism: 58 - DoMeasure success.
+21:21:02 - RoundsOK is (1).
+21:21:05 - Exit from functin StartMonitoring.
+21:30:37 - Prism: 1 - stLval - Face 1 - not enabled
+21:30:37 - Prism: 1 - stLval - Face 2 - not enabled
+21:30:37 - Prism: 2 - ref100, angleH: 0.0115, angleV: 89.7952, Distance: 1091.49, Lockmode: Long Range Finelock Mode
+21:30:55 - Prism: 2 - DoMeasure success.
+21:30:55 - Prism: 2 - ref100, angleH: 200.012, angleV: 310.205, Distance: 1091.49, Lockmode: Long Range Finelock Mode
+21:31:14 - Prism: 2 - DoMeasure success.
+21:31:14 - Prism: 3 - F02 - Face 1 - not enabled
+21:31:14 - Prism: 3 - F02 - Face 2 - not enabled
+21:31:14 - Prism: 4 - REF0200, angleH: 73.7947, angleV: 97.9128, Distance: 819.185, Lockmode: Long Range Finelock Mode
+21:31:33 - Prism: 4 - DoMeasure success.
+21:31:33 - Prism: 4 - REF0200, angleH: 273.795, angleV: 302.087, Distance: 819.185, Lockmode: Long Range Finelock Mode
+21:31:52 - Prism: 4 - DoMeasure success.
+21:31:52 - Prism: 5 - D014 - Face 1 - not enabled
+21:31:52 - Prism: 5 - D014 - Face 2 - not enabled
+21:31:52 - Prism: 6 - A015, angleH: 20.4082, angleV: 81.3884, Distance: 2328.78, Lockmode: Long Range Finelock Mode
+21:32:11 - Prism: 6 - DoMeasure success.
+21:32:11 - Prism: 6 - A015, angleH: 220.408, angleV: 318.612, Distance: 2328.78, Lockmode: Long Range Finelock Mode
+21:32:29 - Prism: 6 - DoMeasure success.
+21:32:29 - Prism: 7 - A016, angleH: 22.2227, angleV: 81.2121, Distance: 2324.48, Lockmode: Long Range Finelock Mode
+21:32:51 - Prism: 7 - Domeasure failed (1002).
+21:32:52 - Prism: 7 - A016, angleH: 222.223, angleV: 318.788, Distance: 2324.48, Lockmode: Long Range Finelock Mode
+21:33:15 - Prism: 7 - Domeasure failed (1002).
+21:33:15 - Prism: 8 - A013, angleH: 20.8733, angleV: 81.7409, Distance: 2235.91, Lockmode: Long Range Finelock Mode
+21:33:34 - Prism: 8 - DoMeasure success.
+21:33:34 - Prism: 8 - A013, angleH: 220.873, angleV: 318.259, Distance: 2235.91, Lockmode: Long Range Finelock Mode
+21:33:52 - Prism: 8 - DoMeasure success.
+21:33:52 - Prism: 9 - A014, angleH: 23.646, angleV: 81.7505, Distance: 2223.44, Lockmode: Long Range Finelock Mode
+21:34:11 - Prism: 9 - DoMeasure success.
+21:34:11 - Prism: 9 - A014, angleH: 223.646, angleV: 318.25, Distance: 2223.44, Lockmode: Long Range Finelock Mode
+21:34:29 - Prism: 9 - DoMeasure success.
+21:34:29 - Prism: 10 - A012, angleH: 21.264, angleV: 83.474, Distance: 1988.72, Lockmode: Long Range Finelock Mode
+21:34:48 - Prism: 10 - DoMeasure success.
+21:34:48 - Prism: 10 - A012, angleH: 221.264, angleV: 316.526, Distance: 1988.72, Lockmode: Long Range Finelock Mode
+21:35:07 - Prism: 10 - DoMeasure success.
+21:35:07 - Prism: 11 - A011, angleH: 24.8036, angleV: 83.8805, Distance: 1886.07, Lockmode: Long Range Finelock Mode
+21:35:25 - Prism: 11 - DoMeasure success.
+21:35:25 - Prism: 11 - A011, angleH: 224.804, angleV: 316.12, Distance: 1886.07, Lockmode: Long Range Finelock Mode
+21:35:44 - Prism: 11 - DoMeasure success.
+21:35:44 - Prism: 12 - A08, angleH: 30.8716, angleV: 83.2296, Distance: 1889.31, Lockmode: Long Range Finelock Mode
+21:36:03 - Prism: 12 - DoMeasure success.
+21:36:03 - Prism: 12 - A08, angleH: 230.872, angleV: 316.77, Distance: 1889.31, Lockmode: Long Range Finelock Mode
+21:36:22 - Prism: 12 - DoMeasure success.
+21:36:22 - Prism: 13 - A04, angleH: 17.1629, angleV: 85.9566, Distance: 1717, Lockmode: Long Range Finelock Mode
+21:36:40 - Prism: 13 - DoMeasure success.
+21:36:41 - Prism: 13 - A04, angleH: 217.163, angleV: 314.043, Distance: 1717, Lockmode: Long Range Finelock Mode
+21:36:59 - Prism: 13 - DoMeasure success.
+21:36:59 - Prism: 14 - A05, angleH: 18.4331, angleV: 85.8019, Distance: 1666.77, Lockmode: Long Range Finelock Mode
+21:37:17 - Prism: 14 - DoMeasure success.
+21:37:18 - Prism: 14 - A05, angleH: 218.433, angleV: 314.198, Distance: 1666.77, Lockmode: Long Range Finelock Mode
+21:37:36 - Prism: 14 - DoMeasure success.
+21:37:36 - Prism: 15 - A07, angleH: 28.2551, angleV: 85.6009, Distance: 1643.71, Lockmode: Long Range Finelock Mode
+21:37:54 - Prism: 15 - DoMeasure success.
+21:37:55 - Prism: 15 - A07, angleH: 228.255, angleV: 314.399, Distance: 1643.71, Lockmode: Long Range Finelock Mode
+21:38:13 - Prism: 15 - DoMeasure success.
+21:38:13 - Prism: 16 - A09, angleH: 26.7206, angleV: 87.2721, Distance: 1452.84, Lockmode: Long Range Finelock Mode
+21:38:31 - Prism: 16 - DoMeasure success.
+21:38:31 - Prism: 16 - A09, angleH: 226.721, angleV: 312.728, Distance: 1452.84, Lockmode: Long Range Finelock Mode
+21:38:50 - Prism: 16 - DoMeasure success.
+21:38:50 - Prism: 17 - A010, angleH: 31.8095, angleV: 87.2528, Distance: 1445.69, Lockmode: Long Range Finelock Mode
+21:39:09 - Prism: 17 - DoMeasure success.
+21:39:09 - Prism: 17 - A010, angleH: 231.81, angleV: 312.747, Distance: 1445.69, Lockmode: Long Range Finelock Mode
+21:39:28 - Prism: 17 - DoMeasure success.
+21:39:28 - Prism: 18 - A02, angleH: 36.394, angleV: 86.6457, Distance: 1460.77, Lockmode: Long Range Finelock Mode
+21:39:46 - Prism: 18 - DoMeasure success.
+21:39:47 - Prism: 18 - A02, angleH: 236.394, angleV: 313.354, Distance: 1460.77, Lockmode: Long Range Finelock Mode
+21:40:05 - Prism: 18 - DoMeasure success.
+21:40:05 - Prism: 19 - C02, angleH: 26.1602, angleV: 90.9752, Distance: 1015.34, Lockmode: Long Range Finelock Mode
+21:40:24 - Prism: 19 - DoMeasure success.
+21:40:24 - Prism: 19 - C02, angleH: 226.16, angleV: 309.025, Distance: 1015.34, Lockmode: Long Range Finelock Mode
+21:40:43 - Prism: 19 - DoMeasure success.
+21:40:43 - Prism: 20 - C01, angleH: 31.1817, angleV: 91.2202, Distance: 1049.66, Lockmode: Long Range Finelock Mode
+21:41:02 - Prism: 20 - DoMeasure success.
+21:41:03 - Prism: 20 - C01, angleH: 231.182, angleV: 308.78, Distance: 1049.66, Lockmode: Long Range Finelock Mode
+21:41:21 - Prism: 20 - DoMeasure success.
+21:41:21 - Prism: 21 - C03, angleH: 25.947, angleV: 92.3908, Distance: 899.554, Lockmode: Long Range Finelock Mode
+21:41:40 - Prism: 21 - DoMeasure success.
+21:41:40 - Prism: 21 - C03, angleH: 225.947, angleV: 307.609, Distance: 899.554, Lockmode: Long Range Finelock Mode
+21:41:59 - Prism: 21 - DoMeasure success.
+21:41:59 - Prism: 22 - C04, angleH: 30.8165, angleV: 92.5272, Distance: 868.678, Lockmode: Long Range Finelock Mode
+21:42:18 - Prism: 22 - DoMeasure success.
+21:42:19 - Prism: 22 - C04, angleH: 230.816, angleV: 307.473, Distance: 868.678, Lockmode: Long Range Finelock Mode
+21:42:36 - Prism: 22 - DoMeasure success.
+21:42:36 - Prism: 23 - D017, angleH: 23.383, angleV: 93.4638, Distance: 792.499, Lockmode: Long Range Finelock Mode
+21:42:55 - Prism: 23 - DoMeasure success.
+21:42:55 - Prism: 23 - D017, angleH: 223.383, angleV: 306.536, Distance: 792.499, Lockmode: Long Range Finelock Mode
+21:43:13 - Prism: 23 - DoMeasure success.
+21:43:13 - Prism: 24 - D018, angleH: 27.2731, angleV: 93.1846, Distance: 784.385, Lockmode: Long Range Finelock Mode
+21:43:31 - Prism: 24 - DoMeasure success.
+21:43:31 - Prism: 24 - D018, angleH: 227.273, angleV: 306.815, Distance: 784.385, Lockmode: Long Range Finelock Mode
+21:43:49 - Prism: 24 - DoMeasure success.
+21:43:49 - Prism: 25 - D019, angleH: 33.119, angleV: 93.7703, Distance: 771.886, Lockmode: Long Range Finelock Mode
+21:44:08 - Prism: 25 - DoMeasure success.
+21:44:08 - Prism: 25 - D019, angleH: 233.119, angleV: 306.23, Distance: 771.886, Lockmode: Long Range Finelock Mode
+21:44:26 - Prism: 25 - DoMeasure success.
+21:44:26 - Prism: 26 - C05, angleH: 34.4877, angleV: 94.5086, Distance: 712.034, Lockmode: Long Range Finelock Mode
+21:44:45 - Prism: 26 - DoMeasure success.
+21:44:45 - Prism: 26 - C05, angleH: 234.488, angleV: 305.491, Distance: 712.034, Lockmode: Long Range Finelock Mode
+21:45:04 - Prism: 26 - DoMeasure success.
+21:45:04 - Prism: 27 - C06, angleH: 32.7371, angleV: 94.3285, Distance: 710.047, Lockmode: Long Range Finelock Mode
+21:45:22 - Prism: 27 - DoMeasure success.
+21:45:22 - Prism: 27 - C06, angleH: 232.737, angleV: 305.671, Distance: 710.047, Lockmode: Long Range Finelock Mode
+21:45:42 - Prism: 27 - DoMeasure success.
+21:45:42 - Prism: 28 - C07, angleH: 30.8823, angleV: 94.219, Distance: 708.985, Lockmode: Long Range Finelock Mode
+21:46:01 - Prism: 28 - DoMeasure success.
+21:46:01 - Prism: 28 - C07, angleH: 230.882, angleV: 305.781, Distance: 708.985, Lockmode: Long Range Finelock Mode
+21:46:19 - Prism: 28 - DoMeasure success.
+21:46:19 - Prism: 29 - C08, angleH: 29.0071, angleV: 94.1726, Distance: 708.277, Lockmode: Long Range Finelock Mode
+21:46:38 - Prism: 29 - DoMeasure success.
+21:46:39 - Prism: 29 - C08, angleH: 229.007, angleV: 305.827, Distance: 708.277, Lockmode: Long Range Finelock Mode
+21:46:57 - Prism: 29 - DoMeasure success.
+21:46:57 - Prism: 30 - C09, angleH: 27.1704, angleV: 94.2004, Distance: 708.15, Lockmode: Long Range Finelock Mode
+21:47:16 - Prism: 30 - DoMeasure success.
+21:47:16 - Prism: 30 - C09, angleH: 227.17, angleV: 305.8, Distance: 708.15, Lockmode: Long Range Finelock Mode
+21:47:35 - Prism: 30 - DoMeasure success.
+21:47:35 - Prism: 31 - C012, angleH: 23.6784, angleV: 94.6776, Distance: 709.076, Lockmode: Long Range Finelock Mode
+21:47:54 - Prism: 31 - DoMeasure success.
+21:47:54 - Prism: 31 - C012, angleH: 223.678, angleV: 305.322, Distance: 709.076, Lockmode: Long Range Finelock Mode
+21:48:13 - Prism: 31 - DoMeasure success.
+21:48:13 - Prism: 32 - C013, angleH: 21.8844, angleV: 94.8065, Distance: 710.445, Lockmode: Long Range Finelock Mode
+21:48:32 - Prism: 32 - DoMeasure success.
+21:48:32 - Prism: 32 - C013, angleH: 221.884, angleV: 305.193, Distance: 710.445, Lockmode: Long Range Finelock Mode
+21:48:50 - Prism: 32 - DoMeasure success.
+21:48:50 - Prism: 33 - C014, angleH: 20.0779, angleV: 94.6965, Distance: 712.686, Lockmode: Long Range Finelock Mode
+21:49:09 - Prism: 33 - DoMeasure success.
+21:49:09 - Prism: 33 - C014, angleH: 220.078, angleV: 305.303, Distance: 712.686, Lockmode: Long Range Finelock Mode
+21:49:28 - Prism: 33 - DoMeasure success.
+21:49:28 - Prism: 34 - C015, angleH: 17.7297, angleV: 94.2236, Distance: 726.219, Lockmode: Long Range Finelock Mode
+21:49:46 - Prism: 34 - DoMeasure success.
+21:49:47 - Prism: 34 - C015, angleH: 217.73, angleV: 305.776, Distance: 726.219, Lockmode: Long Range Finelock Mode
+21:50:05 - Prism: 34 - DoMeasure success.
+21:50:05 - Prism: 35 - E01, angleH: 23.7022, angleV: 96.0208, Distance: 611.922, Lockmode: Long Range Finelock Mode
+21:50:24 - Prism: 35 - DoMeasure success.
+21:50:24 - Prism: 35 - E01, angleH: 223.702, angleV: 303.979, Distance: 611.922, Lockmode: Long Range Finelock Mode
+21:50:42 - Prism: 35 - DoMeasure success.
+21:50:42 - Prism: 36 - E02, angleH: 30.8301, angleV: 95.7946, Distance: 601.015, Lockmode: Long Range Finelock Mode
+21:51:01 - Prism: 36 - DoMeasure success.
+21:51:01 - Prism: 36 - E02, angleH: 230.83, angleV: 304.205, Distance: 601.015, Lockmode: Long Range Finelock Mode
+21:51:19 - Prism: 36 - DoMeasure success.
+21:51:19 - Prism: 37 - D013, angleH: 37.4005, angleV: 97.67, Distance: 572.08, Lockmode: Long Range Finelock Mode
+21:51:38 - Prism: 37 - DoMeasure success.
+21:51:38 - Prism: 37 - D013, angleH: 237.4, angleV: 302.33, Distance: 572.08, Lockmode: Long Range Finelock Mode
+21:51:57 - Prism: 37 - DoMeasure success.
+21:51:57 - Prism: 38 - E06, angleH: 33.8396, angleV: 98.7909, Distance: 543.559, Lockmode: Long Range Finelock Mode
+21:52:15 - Prism: 38 - DoMeasure success.
+21:52:16 - Prism: 38 - E06, angleH: 233.84, angleV: 301.209, Distance: 543.559, Lockmode: Long Range Finelock Mode
+21:52:34 - Prism: 38 - DoMeasure success.
+21:52:34 - Prism: 39 - F03, angleH: 26.1045, angleV: 97.9348, Distance: 533.16, Lockmode: Long Range Finelock Mode
+21:52:52 - Prism: 39 - DoMeasure success.
+21:52:53 - Prism: 39 - F03, angleH: 226.105, angleV: 302.065, Distance: 533.16, Lockmode: Long Range Finelock Mode
+21:53:11 - Prism: 39 - DoMeasure success.
+21:53:11 - Prism: 40 - D015, angleH: 19.6758, angleV: 96.6789, Distance: 576.729, Lockmode: Long Range Finelock Mode
+21:53:29 - Prism: 40 - DoMeasure success.
+21:53:29 - Prism: 40 - D015, angleH: 219.676, angleV: 303.321, Distance: 576.729, Lockmode: Long Range Finelock Mode
+21:53:47 - Prism: 40 - DoMeasure success.
+21:53:47 - Prism: 41 - F07, angleH: 19.2587, angleV: 99.1965, Distance: 497.064, Lockmode: Long Range Finelock Mode
+21:54:06 - Prism: 41 - DoMeasure success.
+21:54:06 - Prism: 41 - F07, angleH: 219.259, angleV: 300.803, Distance: 497.064, Lockmode: Long Range Finelock Mode
+21:54:24 - Prism: 41 - DoMeasure success.
+21:54:24 - Prism: 42 - E03, angleH: 23.7713, angleV: 99.1818, Distance: 506.001, Lockmode: Long Range Finelock Mode
+21:54:42 - Prism: 42 - DoMeasure success.
+21:54:43 - Prism: 42 - E03, angleH: 223.771, angleV: 300.818, Distance: 506.001, Lockmode: Long Range Finelock Mode
+21:55:01 - Prism: 42 - DoMeasure success.
+21:55:01 - Prism: 43 - F08, angleH: 33.2077, angleV: 101.044, Distance: 480.376, Lockmode: Long Range Finelock Mode
+21:55:19 - Prism: 43 - DoMeasure success.
+21:55:20 - Prism: 43 - F08, angleH: 233.208, angleV: 298.956, Distance: 480.376, Lockmode: Long Range Finelock Mode
+21:55:38 - Prism: 43 - DoMeasure success.
+21:55:38 - Prism: 44 - E05, angleH: 36.2579, angleV: 101.318, Distance: 478.633, Lockmode: Long Range Finelock Mode
+21:55:56 - Prism: 44 - DoMeasure success.
+21:55:56 - Prism: 44 - E05, angleH: 236.258, angleV: 298.682, Distance: 478.633, Lockmode: Long Range Finelock Mode
+21:56:14 - Prism: 44 - DoMeasure success.
+21:56:14 - Prism: 45 - D012, angleH: 44.7371, angleV: 101.694, Distance: 476.717, Lockmode: Long Range Finelock Mode
+21:56:33 - Prism: 45 - DoMeasure success.
+21:56:33 - Prism: 45 - D012, angleH: 244.737, angleV: 298.306, Distance: 476.717, Lockmode: Long Range Finelock Mode
+21:56:51 - Prism: 45 - DoMeasure success.
+21:56:51 - Prism: 46 - F09, angleH: 39.5513, angleV: 104.783, Distance: 417.459, Lockmode: Long Range Finelock Mode
+21:57:10 - Prism: 46 - DoMeasure success.
+21:57:10 - Prism: 46 - F09, angleH: 239.551, angleV: 295.217, Distance: 417.459, Lockmode: Long Range Finelock Mode
+21:57:28 - Prism: 46 - DoMeasure success.
+21:57:28 - Prism: 47 - F05, angleH: 27.0866, angleV: 104.166, Distance: 407.93, Lockmode: Long Range Finelock Mode
+21:57:46 - Prism: 47 - DoMeasure success.
+21:57:46 - Prism: 47 - F05, angleH: 227.087, angleV: 295.834, Distance: 407.93, Lockmode: Long Range Finelock Mode
+21:58:04 - Prism: 47 - DoMeasure success.
+21:58:04 - Prism: 48 - F04, angleH: 22.3684, angleV: 103.584, Distance: 409.812, Lockmode: Long Range Finelock Mode
+21:58:22 - Prism: 48 - DoMeasure success.
+21:58:22 - Prism: 48 - F04, angleH: 222.368, angleV: 296.416, Distance: 409.812, Lockmode: Long Range Finelock Mode
+21:58:40 - Prism: 48 - DoMeasure success.
+21:58:40 - Prism: 49 - F06, angleH: 25.9994, angleV: 108.298, Distance: 348.565, Lockmode: Finelock Mode
+21:58:50 - Prism: 49 - DoMeasure success.
+21:58:50 - Prism: 49 - F06, angleH: 225.999, angleV: 291.702, Distance: 348.565, Lockmode: Finelock Mode
+21:59:00 - Prism: 49 - DoMeasure success.
+21:59:00 - Prism: 50 - F010, angleH: 38.6597, angleV: 107.947, Distance: 369.253, Lockmode: Finelock Mode
+21:59:08 - Prism: 50 - Domeasure failed (2002).
+21:59:08 - Prism: 50 - F010, angleH: 238.66, angleV: 292.053, Distance: 369.253, Lockmode: Finelock Mode
+21:59:17 - Prism: 50 - Domeasure failed (2003).
+21:59:17 - Prism: 51 - E04, angleH: 27.9135, angleV: 108.855, Distance: 346.759, Lockmode: Finelock Mode
+21:59:29 - Prism: 51 - DoMeasure success.
+21:59:29 - Prism: 51 - E04, angleH: 227.913, angleV: 291.145, Distance: 346.759, Lockmode: Finelock Mode
+21:59:39 - Prism: 51 - DoMeasure success.
+21:59:39 - Prism: 52 - D016, angleH: 46.5, angleV: 105.716, Distance: 386.059, Lockmode: Finelock Mode
+21:59:49 - Prism: 52 - DoMeasure success.
+21:59:49 - Prism: 52 - D016, angleH: 246.5, angleV: 294.284, Distance: 386.059, Lockmode: Finelock Mode
+22:00:00 - Prism: 52 - DoMeasure success.
+22:00:00 - Prism: 53 - REF_F02, angleH: 28.0882, angleV: 97.0788, Distance: 556.198, Lockmode: Long Range Finelock Mode
+22:00:18 - Prism: 53 - DoMeasure success.
+22:00:18 - Prism: 53 - REF_F02, angleH: 228.088, angleV: 302.921, Distance: 556.198, Lockmode: Long Range Finelock Mode
+22:00:37 - Prism: 53 - DoMeasure success.
+22:00:37 - Prism: 54 - REF_D014, angleH: 46.0412, angleV: 97.4979, Distance: 577.79, Lockmode: Long Range Finelock Mode
+22:00:55 - Prism: 54 - DoMeasure success.
+22:00:55 - Prism: 54 - REF_D014, angleH: 246.041, angleV: 302.502, Distance: 577.79, Lockmode: Long Range Finelock Mode
+22:01:14 - Prism: 54 - DoMeasure success.
+22:01:14 - Prism: 55 - A06, angleH: 23.2588, angleV: 85.7158, Distance: 1635.13, Lockmode: Long Range Finelock Mode
+22:01:33 - Prism: 55 - DoMeasure success.
+22:01:33 - Prism: 55 - A06, angleH: 223.259, angleV: 314.284, Distance: 1635.13, Lockmode: Long Range Finelock Mode
+22:01:52 - Prism: 55 - DoMeasure success.
+22:01:52 - Prism: 56 - A03, angleH: 15.0485, angleV: 87.025, Distance: 1490.26, Lockmode: Long Range Finelock Mode
+22:02:11 - Prism: 56 - DoMeasure success.
+22:02:11 - Prism: 56 - A03, angleH: 215.048, angleV: 312.975, Distance: 1490.26, Lockmode: Long Range Finelock Mode
+22:02:30 - Prism: 56 - DoMeasure success.
+22:02:30 - Prism: 57 - C05B, angleH: 34.5069, angleV: 94.5109, Distance: 709.076, Lockmode: Long Range Finelock Mode
+22:02:48 - Prism: 57 - DoMeasure success.
+22:02:48 - Prism: 57 - C05B, angleH: 234.507, angleV: 305.489, Distance: 709.076, Lockmode: Long Range Finelock Mode
+22:03:06 - Prism: 57 - DoMeasure success.
+22:03:07 - Prism: 58 - C11, angleH: 25.5118, angleV: 94.3407, Distance: 709.076, Lockmode: Long Range Finelock Mode
+22:03:25 - Prism: 58 - DoMeasure success.
+22:03:25 - Prism: 58 - C11, angleH: 225.512, angleV: 305.659, Distance: 709.076, Lockmode: Long Range Finelock Mode
+22:03:43 - Prism: 58 - DoMeasure success.
+22:03:51 - RoundsOK is (1).
+22:03:54 - Exit from functin StartMonitoring.
+22:10:36 - Prism: 1 - stLval - Face 1 - not enabled
+22:10:36 - Prism: 1 - stLval - Face 2 - not enabled
+22:10:36 - Prism: 2 - ref100, angleH: 0.0115, angleV: 89.7952, Distance: 1091.49, Lockmode: Long Range Finelock Mode
+22:10:54 - Prism: 2 - DoMeasure success.
+22:10:54 - Prism: 2 - ref100, angleH: 200.012, angleV: 310.205, Distance: 1091.49, Lockmode: Long Range Finelock Mode
+22:11:14 - Prism: 2 - DoMeasure success.
+22:11:14 - Prism: 3 - F02 - Face 1 - not enabled
+22:11:14 - Prism: 3 - F02 - Face 2 - not enabled
+22:11:14 - Prism: 4 - REF0200, angleH: 73.7947, angleV: 97.9128, Distance: 819.185, Lockmode: Long Range Finelock Mode
+22:11:32 - Prism: 4 - DoMeasure success.
+22:11:32 - Prism: 4 - REF0200, angleH: 273.795, angleV: 302.087, Distance: 819.185, Lockmode: Long Range Finelock Mode
+22:11:51 - Prism: 4 - DoMeasure success.
+22:11:51 - Prism: 5 - D014 - Face 1 - not enabled
+22:11:51 - Prism: 5 - D014 - Face 2 - not enabled
+22:11:51 - Prism: 6 - A015, angleH: 20.4082, angleV: 81.3884, Distance: 2328.78, Lockmode: Long Range Finelock Mode
+22:12:09 - Prism: 6 - DoMeasure success.
+22:12:09 - Prism: 6 - A015, angleH: 220.408, angleV: 318.612, Distance: 2328.78, Lockmode: Long Range Finelock Mode
+22:12:27 - Prism: 6 - DoMeasure success.
+22:12:27 - Prism: 7 - A016, angleH: 22.2227, angleV: 81.2121, Distance: 2324.48, Lockmode: Long Range Finelock Mode
+22:12:49 - Prism: 7 - Domeasure failed (1002).
+22:12:49 - Prism: 7 - A016, angleH: 222.223, angleV: 318.788, Distance: 2324.48, Lockmode: Long Range Finelock Mode
+22:13:12 - Prism: 7 - Domeasure failed (1002).
+22:13:12 - Prism: 8 - A013, angleH: 20.8733, angleV: 81.7409, Distance: 2235.91, Lockmode: Long Range Finelock Mode
+22:13:32 - Prism: 8 - DoMeasure success.
+22:13:32 - Prism: 8 - A013, angleH: 220.873, angleV: 318.259, Distance: 2235.91, Lockmode: Long Range Finelock Mode
+22:13:50 - Prism: 8 - DoMeasure success.
+22:13:50 - Prism: 9 - A014, angleH: 23.646, angleV: 81.7505, Distance: 2223.44, Lockmode: Long Range Finelock Mode
+22:14:09 - Prism: 9 - DoMeasure success.
+22:14:09 - Prism: 9 - A014, angleH: 223.646, angleV: 318.25, Distance: 2223.44, Lockmode: Long Range Finelock Mode
+22:14:28 - Prism: 9 - DoMeasure success.
+22:14:28 - Prism: 10 - A012, angleH: 21.264, angleV: 83.474, Distance: 1988.72, Lockmode: Long Range Finelock Mode
+22:14:46 - Prism: 10 - DoMeasure success.
+22:14:47 - Prism: 10 - A012, angleH: 221.264, angleV: 316.526, Distance: 1988.72, Lockmode: Long Range Finelock Mode
+22:15:05 - Prism: 10 - DoMeasure success.
+22:15:05 - Prism: 11 - A011, angleH: 24.8036, angleV: 83.8805, Distance: 1886.07, Lockmode: Long Range Finelock Mode
+22:15:24 - Prism: 11 - DoMeasure success.
+22:15:24 - Prism: 11 - A011, angleH: 224.804, angleV: 316.12, Distance: 1886.07, Lockmode: Long Range Finelock Mode
+22:15:43 - Prism: 11 - DoMeasure success.
+22:15:43 - Prism: 12 - A08, angleH: 30.8716, angleV: 83.2296, Distance: 1889.31, Lockmode: Long Range Finelock Mode
+22:16:01 - Prism: 12 - DoMeasure success.
+22:16:01 - Prism: 12 - A08, angleH: 230.872, angleV: 316.77, Distance: 1889.31, Lockmode: Long Range Finelock Mode
+22:16:20 - Prism: 12 - DoMeasure success.
+22:16:20 - Prism: 13 - A04, angleH: 17.1629, angleV: 85.9566, Distance: 1717, Lockmode: Long Range Finelock Mode
+22:16:38 - Prism: 13 - DoMeasure success.
+22:16:38 - Prism: 13 - A04, angleH: 217.163, angleV: 314.043, Distance: 1717, Lockmode: Long Range Finelock Mode
+22:16:57 - Prism: 13 - DoMeasure success.
+22:16:57 - Prism: 14 - A05, angleH: 18.4331, angleV: 85.8019, Distance: 1666.77, Lockmode: Long Range Finelock Mode
+22:17:15 - Prism: 14 - DoMeasure success.
+22:17:16 - Prism: 14 - A05, angleH: 218.433, angleV: 314.198, Distance: 1666.77, Lockmode: Long Range Finelock Mode
+22:17:34 - Prism: 14 - DoMeasure success.
+22:17:34 - Prism: 15 - A07, angleH: 28.2551, angleV: 85.6009, Distance: 1643.71, Lockmode: Long Range Finelock Mode
+22:17:53 - Prism: 15 - DoMeasure success.
+22:17:53 - Prism: 15 - A07, angleH: 228.255, angleV: 314.399, Distance: 1643.71, Lockmode: Long Range Finelock Mode
+22:18:12 - Prism: 15 - DoMeasure success.
+22:18:12 - Prism: 16 - A09, angleH: 26.7206, angleV: 87.2721, Distance: 1452.84, Lockmode: Long Range Finelock Mode
+22:18:30 - Prism: 16 - DoMeasure success.
+22:18:31 - Prism: 16 - A09, angleH: 226.721, angleV: 312.728, Distance: 1452.84, Lockmode: Long Range Finelock Mode
+22:18:50 - Prism: 16 - DoMeasure success.
+22:18:50 - Prism: 17 - A010, angleH: 31.8095, angleV: 87.2528, Distance: 1445.69, Lockmode: Long Range Finelock Mode
+22:19:09 - Prism: 17 - DoMeasure success.
+22:19:09 - Prism: 17 - A010, angleH: 231.81, angleV: 312.747, Distance: 1445.69, Lockmode: Long Range Finelock Mode
+22:19:28 - Prism: 17 - DoMeasure success.
+22:19:28 - Prism: 18 - A02, angleH: 36.394, angleV: 86.6457, Distance: 1460.77, Lockmode: Long Range Finelock Mode
+22:19:46 - Prism: 18 - DoMeasure success.
+22:19:46 - Prism: 18 - A02, angleH: 236.394, angleV: 313.354, Distance: 1460.77, Lockmode: Long Range Finelock Mode
+22:20:05 - Prism: 18 - DoMeasure success.
+22:20:05 - Prism: 19 - C02, angleH: 26.1602, angleV: 90.9752, Distance: 1015.34, Lockmode: Long Range Finelock Mode
+22:20:24 - Prism: 19 - DoMeasure success.
+22:20:24 - Prism: 19 - C02, angleH: 226.16, angleV: 309.025, Distance: 1015.34, Lockmode: Long Range Finelock Mode
+22:20:43 - Prism: 19 - DoMeasure success.
+22:20:43 - Prism: 20 - C01, angleH: 31.1817, angleV: 91.2202, Distance: 1049.66, Lockmode: Long Range Finelock Mode
+22:21:02 - Prism: 20 - DoMeasure success.
+22:21:02 - Prism: 20 - C01, angleH: 231.182, angleV: 308.78, Distance: 1049.66, Lockmode: Long Range Finelock Mode
+22:21:20 - Prism: 20 - DoMeasure success.
+22:21:20 - Prism: 21 - C03, angleH: 25.947, angleV: 92.3908, Distance: 899.554, Lockmode: Long Range Finelock Mode
+22:21:39 - Prism: 21 - DoMeasure success.
+22:21:40 - Prism: 21 - C03, angleH: 225.947, angleV: 307.609, Distance: 899.554, Lockmode: Long Range Finelock Mode
+22:21:58 - Prism: 21 - DoMeasure success.
+22:21:58 - Prism: 22 - C04, angleH: 30.8165, angleV: 92.5272, Distance: 868.678, Lockmode: Long Range Finelock Mode
+22:22:17 - Prism: 22 - DoMeasure success.
+22:22:17 - Prism: 22 - C04, angleH: 230.816, angleV: 307.473, Distance: 868.678, Lockmode: Long Range Finelock Mode
+22:22:36 - Prism: 22 - DoMeasure success.
+22:22:36 - Prism: 23 - D017, angleH: 23.383, angleV: 93.4638, Distance: 792.499, Lockmode: Long Range Finelock Mode
+22:22:55 - Prism: 23 - DoMeasure success.
+22:22:55 - Prism: 23 - D017, angleH: 223.383, angleV: 306.536, Distance: 792.499, Lockmode: Long Range Finelock Mode
+22:23:13 - Prism: 23 - DoMeasure success.
+22:23:13 - Prism: 24 - D018, angleH: 27.2731, angleV: 93.1846, Distance: 784.385, Lockmode: Long Range Finelock Mode
+22:23:31 - Prism: 24 - DoMeasure success.
+22:23:31 - Prism: 24 - D018, angleH: 227.273, angleV: 306.815, Distance: 784.385, Lockmode: Long Range Finelock Mode
+22:23:49 - Prism: 24 - DoMeasure success.
+22:23:49 - Prism: 25 - D019, angleH: 33.119, angleV: 93.7703, Distance: 771.886, Lockmode: Long Range Finelock Mode
+22:24:08 - Prism: 25 - DoMeasure success.
+22:24:08 - Prism: 25 - D019, angleH: 233.119, angleV: 306.23, Distance: 771.886, Lockmode: Long Range Finelock Mode
+22:24:26 - Prism: 25 - DoMeasure success.
+22:24:26 - Prism: 26 - C05, angleH: 34.4877, angleV: 94.5086, Distance: 712.034, Lockmode: Long Range Finelock Mode
+22:24:46 - Prism: 26 - DoMeasure success.
+22:24:46 - Prism: 26 - C05, angleH: 234.488, angleV: 305.491, Distance: 712.034, Lockmode: Long Range Finelock Mode
+22:25:04 - Prism: 26 - DoMeasure success.
+22:25:04 - Prism: 27 - C06, angleH: 32.7371, angleV: 94.3285, Distance: 710.047, Lockmode: Long Range Finelock Mode
+22:25:23 - Prism: 27 - DoMeasure success.
+22:25:24 - Prism: 27 - C06, angleH: 232.737, angleV: 305.671, Distance: 710.047, Lockmode: Long Range Finelock Mode
+22:25:42 - Prism: 27 - DoMeasure success.
+22:25:42 - Prism: 28 - C07, angleH: 30.8823, angleV: 94.219, Distance: 708.985, Lockmode: Long Range Finelock Mode
+22:26:01 - Prism: 28 - DoMeasure success.
+22:26:01 - Prism: 28 - C07, angleH: 230.882, angleV: 305.781, Distance: 708.985, Lockmode: Long Range Finelock Mode
+22:26:20 - Prism: 28 - DoMeasure success.
+22:26:20 - Prism: 29 - C08, angleH: 29.0071, angleV: 94.1726, Distance: 708.277, Lockmode: Long Range Finelock Mode
+22:26:38 - Prism: 29 - DoMeasure success.
+22:26:38 - Prism: 29 - C08, angleH: 229.007, angleV: 305.827, Distance: 708.277, Lockmode: Long Range Finelock Mode
+22:26:57 - Prism: 29 - DoMeasure success.
+22:26:57 - Prism: 30 - C09, angleH: 27.1704, angleV: 94.2004, Distance: 708.15, Lockmode: Long Range Finelock Mode
+22:27:16 - Prism: 30 - DoMeasure success.
+22:27:16 - Prism: 30 - C09, angleH: 227.17, angleV: 305.8, Distance: 708.15, Lockmode: Long Range Finelock Mode
+22:27:34 - Prism: 30 - DoMeasure success.
+22:27:34 - Prism: 31 - C012, angleH: 23.6784, angleV: 94.6776, Distance: 709.076, Lockmode: Long Range Finelock Mode
+22:27:54 - Prism: 31 - DoMeasure success.
+22:27:54 - Prism: 31 - C012, angleH: 223.678, angleV: 305.322, Distance: 709.076, Lockmode: Long Range Finelock Mode
+22:28:12 - Prism: 31 - DoMeasure success.
+22:28:12 - Prism: 32 - C013, angleH: 21.8844, angleV: 94.8065, Distance: 710.445, Lockmode: Long Range Finelock Mode
+22:28:31 - Prism: 32 - DoMeasure success.
+22:28:31 - Prism: 32 - C013, angleH: 221.884, angleV: 305.193, Distance: 710.445, Lockmode: Long Range Finelock Mode
+22:28:50 - Prism: 32 - DoMeasure success.
+22:28:50 - Prism: 33 - C014, angleH: 20.0779, angleV: 94.6965, Distance: 712.686, Lockmode: Long Range Finelock Mode
+22:29:09 - Prism: 33 - DoMeasure success.
+22:29:09 - Prism: 33 - C014, angleH: 220.078, angleV: 305.303, Distance: 712.686, Lockmode: Long Range Finelock Mode
+22:29:27 - Prism: 33 - DoMeasure success.
+22:29:28 - Prism: 34 - C015, angleH: 17.7297, angleV: 94.2236, Distance: 726.219, Lockmode: Long Range Finelock Mode
+22:29:46 - Prism: 34 - DoMeasure success.
+22:29:46 - Prism: 34 - C015, angleH: 217.73, angleV: 305.776, Distance: 726.219, Lockmode: Long Range Finelock Mode
+22:30:06 - Prism: 34 - DoMeasure success.
+22:30:06 - Prism: 35 - E01, angleH: 23.7022, angleV: 96.0208, Distance: 611.922, Lockmode: Long Range Finelock Mode
+22:30:24 - Prism: 35 - DoMeasure success.
+22:30:24 - Prism: 35 - E01, angleH: 223.702, angleV: 303.979, Distance: 611.922, Lockmode: Long Range Finelock Mode
+22:30:43 - Prism: 35 - DoMeasure success.
+22:30:43 - Prism: 36 - E02, angleH: 30.8301, angleV: 95.7946, Distance: 601.015, Lockmode: Long Range Finelock Mode
+22:31:01 - Prism: 36 - DoMeasure success.
+22:31:01 - Prism: 36 - E02, angleH: 230.83, angleV: 304.205, Distance: 601.015, Lockmode: Long Range Finelock Mode
+22:31:19 - Prism: 36 - DoMeasure success.
+22:31:19 - Prism: 37 - D013, angleH: 37.4005, angleV: 97.67, Distance: 572.08, Lockmode: Long Range Finelock Mode
+22:31:38 - Prism: 37 - DoMeasure success.
+22:31:38 - Prism: 37 - D013, angleH: 237.4, angleV: 302.33, Distance: 572.08, Lockmode: Long Range Finelock Mode
+22:31:56 - Prism: 37 - DoMeasure success.
+22:31:57 - Prism: 38 - E06, angleH: 33.8396, angleV: 98.7909, Distance: 543.559, Lockmode: Long Range Finelock Mode
+22:32:15 - Prism: 38 - DoMeasure success.
+22:32:15 - Prism: 38 - E06, angleH: 233.84, angleV: 301.209, Distance: 543.559, Lockmode: Long Range Finelock Mode
+22:32:34 - Prism: 38 - DoMeasure success.
+22:32:34 - Prism: 39 - F03, angleH: 26.1045, angleV: 97.9348, Distance: 533.16, Lockmode: Long Range Finelock Mode
+22:32:52 - Prism: 39 - DoMeasure success.
+22:32:53 - Prism: 39 - F03, angleH: 226.105, angleV: 302.065, Distance: 533.16, Lockmode: Long Range Finelock Mode
+22:33:11 - Prism: 39 - DoMeasure success.
+22:33:11 - Prism: 40 - D015, angleH: 19.6758, angleV: 96.6789, Distance: 576.729, Lockmode: Long Range Finelock Mode
+22:33:29 - Prism: 40 - DoMeasure success.
+22:33:29 - Prism: 40 - D015, angleH: 219.676, angleV: 303.321, Distance: 576.729, Lockmode: Long Range Finelock Mode
+22:33:48 - Prism: 40 - DoMeasure success.
+22:33:48 - Prism: 41 - F07, angleH: 19.2587, angleV: 99.1965, Distance: 497.064, Lockmode: Long Range Finelock Mode
+22:34:06 - Prism: 41 - DoMeasure success.
+22:34:06 - Prism: 41 - F07, angleH: 219.259, angleV: 300.803, Distance: 497.064, Lockmode: Long Range Finelock Mode
+22:34:24 - Prism: 41 - DoMeasure success.
+22:34:24 - Prism: 42 - E03, angleH: 23.7713, angleV: 99.1818, Distance: 506.001, Lockmode: Long Range Finelock Mode
+22:34:43 - Prism: 42 - DoMeasure success.
+22:34:43 - Prism: 42 - E03, angleH: 223.771, angleV: 300.818, Distance: 506.001, Lockmode: Long Range Finelock Mode
+22:35:01 - Prism: 42 - DoMeasure success.
+22:35:01 - Prism: 43 - F08, angleH: 33.2077, angleV: 101.044, Distance: 480.376, Lockmode: Long Range Finelock Mode
+22:35:20 - Prism: 43 - DoMeasure success.
+22:35:20 - Prism: 43 - F08, angleH: 233.208, angleV: 298.956, Distance: 480.376, Lockmode: Long Range Finelock Mode
+22:35:38 - Prism: 43 - DoMeasure success.
+22:35:38 - Prism: 44 - E05, angleH: 36.2579, angleV: 101.318, Distance: 478.633, Lockmode: Long Range Finelock Mode
+22:35:57 - Prism: 44 - DoMeasure success.
+22:35:57 - Prism: 44 - E05, angleH: 236.258, angleV: 298.682, Distance: 478.633, Lockmode: Long Range Finelock Mode
+22:36:15 - Prism: 44 - DoMeasure success.
+22:36:15 - Prism: 45 - D012, angleH: 44.7371, angleV: 101.694, Distance: 476.717, Lockmode: Long Range Finelock Mode
+22:36:34 - Prism: 45 - DoMeasure success.
+22:36:34 - Prism: 45 - D012, angleH: 244.737, angleV: 298.306, Distance: 476.717, Lockmode: Long Range Finelock Mode
+22:36:52 - Prism: 45 - DoMeasure success.
+22:36:52 - Prism: 46 - F09, angleH: 39.5513, angleV: 104.783, Distance: 417.459, Lockmode: Long Range Finelock Mode
+22:37:10 - Prism: 46 - DoMeasure success.
+22:37:11 - Prism: 46 - F09, angleH: 239.551, angleV: 295.217, Distance: 417.459, Lockmode: Long Range Finelock Mode
+22:37:29 - Prism: 46 - DoMeasure success.
+22:37:29 - Prism: 47 - F05, angleH: 27.0866, angleV: 104.166, Distance: 407.93, Lockmode: Long Range Finelock Mode
+22:37:47 - Prism: 47 - DoMeasure success.
+22:37:48 - Prism: 47 - F05, angleH: 227.087, angleV: 295.834, Distance: 407.93, Lockmode: Long Range Finelock Mode
+22:38:06 - Prism: 47 - DoMeasure success.
+22:38:06 - Prism: 48 - F04, angleH: 22.3684, angleV: 103.584, Distance: 409.812, Lockmode: Long Range Finelock Mode
+22:38:23 - Prism: 48 - DoMeasure success.
+22:38:24 - Prism: 48 - F04, angleH: 222.368, angleV: 296.416, Distance: 409.812, Lockmode: Long Range Finelock Mode
+22:38:42 - Prism: 48 - DoMeasure success.
+22:38:42 - Prism: 49 - F06, angleH: 25.9994, angleV: 108.298, Distance: 348.565, Lockmode: Finelock Mode
+22:38:52 - Prism: 49 - DoMeasure success.
+22:38:52 - Prism: 49 - F06, angleH: 225.999, angleV: 291.702, Distance: 348.565, Lockmode: Finelock Mode
+22:39:01 - Prism: 49 - DoMeasure success.
+22:39:01 - Prism: 50 - F010, angleH: 38.6597, angleV: 107.947, Distance: 369.253, Lockmode: Finelock Mode
+22:39:09 - Prism: 50 - Domeasure failed (2003).
+22:39:09 - Prism: 50 - F010, angleH: 238.66, angleV: 292.053, Distance: 369.253, Lockmode: Finelock Mode
+22:39:18 - Prism: 50 - Domeasure failed (2002).
+22:39:18 - Prism: 51 - E04, angleH: 27.9135, angleV: 108.855, Distance: 346.759, Lockmode: Finelock Mode
+22:39:30 - Prism: 51 - DoMeasure success.
+22:39:30 - Prism: 51 - E04, angleH: 227.913, angleV: 291.145, Distance: 346.759, Lockmode: Finelock Mode
+22:39:40 - Prism: 51 - DoMeasure success.
+22:39:41 - Prism: 52 - D016, angleH: 46.5, angleV: 105.716, Distance: 386.059, Lockmode: Finelock Mode
+22:39:51 - Prism: 52 - DoMeasure success.
+22:39:51 - Prism: 52 - D016, angleH: 246.5, angleV: 294.284, Distance: 386.059, Lockmode: Finelock Mode
+22:40:01 - Prism: 52 - DoMeasure success.
+22:40:01 - Prism: 53 - REF_F02, angleH: 28.0882, angleV: 97.0788, Distance: 556.198, Lockmode: Long Range Finelock Mode
+22:40:19 - Prism: 53 - DoMeasure success.
+22:40:19 - Prism: 53 - REF_F02, angleH: 228.088, angleV: 302.921, Distance: 556.198, Lockmode: Long Range Finelock Mode
+22:40:38 - Prism: 53 - DoMeasure success.
+22:40:38 - Prism: 54 - REF_D014, angleH: 46.0412, angleV: 97.4979, Distance: 577.79, Lockmode: Long Range Finelock Mode
+22:40:57 - Prism: 54 - DoMeasure success.
+22:40:57 - Prism: 54 - REF_D014, angleH: 246.041, angleV: 302.502, Distance: 577.79, Lockmode: Long Range Finelock Mode
+22:41:15 - Prism: 54 - DoMeasure success.
+22:41:15 - Prism: 55 - A06, angleH: 23.2588, angleV: 85.7158, Distance: 1635.13, Lockmode: Long Range Finelock Mode
+22:41:33 - Prism: 55 - DoMeasure success.
+22:41:33 - Prism: 55 - A06, angleH: 223.259, angleV: 314.284, Distance: 1635.13, Lockmode: Long Range Finelock Mode
+22:41:52 - Prism: 55 - DoMeasure success.
+22:41:52 - Prism: 56 - A03, angleH: 15.0485, angleV: 87.025, Distance: 1490.26, Lockmode: Long Range Finelock Mode
+22:42:11 - Prism: 56 - DoMeasure success.
+22:42:11 - Prism: 56 - A03, angleH: 215.048, angleV: 312.975, Distance: 1490.26, Lockmode: Long Range Finelock Mode
+22:42:31 - Prism: 56 - DoMeasure success.
+22:42:31 - Prism: 57 - C05B, angleH: 34.5069, angleV: 94.5109, Distance: 709.076, Lockmode: Long Range Finelock Mode
+22:42:48 - Prism: 57 - DoMeasure success.
+22:42:48 - Prism: 57 - C05B, angleH: 234.507, angleV: 305.489, Distance: 709.076, Lockmode: Long Range Finelock Mode
+22:43:07 - Prism: 57 - DoMeasure success.
+22:43:07 - Prism: 58 - C11, angleH: 25.5118, angleV: 94.3407, Distance: 709.076, Lockmode: Long Range Finelock Mode
+22:43:25 - Prism: 58 - DoMeasure success.
+22:43:25 - Prism: 58 - C11, angleH: 225.512, angleV: 305.659, Distance: 709.076, Lockmode: Long Range Finelock Mode
+22:43:43 - Prism: 58 - DoMeasure success.
+22:43:52 - RoundsOK is (1).
+22:43:55 - Exit from functin StartMonitoring.
+22:50:36 - Prism: 1 - stLval - Face 1 - not enabled
+22:50:36 - Prism: 1 - stLval - Face 2 - not enabled
+22:50:36 - Prism: 2 - ref100, angleH: 0.0115, angleV: 89.7952, Distance: 1091.49, Lockmode: Long Range Finelock Mode
+22:50:54 - Prism: 2 - DoMeasure success.
+22:50:54 - Prism: 2 - ref100, angleH: 200.012, angleV: 310.205, Distance: 1091.49, Lockmode: Long Range Finelock Mode
+22:51:13 - Prism: 2 - DoMeasure success.
+22:51:14 - Prism: 3 - F02 - Face 1 - not enabled
+22:51:14 - Prism: 3 - F02 - Face 2 - not enabled
+22:51:14 - Prism: 4 - REF0200, angleH: 73.7947, angleV: 97.9128, Distance: 819.185, Lockmode: Long Range Finelock Mode
+22:51:32 - Prism: 4 - DoMeasure success.
+22:51:32 - Prism: 4 - REF0200, angleH: 273.795, angleV: 302.087, Distance: 819.185, Lockmode: Long Range Finelock Mode
+22:51:51 - Prism: 4 - DoMeasure success.
+22:51:51 - Prism: 5 - D014 - Face 1 - not enabled
+22:51:51 - Prism: 5 - D014 - Face 2 - not enabled
+22:51:51 - Prism: 6 - A015, angleH: 20.4082, angleV: 81.3884, Distance: 2328.78, Lockmode: Long Range Finelock Mode
+22:52:10 - Prism: 6 - DoMeasure success.
+22:52:10 - Prism: 6 - A015, angleH: 220.408, angleV: 318.612, Distance: 2328.78, Lockmode: Long Range Finelock Mode
+22:52:28 - Prism: 6 - DoMeasure success.
+22:52:28 - Prism: 7 - A016, angleH: 22.2227, angleV: 81.2121, Distance: 2324.48, Lockmode: Long Range Finelock Mode
+22:52:50 - Prism: 7 - Domeasure failed (1002).
+22:52:50 - Prism: 7 - A016, angleH: 222.223, angleV: 318.788, Distance: 2324.48, Lockmode: Long Range Finelock Mode
+22:53:13 - Prism: 7 - Domeasure failed (1002).
+22:53:13 - Prism: 8 - A013, angleH: 20.8733, angleV: 81.7409, Distance: 2235.91, Lockmode: Long Range Finelock Mode
+22:53:33 - Prism: 8 - DoMeasure success.
+22:53:33 - Prism: 8 - A013, angleH: 220.873, angleV: 318.259, Distance: 2235.91, Lockmode: Long Range Finelock Mode
+22:53:51 - Prism: 8 - DoMeasure success.
+22:53:51 - Prism: 9 - A014, angleH: 23.646, angleV: 81.7505, Distance: 2223.44, Lockmode: Long Range Finelock Mode
+22:54:10 - Prism: 9 - DoMeasure success.
+22:54:10 - Prism: 9 - A014, angleH: 223.646, angleV: 318.25, Distance: 2223.44, Lockmode: Long Range Finelock Mode
+22:54:28 - Prism: 9 - DoMeasure success.
+22:54:28 - Prism: 10 - A012, angleH: 21.264, angleV: 83.474, Distance: 1988.72, Lockmode: Long Range Finelock Mode
+22:54:47 - Prism: 10 - DoMeasure success.
+22:54:48 - Prism: 10 - A012, angleH: 221.264, angleV: 316.526, Distance: 1988.72, Lockmode: Long Range Finelock Mode
+22:55:06 - Prism: 10 - DoMeasure success.
+22:55:06 - Prism: 11 - A011, angleH: 24.8036, angleV: 83.8805, Distance: 1886.07, Lockmode: Long Range Finelock Mode
+22:55:24 - Prism: 11 - DoMeasure success.
+22:55:25 - Prism: 11 - A011, angleH: 224.804, angleV: 316.12, Distance: 1886.07, Lockmode: Long Range Finelock Mode
+22:55:44 - Prism: 11 - DoMeasure success.
+22:55:44 - Prism: 12 - A08, angleH: 30.8716, angleV: 83.2296, Distance: 1889.31, Lockmode: Long Range Finelock Mode
+22:56:02 - Prism: 12 - DoMeasure success.
+22:56:03 - Prism: 12 - A08, angleH: 230.872, angleV: 316.77, Distance: 1889.31, Lockmode: Long Range Finelock Mode
+22:56:20 - Prism: 12 - DoMeasure success.
+22:56:21 - Prism: 13 - A04, angleH: 17.1629, angleV: 85.9566, Distance: 1717, Lockmode: Long Range Finelock Mode
+22:56:39 - Prism: 13 - DoMeasure success.
+22:56:40 - Prism: 13 - A04, angleH: 217.163, angleV: 314.043, Distance: 1717, Lockmode: Long Range Finelock Mode
+22:56:59 - Prism: 13 - DoMeasure success.
+22:56:59 - Prism: 14 - A05, angleH: 18.4331, angleV: 85.8019, Distance: 1666.77, Lockmode: Long Range Finelock Mode
+22:57:17 - Prism: 14 - DoMeasure success.
+22:57:18 - Prism: 14 - A05, angleH: 218.433, angleV: 314.198, Distance: 1666.77, Lockmode: Long Range Finelock Mode
+22:57:36 - Prism: 14 - DoMeasure success.
+22:57:36 - Prism: 15 - A07, angleH: 28.2551, angleV: 85.6009, Distance: 1643.71, Lockmode: Long Range Finelock Mode
+22:57:55 - Prism: 15 - DoMeasure success.
+22:57:55 - Prism: 15 - A07, angleH: 228.255, angleV: 314.399, Distance: 1643.71, Lockmode: Long Range Finelock Mode
+22:58:13 - Prism: 15 - DoMeasure success.
+22:58:13 - Prism: 16 - A09, angleH: 26.7206, angleV: 87.2721, Distance: 1452.84, Lockmode: Long Range Finelock Mode
+22:58:32 - Prism: 16 - DoMeasure success.
+22:58:33 - Prism: 16 - A09, angleH: 226.721, angleV: 312.728, Distance: 1452.84, Lockmode: Long Range Finelock Mode
+22:58:51 - Prism: 16 - DoMeasure success.
+22:58:51 - Prism: 17 - A010, angleH: 31.8095, angleV: 87.2528, Distance: 1445.69, Lockmode: Long Range Finelock Mode
+22:59:09 - Prism: 17 - DoMeasure success.
+22:59:10 - Prism: 17 - A010, angleH: 231.81, angleV: 312.747, Distance: 1445.69, Lockmode: Long Range Finelock Mode
+22:59:28 - Prism: 17 - DoMeasure success.
+22:59:28 - Prism: 18 - A02, angleH: 36.394, angleV: 86.6457, Distance: 1460.77, Lockmode: Long Range Finelock Mode
+22:59:47 - Prism: 18 - DoMeasure success.
+22:59:47 - Prism: 18 - A02, angleH: 236.394, angleV: 313.354, Distance: 1460.77, Lockmode: Long Range Finelock Mode
+23:00:06 - Prism: 18 - DoMeasure success.
+23:00:06 - Prism: 19 - C02, angleH: 26.1602, angleV: 90.9752, Distance: 1015.34, Lockmode: Long Range Finelock Mode
+23:00:25 - Prism: 19 - DoMeasure success.
+23:00:25 - Prism: 19 - C02, angleH: 226.16, angleV: 309.025, Distance: 1015.34, Lockmode: Long Range Finelock Mode
+23:00:43 - Prism: 19 - DoMeasure success.
+23:00:43 - Prism: 20 - C01, angleH: 31.1817, angleV: 91.2202, Distance: 1049.66, Lockmode: Long Range Finelock Mode
+23:01:02 - Prism: 20 - DoMeasure success.
+23:01:02 - Prism: 20 - C01, angleH: 231.182, angleV: 308.78, Distance: 1049.66, Lockmode: Long Range Finelock Mode
+23:01:21 - Prism: 20 - DoMeasure success.
+23:01:21 - Prism: 21 - C03, angleH: 25.947, angleV: 92.3908, Distance: 899.554, Lockmode: Long Range Finelock Mode
+23:01:40 - Prism: 21 - DoMeasure success.
+23:01:40 - Prism: 21 - C03, angleH: 225.947, angleV: 307.609, Distance: 899.554, Lockmode: Long Range Finelock Mode
+23:01:59 - Prism: 21 - DoMeasure success.
+23:01:59 - Prism: 22 - C04, angleH: 30.8165, angleV: 92.5272, Distance: 868.678, Lockmode: Long Range Finelock Mode
+23:02:18 - Prism: 22 - DoMeasure success.
+23:02:18 - Prism: 22 - C04, angleH: 230.816, angleV: 307.473, Distance: 868.678, Lockmode: Long Range Finelock Mode
+23:02:37 - Prism: 22 - DoMeasure success.
+23:02:37 - Prism: 23 - D017, angleH: 23.383, angleV: 93.4638, Distance: 792.499, Lockmode: Long Range Finelock Mode
+23:02:56 - Prism: 23 - DoMeasure success.
+23:02:56 - Prism: 23 - D017, angleH: 223.383, angleV: 306.536, Distance: 792.499, Lockmode: Long Range Finelock Mode
+23:03:15 - Prism: 23 - DoMeasure success.
+23:03:15 - Prism: 24 - D018, angleH: 27.2731, angleV: 93.1846, Distance: 784.385, Lockmode: Long Range Finelock Mode
+23:03:33 - Prism: 24 - DoMeasure success.
+23:03:33 - Prism: 24 - D018, angleH: 227.273, angleV: 306.815, Distance: 784.385, Lockmode: Long Range Finelock Mode
+23:03:51 - Prism: 24 - DoMeasure success.
+23:03:51 - Prism: 25 - D019, angleH: 33.119, angleV: 93.7703, Distance: 771.886, Lockmode: Long Range Finelock Mode
+23:04:09 - Prism: 25 - DoMeasure success.
+23:04:10 - Prism: 25 - D019, angleH: 233.119, angleV: 306.23, Distance: 771.886, Lockmode: Long Range Finelock Mode
+23:04:29 - Prism: 25 - DoMeasure success.
+23:04:29 - Prism: 26 - C05, angleH: 34.4877, angleV: 94.5086, Distance: 712.034, Lockmode: Long Range Finelock Mode
+23:04:48 - Prism: 26 - DoMeasure success.
+23:04:48 - Prism: 26 - C05, angleH: 234.488, angleV: 305.491, Distance: 712.034, Lockmode: Long Range Finelock Mode
+23:05:06 - Prism: 26 - DoMeasure success.
+23:05:07 - Prism: 27 - C06, angleH: 32.7371, angleV: 94.3285, Distance: 710.047, Lockmode: Long Range Finelock Mode
+23:05:25 - Prism: 27 - DoMeasure success.
+23:05:25 - Prism: 27 - C06, angleH: 232.737, angleV: 305.671, Distance: 710.047, Lockmode: Long Range Finelock Mode
+23:05:44 - Prism: 27 - DoMeasure success.
+23:05:44 - Prism: 28 - C07, angleH: 30.8823, angleV: 94.219, Distance: 708.985, Lockmode: Long Range Finelock Mode
+23:06:03 - Prism: 28 - DoMeasure success.
+23:06:03 - Prism: 28 - C07, angleH: 230.882, angleV: 305.781, Distance: 708.985, Lockmode: Long Range Finelock Mode
+23:06:21 - Prism: 28 - DoMeasure success.
+23:06:21 - Prism: 29 - C08, angleH: 29.0071, angleV: 94.1726, Distance: 708.277, Lockmode: Long Range Finelock Mode
+23:06:39 - Prism: 29 - DoMeasure success.
+23:06:40 - Prism: 29 - C08, angleH: 229.007, angleV: 305.827, Distance: 708.277, Lockmode: Long Range Finelock Mode
+23:06:59 - Prism: 29 - DoMeasure success.
+23:06:59 - Prism: 30 - C09, angleH: 27.1704, angleV: 94.2004, Distance: 708.15, Lockmode: Long Range Finelock Mode
+23:07:18 - Prism: 30 - DoMeasure success.
+23:07:18 - Prism: 30 - C09, angleH: 227.17, angleV: 305.8, Distance: 708.15, Lockmode: Long Range Finelock Mode
+23:07:36 - Prism: 30 - DoMeasure success.
+23:07:36 - Prism: 31 - C012, angleH: 23.6784, angleV: 94.6776, Distance: 709.076, Lockmode: Long Range Finelock Mode
+23:07:55 - Prism: 31 - DoMeasure success.
+23:07:55 - Prism: 31 - C012, angleH: 223.678, angleV: 305.322, Distance: 709.076, Lockmode: Long Range Finelock Mode
+23:08:13 - Prism: 31 - DoMeasure success.
+23:08:13 - Prism: 32 - C013, angleH: 21.8844, angleV: 94.8065, Distance: 710.445, Lockmode: Long Range Finelock Mode
+23:08:32 - Prism: 32 - DoMeasure success.
+23:08:32 - Prism: 32 - C013, angleH: 221.884, angleV: 305.193, Distance: 710.445, Lockmode: Long Range Finelock Mode
+23:08:51 - Prism: 32 - DoMeasure success.
+23:08:51 - Prism: 33 - C014, angleH: 20.0779, angleV: 94.6965, Distance: 712.686, Lockmode: Long Range Finelock Mode
+23:09:11 - Prism: 33 - DoMeasure success.
+23:09:11 - Prism: 33 - C014, angleH: 220.078, angleV: 305.303, Distance: 712.686, Lockmode: Long Range Finelock Mode
+23:09:30 - Prism: 33 - DoMeasure success.
+23:09:30 - Prism: 34 - C015, angleH: 17.7297, angleV: 94.2236, Distance: 726.219, Lockmode: Long Range Finelock Mode
+23:09:48 - Prism: 34 - DoMeasure success.
+23:09:49 - Prism: 34 - C015, angleH: 217.73, angleV: 305.776, Distance: 726.219, Lockmode: Long Range Finelock Mode
+23:10:07 - Prism: 34 - DoMeasure success.
+23:10:07 - Prism: 35 - E01, angleH: 23.7022, angleV: 96.0208, Distance: 611.922, Lockmode: Long Range Finelock Mode
+23:10:26 - Prism: 35 - DoMeasure success.
+23:10:26 - Prism: 35 - E01, angleH: 223.702, angleV: 303.979, Distance: 611.922, Lockmode: Long Range Finelock Mode
+23:10:44 - Prism: 35 - DoMeasure success.
+23:10:44 - Prism: 36 - E02, angleH: 30.8301, angleV: 95.7946, Distance: 601.015, Lockmode: Long Range Finelock Mode
+23:11:03 - Prism: 36 - DoMeasure success.
+23:11:03 - Prism: 36 - E02, angleH: 230.83, angleV: 304.205, Distance: 601.015, Lockmode: Long Range Finelock Mode
+23:11:21 - Prism: 36 - DoMeasure success.
+23:11:21 - Prism: 37 - D013, angleH: 37.4005, angleV: 97.67, Distance: 572.08, Lockmode: Long Range Finelock Mode
+23:11:40 - Prism: 37 - DoMeasure success.
+23:11:40 - Prism: 37 - D013, angleH: 237.4, angleV: 302.33, Distance: 572.08, Lockmode: Long Range Finelock Mode
+23:11:59 - Prism: 37 - DoMeasure success.
+23:11:59 - Prism: 38 - E06, angleH: 33.8396, angleV: 98.7909, Distance: 543.559, Lockmode: Long Range Finelock Mode
+23:12:17 - Prism: 38 - DoMeasure success.
+23:12:18 - Prism: 38 - E06, angleH: 233.84, angleV: 301.209, Distance: 543.559, Lockmode: Long Range Finelock Mode
+23:12:35 - Prism: 38 - DoMeasure success.
+23:12:36 - Prism: 39 - F03, angleH: 26.1045, angleV: 97.9348, Distance: 533.16, Lockmode: Long Range Finelock Mode
+23:12:54 - Prism: 39 - DoMeasure success.
+23:12:54 - Prism: 39 - F03, angleH: 226.105, angleV: 302.065, Distance: 533.16, Lockmode: Long Range Finelock Mode
+23:13:12 - Prism: 39 - DoMeasure success.
+23:13:12 - Prism: 40 - D015, angleH: 19.6758, angleV: 96.6789, Distance: 576.729, Lockmode: Long Range Finelock Mode
+23:13:30 - Prism: 40 - DoMeasure success.
+23:13:31 - Prism: 40 - D015, angleH: 219.676, angleV: 303.321, Distance: 576.729, Lockmode: Long Range Finelock Mode
+23:13:49 - Prism: 40 - DoMeasure success.
+23:13:49 - Prism: 41 - F07, angleH: 19.2587, angleV: 99.1965, Distance: 497.064, Lockmode: Long Range Finelock Mode
+23:14:07 - Prism: 41 - DoMeasure success.
+23:14:07 - Prism: 41 - F07, angleH: 219.259, angleV: 300.803, Distance: 497.064, Lockmode: Long Range Finelock Mode
+23:14:25 - Prism: 41 - DoMeasure success.
+23:14:25 - Prism: 42 - E03, angleH: 23.7713, angleV: 99.1818, Distance: 506.001, Lockmode: Long Range Finelock Mode
+23:14:44 - Prism: 42 - DoMeasure success.
+23:14:44 - Prism: 42 - E03, angleH: 223.771, angleV: 300.818, Distance: 506.001, Lockmode: Long Range Finelock Mode
+23:15:02 - Prism: 42 - DoMeasure success.
+23:15:02 - Prism: 43 - F08, angleH: 33.2077, angleV: 101.044, Distance: 480.376, Lockmode: Long Range Finelock Mode
+23:15:20 - Prism: 43 - DoMeasure success.
+23:15:20 - Prism: 43 - F08, angleH: 233.208, angleV: 298.956, Distance: 480.376, Lockmode: Long Range Finelock Mode
+23:15:38 - Prism: 43 - DoMeasure success.
+23:15:38 - Prism: 44 - E05, angleH: 36.2579, angleV: 101.318, Distance: 478.633, Lockmode: Long Range Finelock Mode
+23:15:57 - Prism: 44 - DoMeasure success.
+23:15:57 - Prism: 44 - E05, angleH: 236.258, angleV: 298.682, Distance: 478.633, Lockmode: Long Range Finelock Mode
+23:16:16 - Prism: 44 - DoMeasure success.
+23:16:16 - Prism: 45 - D012, angleH: 44.7371, angleV: 101.694, Distance: 476.717, Lockmode: Long Range Finelock Mode
+23:16:34 - Prism: 45 - DoMeasure success.
+23:16:35 - Prism: 45 - D012, angleH: 244.737, angleV: 298.306, Distance: 476.717, Lockmode: Long Range Finelock Mode
+23:16:53 - Prism: 45 - DoMeasure success.
+23:16:53 - Prism: 46 - F09, angleH: 39.5513, angleV: 104.783, Distance: 417.459, Lockmode: Long Range Finelock Mode
+23:17:12 - Prism: 46 - DoMeasure success.
+23:17:12 - Prism: 46 - F09, angleH: 239.551, angleV: 295.217, Distance: 417.459, Lockmode: Long Range Finelock Mode
+23:17:30 - Prism: 46 - DoMeasure success.
+23:17:30 - Prism: 47 - F05, angleH: 27.0866, angleV: 104.166, Distance: 407.93, Lockmode: Long Range Finelock Mode
+23:17:49 - Prism: 47 - DoMeasure success.
+23:17:49 - Prism: 47 - F05, angleH: 227.087, angleV: 295.834, Distance: 407.93, Lockmode: Long Range Finelock Mode
+23:18:07 - Prism: 47 - DoMeasure success.
+23:18:07 - Prism: 48 - F04, angleH: 22.3684, angleV: 103.584, Distance: 409.812, Lockmode: Long Range Finelock Mode
+23:18:26 - Prism: 48 - DoMeasure success.
+23:18:26 - Prism: 48 - F04, angleH: 222.368, angleV: 296.416, Distance: 409.812, Lockmode: Long Range Finelock Mode
+23:18:44 - Prism: 48 - DoMeasure success.
+23:18:44 - Prism: 49 - F06, angleH: 25.9994, angleV: 108.298, Distance: 348.565, Lockmode: Finelock Mode
+23:18:54 - Prism: 49 - DoMeasure success.
+23:18:55 - Prism: 49 - F06, angleH: 225.999, angleV: 291.702, Distance: 348.565, Lockmode: Finelock Mode
+23:19:04 - Prism: 49 - DoMeasure success.
+23:19:04 - Prism: 50 - F010, angleH: 38.6597, angleV: 107.947, Distance: 369.253, Lockmode: Finelock Mode
+23:19:10 - Prism: 50 - Domeasure failed (2003).
+23:19:10 - Prism: 50 - F010, angleH: 238.66, angleV: 292.053, Distance: 369.253, Lockmode: Finelock Mode
+23:19:20 - Prism: 50 - Domeasure failed (2002).
+23:19:20 - Prism: 51 - E04, angleH: 27.9135, angleV: 108.855, Distance: 346.759, Lockmode: Finelock Mode
+23:19:32 - Prism: 51 - DoMeasure success.
+23:19:32 - Prism: 51 - E04, angleH: 227.913, angleV: 291.145, Distance: 346.759, Lockmode: Finelock Mode
+23:19:41 - Prism: 51 - DoMeasure success.
+23:19:41 - Prism: 52 - D016, angleH: 46.5, angleV: 105.716, Distance: 386.059, Lockmode: Finelock Mode
+23:19:52 - Prism: 52 - DoMeasure success.
+23:19:52 - Prism: 52 - D016, angleH: 246.5, angleV: 294.284, Distance: 386.059, Lockmode: Finelock Mode
+23:20:02 - Prism: 52 - DoMeasure success.
+23:20:02 - Prism: 53 - REF_F02, angleH: 28.0882, angleV: 97.0788, Distance: 556.198, Lockmode: Long Range Finelock Mode
+23:20:20 - Prism: 53 - DoMeasure success.
+23:20:20 - Prism: 53 - REF_F02, angleH: 228.088, angleV: 302.921, Distance: 556.198, Lockmode: Long Range Finelock Mode
+23:20:39 - Prism: 53 - DoMeasure success.
+23:20:39 - Prism: 54 - REF_D014, angleH: 46.0412, angleV: 97.4979, Distance: 577.79, Lockmode: Long Range Finelock Mode
+23:20:57 - Prism: 54 - DoMeasure success.
+23:20:57 - Prism: 54 - REF_D014, angleH: 246.041, angleV: 302.502, Distance: 577.79, Lockmode: Long Range Finelock Mode
+23:21:15 - Prism: 54 - DoMeasure success.
+23:21:16 - Prism: 55 - A06, angleH: 23.2588, angleV: 85.7158, Distance: 1635.13, Lockmode: Long Range Finelock Mode
+23:21:34 - Prism: 55 - DoMeasure success.
+23:21:34 - Prism: 55 - A06, angleH: 223.259, angleV: 314.284, Distance: 1635.13, Lockmode: Long Range Finelock Mode
+23:21:53 - Prism: 55 - DoMeasure success.
+23:21:53 - Prism: 56 - A03, angleH: 15.0485, angleV: 87.025, Distance: 1490.26, Lockmode: Long Range Finelock Mode
+23:22:11 - Prism: 56 - DoMeasure success.
+23:22:11 - Prism: 56 - A03, angleH: 215.048, angleV: 312.975, Distance: 1490.26, Lockmode: Long Range Finelock Mode
+23:22:30 - Prism: 56 - DoMeasure success.
+23:22:30 - Prism: 57 - C05B, angleH: 34.5069, angleV: 94.5109, Distance: 709.076, Lockmode: Long Range Finelock Mode
+23:22:48 - Prism: 57 - DoMeasure success.
+23:22:48 - Prism: 57 - C05B, angleH: 234.507, angleV: 305.489, Distance: 709.076, Lockmode: Long Range Finelock Mode
+23:23:06 - Prism: 57 - DoMeasure success.
+23:23:06 - Prism: 58 - C11, angleH: 25.5118, angleV: 94.3407, Distance: 709.076, Lockmode: Long Range Finelock Mode
+23:23:24 - Prism: 58 - DoMeasure success.
+23:23:24 - Prism: 58 - C11, angleH: 225.512, angleV: 305.659, Distance: 709.076, Lockmode: Long Range Finelock Mode
+23:23:42 - Prism: 58 - DoMeasure success.
+23:23:51 - RoundsOK is (1).
+23:23:54 - Exit from functin StartMonitoring.
+23:30:37 - Prism: 1 - stLval - Face 1 - not enabled
+23:30:37 - Prism: 1 - stLval - Face 2 - not enabled
+23:30:37 - Prism: 2 - ref100, angleH: 0.0115, angleV: 89.7952, Distance: 1091.49, Lockmode: Long Range Finelock Mode
+23:30:55 - Prism: 2 - DoMeasure success.
+23:30:55 - Prism: 2 - ref100, angleH: 200.012, angleV: 310.205, Distance: 1091.49, Lockmode: Long Range Finelock Mode
+23:31:14 - Prism: 2 - DoMeasure success.
+23:31:14 - Prism: 3 - F02 - Face 1 - not enabled
+23:31:14 - Prism: 3 - F02 - Face 2 - not enabled
+23:31:14 - Prism: 4 - REF0200, angleH: 73.7947, angleV: 97.9128, Distance: 819.185, Lockmode: Long Range Finelock Mode
+23:31:32 - Prism: 4 - DoMeasure success.
+23:31:33 - Prism: 4 - REF0200, angleH: 273.795, angleV: 302.087, Distance: 819.185, Lockmode: Long Range Finelock Mode
+23:31:51 - Prism: 4 - DoMeasure success.
+23:31:51 - Prism: 5 - D014 - Face 1 - not enabled
+23:31:51 - Prism: 5 - D014 - Face 2 - not enabled
+23:31:51 - Prism: 6 - A015, angleH: 20.4082, angleV: 81.3884, Distance: 2328.78, Lockmode: Long Range Finelock Mode
+23:32:10 - Prism: 6 - DoMeasure success.
+23:32:10 - Prism: 6 - A015, angleH: 220.408, angleV: 318.612, Distance: 2328.78, Lockmode: Long Range Finelock Mode
+23:32:28 - Prism: 6 - DoMeasure success.
+23:32:28 - Prism: 7 - A016, angleH: 22.2227, angleV: 81.2121, Distance: 2324.48, Lockmode: Long Range Finelock Mode
+23:32:50 - Prism: 7 - Domeasure failed (1002).
+23:32:50 - Prism: 7 - A016, angleH: 222.223, angleV: 318.788, Distance: 2324.48, Lockmode: Long Range Finelock Mode
+23:33:13 - Prism: 7 - Domeasure failed (1002).
+23:33:13 - Prism: 8 - A013, angleH: 20.8733, angleV: 81.7409, Distance: 2235.91, Lockmode: Long Range Finelock Mode
+23:33:33 - Prism: 8 - DoMeasure success.
+23:33:33 - Prism: 8 - A013, angleH: 220.873, angleV: 318.259, Distance: 2235.91, Lockmode: Long Range Finelock Mode
+23:33:52 - Prism: 8 - DoMeasure success.
+23:33:52 - Prism: 9 - A014, angleH: 23.646, angleV: 81.7505, Distance: 2223.44, Lockmode: Long Range Finelock Mode
+23:34:11 - Prism: 9 - DoMeasure success.
+23:34:11 - Prism: 9 - A014, angleH: 223.646, angleV: 318.25, Distance: 2223.44, Lockmode: Long Range Finelock Mode
+23:34:29 - Prism: 9 - DoMeasure success.
+23:34:29 - Prism: 10 - A012, angleH: 21.264, angleV: 83.474, Distance: 1988.72, Lockmode: Long Range Finelock Mode
+23:34:48 - Prism: 10 - DoMeasure success.
+23:34:48 - Prism: 10 - A012, angleH: 221.264, angleV: 316.526, Distance: 1988.72, Lockmode: Long Range Finelock Mode
+23:35:06 - Prism: 10 - DoMeasure success.
+23:35:06 - Prism: 11 - A011, angleH: 24.8036, angleV: 83.8805, Distance: 1886.07, Lockmode: Long Range Finelock Mode
+23:35:25 - Prism: 11 - DoMeasure success.
+23:35:25 - Prism: 11 - A011, angleH: 224.804, angleV: 316.12, Distance: 1886.07, Lockmode: Long Range Finelock Mode
+23:35:43 - Prism: 11 - DoMeasure success.
+23:35:43 - Prism: 12 - A08, angleH: 30.8716, angleV: 83.2296, Distance: 1889.31, Lockmode: Long Range Finelock Mode
+23:36:02 - Prism: 12 - DoMeasure success.
+23:36:02 - Prism: 12 - A08, angleH: 230.872, angleV: 316.77, Distance: 1889.31, Lockmode: Long Range Finelock Mode
+23:36:20 - Prism: 12 - DoMeasure success.
+23:36:20 - Prism: 13 - A04, angleH: 17.1629, angleV: 85.9566, Distance: 1717, Lockmode: Long Range Finelock Mode
+23:36:38 - Prism: 13 - DoMeasure success.
+23:36:39 - Prism: 13 - A04, angleH: 217.163, angleV: 314.043, Distance: 1717, Lockmode: Long Range Finelock Mode
+23:36:57 - Prism: 13 - DoMeasure success.
+23:36:57 - Prism: 14 - A05, angleH: 18.4331, angleV: 85.8019, Distance: 1666.77, Lockmode: Long Range Finelock Mode
+23:37:16 - Prism: 14 - DoMeasure success.
+23:37:16 - Prism: 14 - A05, angleH: 218.433, angleV: 314.198, Distance: 1666.77, Lockmode: Long Range Finelock Mode
+23:37:34 - Prism: 14 - DoMeasure success.
+23:37:34 - Prism: 15 - A07, angleH: 28.2551, angleV: 85.6009, Distance: 1643.71, Lockmode: Long Range Finelock Mode
+23:37:53 - Prism: 15 - DoMeasure success.
+23:37:53 - Prism: 15 - A07, angleH: 228.255, angleV: 314.399, Distance: 1643.71, Lockmode: Long Range Finelock Mode
+23:38:12 - Prism: 15 - DoMeasure success.
+23:38:12 - Prism: 16 - A09, angleH: 26.7206, angleV: 87.2721, Distance: 1452.84, Lockmode: Long Range Finelock Mode
+23:38:31 - Prism: 16 - DoMeasure success.
+23:38:31 - Prism: 16 - A09, angleH: 226.721, angleV: 312.728, Distance: 1452.84, Lockmode: Long Range Finelock Mode
+23:38:50 - Prism: 16 - DoMeasure success.
+23:38:50 - Prism: 17 - A010, angleH: 31.8095, angleV: 87.2528, Distance: 1445.69, Lockmode: Long Range Finelock Mode
+23:39:08 - Prism: 17 - DoMeasure success.
+23:39:08 - Prism: 17 - A010, angleH: 231.81, angleV: 312.747, Distance: 1445.69, Lockmode: Long Range Finelock Mode
+23:39:27 - Prism: 17 - DoMeasure success.
+23:39:27 - Prism: 18 - A02, angleH: 36.394, angleV: 86.6457, Distance: 1460.77, Lockmode: Long Range Finelock Mode
+23:39:46 - Prism: 18 - DoMeasure success.
+23:39:46 - Prism: 18 - A02, angleH: 236.394, angleV: 313.354, Distance: 1460.77, Lockmode: Long Range Finelock Mode
+23:40:04 - Prism: 18 - DoMeasure success.
+23:40:04 - Prism: 19 - C02, angleH: 26.1602, angleV: 90.9752, Distance: 1015.34, Lockmode: Long Range Finelock Mode
+23:40:23 - Prism: 19 - DoMeasure success.
+23:40:23 - Prism: 19 - C02, angleH: 226.16, angleV: 309.025, Distance: 1015.34, Lockmode: Long Range Finelock Mode
+23:40:41 - Prism: 19 - DoMeasure success.
+23:40:41 - Prism: 20 - C01, angleH: 31.1817, angleV: 91.2202, Distance: 1049.66, Lockmode: Long Range Finelock Mode
+23:41:00 - Prism: 20 - DoMeasure success.
+23:41:00 - Prism: 20 - C01, angleH: 231.182, angleV: 308.78, Distance: 1049.66, Lockmode: Long Range Finelock Mode
+23:41:19 - Prism: 20 - DoMeasure success.
+23:41:19 - Prism: 21 - C03, angleH: 25.947, angleV: 92.3908, Distance: 899.554, Lockmode: Long Range Finelock Mode
+23:41:38 - Prism: 21 - DoMeasure success.
+23:41:38 - Prism: 21 - C03, angleH: 225.947, angleV: 307.609, Distance: 899.554, Lockmode: Long Range Finelock Mode
+23:41:56 - Prism: 21 - DoMeasure success.
+23:41:56 - Prism: 22 - C04, angleH: 30.8165, angleV: 92.5272, Distance: 868.678, Lockmode: Long Range Finelock Mode
+23:42:15 - Prism: 22 - DoMeasure success.
+23:42:15 - Prism: 22 - C04, angleH: 230.816, angleV: 307.473, Distance: 868.678, Lockmode: Long Range Finelock Mode
+23:42:33 - Prism: 22 - DoMeasure success.
+23:42:33 - Prism: 23 - D017, angleH: 23.383, angleV: 93.4638, Distance: 792.499, Lockmode: Long Range Finelock Mode
+23:42:52 - Prism: 23 - DoMeasure success.
+23:42:52 - Prism: 23 - D017, angleH: 223.383, angleV: 306.536, Distance: 792.499, Lockmode: Long Range Finelock Mode
+23:43:10 - Prism: 23 - DoMeasure success.
+23:43:10 - Prism: 24 - D018, angleH: 27.2731, angleV: 93.1846, Distance: 784.385, Lockmode: Long Range Finelock Mode
+23:43:28 - Prism: 24 - DoMeasure success.
+23:43:28 - Prism: 24 - D018, angleH: 227.273, angleV: 306.815, Distance: 784.385, Lockmode: Long Range Finelock Mode
+23:43:46 - Prism: 24 - DoMeasure success.
+23:43:46 - Prism: 25 - D019, angleH: 33.119, angleV: 93.7703, Distance: 771.886, Lockmode: Long Range Finelock Mode
+23:44:05 - Prism: 25 - DoMeasure success.
+23:44:05 - Prism: 25 - D019, angleH: 233.119, angleV: 306.23, Distance: 771.886, Lockmode: Long Range Finelock Mode
+23:44:23 - Prism: 25 - DoMeasure success.
+23:44:23 - Prism: 26 - C05, angleH: 34.4877, angleV: 94.5086, Distance: 712.034, Lockmode: Long Range Finelock Mode
+23:44:42 - Prism: 26 - DoMeasure success.
+23:44:42 - Prism: 26 - C05, angleH: 234.488, angleV: 305.491, Distance: 712.034, Lockmode: Long Range Finelock Mode
+23:45:01 - Prism: 26 - DoMeasure success.
+23:45:01 - Prism: 27 - C06, angleH: 32.7371, angleV: 94.3285, Distance: 710.047, Lockmode: Long Range Finelock Mode
+23:45:20 - Prism: 27 - DoMeasure success.
+23:45:20 - Prism: 27 - C06, angleH: 232.737, angleV: 305.671, Distance: 710.047, Lockmode: Long Range Finelock Mode
+23:45:39 - Prism: 27 - DoMeasure success.
+23:45:39 - Prism: 28 - C07, angleH: 30.8823, angleV: 94.219, Distance: 708.985, Lockmode: Long Range Finelock Mode
+23:45:58 - Prism: 28 - DoMeasure success.
+23:45:58 - Prism: 28 - C07, angleH: 230.882, angleV: 305.781, Distance: 708.985, Lockmode: Long Range Finelock Mode
+23:46:16 - Prism: 28 - DoMeasure success.
+23:46:16 - Prism: 29 - C08, angleH: 29.0071, angleV: 94.1726, Distance: 708.277, Lockmode: Long Range Finelock Mode
+23:46:35 - Prism: 29 - DoMeasure success.
+23:46:35 - Prism: 29 - C08, angleH: 229.007, angleV: 305.827, Distance: 708.277, Lockmode: Long Range Finelock Mode
+23:46:54 - Prism: 29 - DoMeasure success.
+23:46:54 - Prism: 30 - C09, angleH: 27.1704, angleV: 94.2004, Distance: 708.15, Lockmode: Long Range Finelock Mode
+23:47:13 - Prism: 30 - DoMeasure success.
+23:47:13 - Prism: 30 - C09, angleH: 227.17, angleV: 305.8, Distance: 708.15, Lockmode: Long Range Finelock Mode
+23:47:32 - Prism: 30 - DoMeasure success.
+23:47:32 - Prism: 31 - C012, angleH: 23.6784, angleV: 94.6776, Distance: 709.076, Lockmode: Long Range Finelock Mode
+23:47:51 - Prism: 31 - DoMeasure success.
+23:47:51 - Prism: 31 - C012, angleH: 223.678, angleV: 305.322, Distance: 709.076, Lockmode: Long Range Finelock Mode
+23:48:10 - Prism: 31 - DoMeasure success.
+23:48:10 - Prism: 32 - C013, angleH: 21.8844, angleV: 94.8065, Distance: 710.445, Lockmode: Long Range Finelock Mode
+23:48:29 - Prism: 32 - DoMeasure success.
+23:48:29 - Prism: 32 - C013, angleH: 221.884, angleV: 305.193, Distance: 710.445, Lockmode: Long Range Finelock Mode
+23:48:48 - Prism: 32 - DoMeasure success.
+23:48:48 - Prism: 33 - C014, angleH: 20.0779, angleV: 94.6965, Distance: 712.686, Lockmode: Long Range Finelock Mode
+23:49:06 - Prism: 33 - DoMeasure success.
+23:49:07 - Prism: 33 - C014, angleH: 220.078, angleV: 305.303, Distance: 712.686, Lockmode: Long Range Finelock Mode
+23:49:25 - Prism: 33 - DoMeasure success.
+23:49:25 - Prism: 34 - C015, angleH: 17.7297, angleV: 94.2236, Distance: 726.219, Lockmode: Long Range Finelock Mode
+23:49:44 - Prism: 34 - DoMeasure success.
+23:49:44 - Prism: 34 - C015, angleH: 217.73, angleV: 305.776, Distance: 726.219, Lockmode: Long Range Finelock Mode
+23:50:03 - Prism: 34 - DoMeasure success.
+23:50:03 - Prism: 35 - E01, angleH: 23.7022, angleV: 96.0208, Distance: 611.922, Lockmode: Long Range Finelock Mode
+23:50:21 - Prism: 35 - DoMeasure success.
+23:50:21 - Prism: 35 - E01, angleH: 223.702, angleV: 303.979, Distance: 611.922, Lockmode: Long Range Finelock Mode
+23:50:40 - Prism: 35 - DoMeasure success.
+23:50:40 - Prism: 36 - E02, angleH: 30.8301, angleV: 95.7946, Distance: 601.015, Lockmode: Long Range Finelock Mode
+23:50:59 - Prism: 36 - DoMeasure success.
+23:50:59 - Prism: 36 - E02, angleH: 230.83, angleV: 304.205, Distance: 601.015, Lockmode: Long Range Finelock Mode
+23:51:17 - Prism: 36 - DoMeasure success.
+23:51:17 - Prism: 37 - D013, angleH: 37.4005, angleV: 97.67, Distance: 572.08, Lockmode: Long Range Finelock Mode
+23:51:36 - Prism: 37 - DoMeasure success.
+23:51:36 - Prism: 37 - D013, angleH: 237.4, angleV: 302.33, Distance: 572.08, Lockmode: Long Range Finelock Mode
+23:51:55 - Prism: 37 - DoMeasure success.
+23:51:55 - Prism: 38 - E06, angleH: 33.8396, angleV: 98.7909, Distance: 543.559, Lockmode: Long Range Finelock Mode
+23:52:13 - Prism: 38 - DoMeasure success.
+23:52:13 - Prism: 38 - E06, angleH: 233.84, angleV: 301.209, Distance: 543.559, Lockmode: Long Range Finelock Mode
+23:52:32 - Prism: 38 - DoMeasure success.
+23:52:32 - Prism: 39 - F03, angleH: 26.1045, angleV: 97.9348, Distance: 533.16, Lockmode: Long Range Finelock Mode
+23:52:50 - Prism: 39 - DoMeasure success.
+23:52:50 - Prism: 39 - F03, angleH: 226.105, angleV: 302.065, Distance: 533.16, Lockmode: Long Range Finelock Mode
+23:53:08 - Prism: 39 - DoMeasure success.
+23:53:08 - Prism: 40 - D015, angleH: 19.6758, angleV: 96.6789, Distance: 576.729, Lockmode: Long Range Finelock Mode
+23:53:26 - Prism: 40 - DoMeasure success.
+23:53:26 - Prism: 40 - D015, angleH: 219.676, angleV: 303.321, Distance: 576.729, Lockmode: Long Range Finelock Mode
+23:53:44 - Prism: 40 - DoMeasure success.
+23:53:44 - Prism: 41 - F07, angleH: 19.2587, angleV: 99.1965, Distance: 497.064, Lockmode: Long Range Finelock Mode
+23:54:02 - Prism: 41 - DoMeasure success.
+23:54:03 - Prism: 41 - F07, angleH: 219.259, angleV: 300.803, Distance: 497.064, Lockmode: Long Range Finelock Mode
+23:54:21 - Prism: 41 - DoMeasure success.
+23:54:21 - Prism: 42 - E03, angleH: 23.7713, angleV: 99.1818, Distance: 506.001, Lockmode: Long Range Finelock Mode
+23:54:40 - Prism: 42 - DoMeasure success.
+23:54:40 - Prism: 42 - E03, angleH: 223.771, angleV: 300.818, Distance: 506.001, Lockmode: Long Range Finelock Mode
+23:54:58 - Prism: 42 - DoMeasure success.
+23:54:58 - Prism: 43 - F08, angleH: 33.2077, angleV: 101.044, Distance: 480.376, Lockmode: Long Range Finelock Mode
+23:55:17 - Prism: 43 - DoMeasure success.
+23:55:17 - Prism: 43 - F08, angleH: 233.208, angleV: 298.956, Distance: 480.376, Lockmode: Long Range Finelock Mode
+23:55:35 - Prism: 43 - DoMeasure success.
+23:55:35 - Prism: 44 - E05, angleH: 36.2579, angleV: 101.318, Distance: 478.633, Lockmode: Long Range Finelock Mode
+23:55:54 - Prism: 44 - DoMeasure success.
+23:55:54 - Prism: 44 - E05, angleH: 236.258, angleV: 298.682, Distance: 478.633, Lockmode: Long Range Finelock Mode
+23:56:12 - Prism: 44 - DoMeasure success.
+23:56:12 - Prism: 45 - D012, angleH: 44.7371, angleV: 101.694, Distance: 476.717, Lockmode: Long Range Finelock Mode
+23:56:31 - Prism: 45 - DoMeasure success.
+23:56:31 - Prism: 45 - D012, angleH: 244.737, angleV: 298.306, Distance: 476.717, Lockmode: Long Range Finelock Mode
+23:56:50 - Prism: 45 - DoMeasure success.
+23:56:50 - Prism: 46 - F09, angleH: 39.5513, angleV: 104.783, Distance: 417.459, Lockmode: Long Range Finelock Mode
+23:57:08 - Prism: 46 - DoMeasure success.
+23:57:08 - Prism: 46 - F09, angleH: 239.551, angleV: 295.217, Distance: 417.459, Lockmode: Long Range Finelock Mode
+23:57:26 - Prism: 46 - DoMeasure success.
+23:57:26 - Prism: 47 - F05, angleH: 27.0866, angleV: 104.166, Distance: 407.93, Lockmode: Long Range Finelock Mode
+23:57:45 - Prism: 47 - DoMeasure success.
+23:57:45 - Prism: 47 - F05, angleH: 227.087, angleV: 295.834, Distance: 407.93, Lockmode: Long Range Finelock Mode
+23:58:04 - Prism: 47 - DoMeasure success.
+23:58:04 - Prism: 48 - F04, angleH: 22.3684, angleV: 103.584, Distance: 409.812, Lockmode: Long Range Finelock Mode
+23:58:26 - Prism: 48 - Domeasure failed (1002).
+23:58:26 - Prism: 48 - F04, angleH: 222.368, angleV: 296.416, Distance: 409.812, Lockmode: Long Range Finelock Mode
+23:58:45 - Prism: 48 - DoMeasure success.
+23:58:45 - Prism: 49 - F06, angleH: 25.9994, angleV: 108.298, Distance: 348.565, Lockmode: Finelock Mode
+23:58:55 - Prism: 49 - DoMeasure success.
+23:58:55 - Prism: 49 - F06, angleH: 225.999, angleV: 291.702, Distance: 348.565, Lockmode: Finelock Mode
+23:59:05 - Prism: 49 - DoMeasure success.
+23:59:05 - Prism: 50 - F010, angleH: 38.6597, angleV: 107.947, Distance: 369.253, Lockmode: Finelock Mode
+23:59:11 - Prism: 50 - Domeasure failed (2003).
+23:59:11 - Prism: 50 - F010, angleH: 238.66, angleV: 292.053, Distance: 369.253, Lockmode: Finelock Mode
+23:59:21 - Prism: 50 - Domeasure failed (2002).
+23:59:21 - Prism: 51 - E04, angleH: 27.9135, angleV: 108.855, Distance: 346.759, Lockmode: Finelock Mode
+23:59:33 - Prism: 51 - DoMeasure success.
+23:59:33 - Prism: 51 - E04, angleH: 227.913, angleV: 291.145, Distance: 346.759, Lockmode: Finelock Mode
+23:59:43 - Prism: 51 - DoMeasure success.
+23:59:43 - Prism: 52 - D016, angleH: 46.5, angleV: 105.716, Distance: 386.059, Lockmode: Finelock Mode
+23:59:53 - Prism: 52 - DoMeasure success.
+23:59:53 - Prism: 52 - D016, angleH: 246.5, angleV: 294.284, Distance: 386.059, Lockmode: Finelock Mode
