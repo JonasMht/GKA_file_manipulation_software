@@ -6,9 +6,8 @@ aswell as global variables and library imports.
 
 - **Run the program** in the cmd or shell write `python readGKA.py` to execute the program.
 #### You will be prompted with multiple choices:
-- **Convert to readable file** will ask for a gka and output file and converts the gka data into more manageable information.
 - **Concatenate n files** will ask for an output file and multiple files that will be concatenated in the output file (if you have entered all your files press enter to confirm).
-- **Prism statistics**  will ask for a gka and output file in which statistics about every prism will be stored.
+- **Prism statistics**  will ask for a gka (accepts wildcards (*,?)) and output file in which statistics about every prism will be stored.
 - **Plot prism** will ask for a gka file path (accepts wildcards (*,?)) and a prism name then plots the meteo position of this given prism over time.
 - **Quit** will exit the program loop/
 
@@ -47,6 +46,23 @@ aswell as global variables and library imports.
     
     </details>
         <br/>
+
+- **FindMin(li, index)** ()
+    <details>
+    <summary>Argument</summary>
+    
+    - **li** a 2D list of float
+    - **index** an integer
+    
+    </details>
+    <details>
+    <summary>Return</summary>
+    
+    - The value of the smallest element in the **index** position of evry list element in **li**.
+    
+    </details>
+        <br/>
+        
 - **FindIndexByName(name, l)**
     <details>
     <summary>Argument</summary>
@@ -150,7 +166,7 @@ aswell as global variables and library imports.
     
     </details>
         <br/>
-- **ConvertGKA_to_ReadableInformation(text)**
+- **ConvertGKA_to_List(text)**
     <details>
     <summary>Argument</summary>
 
@@ -160,7 +176,7 @@ aswell as global variables and library imports.
     <details>
     <summary>Return</summary>
     
-    - A Readable Information Format string.
+    - A list containing the prism name, position of recording, decimal year, position and meteo corrected position for each prism..
     
     </details>
     <details>
@@ -193,28 +209,19 @@ aswell as global variables and library imports.
     - **zmeteo** = `XS + originZrot * Dmeteo`
     
     </details>
-    <details>
-    <summary>Readable Information Format</summary>
-    
-    - Start/End of prism aquisition:
-        - "#GNV11" / "#END11" (string)
-    - Line of one prism:
-        - "prisme , Pos , xi , yi , zi , xmeteo , ymeteo , zmeteo , decYear , GPSwk , DOWk , SOWk" (string)
-    
-    </details>
     <br/>
     
-- **From_ReadableInformation_to_list(text)**
+- **Sort_list_by_Prism_and_Date(lst)**
     <details>
     <summary>Argument</summary>
 
-    - **text** a Readable Information Format string.
+    - **lst** A list containing the prism name, position of recording, decimal year, position and meteo corrected position for each prism.
     
     </details>
     <details>
     <summary>Return</summary>
     
-    - A 4D list (`[[Prism1 Name ,[[Prism1 information at t0], [Prism1 information at t1],.., [Prism1 information at tn]]],...]`)
+    - A 4D list containing lists of prism informations sorted by name and date (`[[Prism1 Name ,[[Prism1 information at t0], [Prism1 information at t1],.., [Prism1 information at tn]]],...]`)
     
     </details>
         <br/>
