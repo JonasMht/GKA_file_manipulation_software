@@ -6,6 +6,11 @@ def SortCrescent(li, index):
     """Sort a list in a crescent order by the elements located at the index position"""
     return(sorted(li, key = lambda x: x[index]))
 
+def FindMin(li, index):
+    """"""
+    #ex :[[0,9,8],[1,2,3],[3,4,5]] the min at index 1 is 2
+    return(min([e[index] for e in li]))
+
 def FindIndexByName(name, l):
     """
     In the prismParam list l find and return the index of the element that contains the correct name
@@ -71,9 +76,9 @@ def ConcatenationLoop(fileList):
 def ConvertGKA_to_List(text):
     """
     Argument:
-    - text a string of the contents of a gka file
+    - text a string of the contents of a gka file.
     Return:
-    - A string containing a gka like structure with corrected position and decimal years for each prism 
+    - A list containing the prism name, position of recording, decimal year, position and meteo corrected position for each prism.
     """
     outList = []
 
@@ -148,6 +153,12 @@ def ConvertGKA_to_List(text):
     return outList
 
 def Sort_list_by_Prism_and_Date(lst):
+    """
+    Argument:
+    - A list containing the prism name, position of recording, decimal year, position and meteo corrected position for each prism.
+    Return:
+    - A list containing lists of prisms sorted by name and date.
+    """
     #text must be a converted GKA file
     outList = [] #[[Name,[Data]],[],[],...]
 

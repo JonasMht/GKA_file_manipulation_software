@@ -286,38 +286,38 @@ while running:
 
         for j in sortedByPrismAndDate:
             if j[0] == prismName:
+                
+                #Remove all incorrect prism recordings
+                filteredList = []
+                for g in j[1]:
+                    if g[6]+g[7]+g[8] != 0:
+                        filteredList.append(g)
+                
                 datePos1 = []
                 datePos2 = []
                 eastPos1 = []
-                eastPos1Correction = 0
+                eastMinPosI = FindMin(filteredList, 6)
                 eastPos2 = []
                 northPos1 = []
-                northPos1Correction = 0
+                northMinPosI = FindMin(filteredList, 7)
                 northPos2 = []
                 altPos1 = []
-                altPos1Correction = 0
+                altMinPosI = FindMin(filteredList, 8)
                 altPos2 = []
 
-                for d in j[1]:
-                        if d[6]+d[7]+d[8] != 0:
-                            if d[1]==1:
-                                if altPos1Correction == 0:
-                                    eastPos1Correction = d[6]
-                                    northPos1Correction = d[7]
-                                    altPos1Correction = d[8]
-                                datePos1.append(dec_to_dt(d[2])) #dec_to_dt(d[7]).strftime("%m/%d/%Y , %H:%M:%S") 
-                                eastPos1.append(d[6]-eastPos1Correction)
-                                northPos1.append(d[7]-northPos1Correction)
-                                altPos1.append(d[8]-altPos1Correction)
-                            else:
-                                if altPos1Correction == 0:
-                                    eastPos1Correction = d[6]
-                                    northPos1Correction = d[7]
-                                    altPos1Correction = d[8]
-                                datePos2.append(dec_to_dt(d[2])) #dec_to_dt(d[7]).strftime("%m/%d/%Y , %H:%M:%S") 
-                                eastPos2.append(d[6]-eastPos1Correction)
-                                northPos2.append(d[7]-northPos1Correction)
-                                altPos2.append(d[8]-altPos1Correction)
+                print()
+
+                for d in filteredList:
+                        if d[1]==1:
+                            datePos1.append(dec_to_dt(d[2])) #dec_to_dt(d[7]).strftime("%m/%d/%Y , %H:%M:%S") 
+                            eastPos1.append(d[6]-eastMinPosI)
+                            northPos1.append(d[7]-northMinPosI)
+                            altPos1.append(d[8]-altMinPosI)
+                        else:
+                            datePos2.append(dec_to_dt(d[2])) #dec_to_dt(d[7]).strftime("%m/%d/%Y , %H:%M:%S") 
+                            eastPos2.append(d[6]-eastMinPosI)
+                            northPos2.append(d[7]-northMinPosI)
+                            altPos2.append(d[8]-altMinPosI)
                             
                 myFmt = mdates.DateFormatter('%d-%m-%Y')
 
