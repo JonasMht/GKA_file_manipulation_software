@@ -9,7 +9,17 @@ def SortCrescent(li, index):
 def FindMin(li, index):
     """"""
     #ex :[[0,9,8],[1,2,3],[3,4,5]] the min at index 1 is 2
-    return(min([e[index] for e in li]))
+    if (len(li)>0):
+        return min([e[index] for e in li])
+    return 0
+
+def FindMax(li, index):
+    """"""
+    #ex :[[0,9,8],[1,2,3],[3,4,5]] the min at index 1 is 2
+    if (len(li)>0):
+        return max([e[index] for e in li])
+    return 0
+
 
 def FindIndexByName(name, l):
     """

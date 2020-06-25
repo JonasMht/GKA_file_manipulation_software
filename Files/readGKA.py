@@ -24,7 +24,7 @@ from functions import * #import the functions.py file
 running = True
 while running:
     #Command line interface
-    choice = input("\t- '1' : Concatenate n files\n\t- '2' : Prism statistics\n\t- '3' : Plot prism\n\t- '0' or 'q' : Quit\n\nAnswer: ")
+    choice = input("\t- '1' : Concatenate n files\n\t- '2' : Prism statistics\n\t- '3' : Plot one given prism\n\t- '4' : Plot 10 prisms\n\t- '0' or 'q' : Quit\n\nAnswer: ")
     
     if choice == '1':
         fileList = [] # paht list of the files to concatenate
@@ -184,27 +184,31 @@ while running:
     """
 
     if choice == '2':
-        answer1 = input("Enter gka file (wildcards allowed): ")
-        answer2 = input("Enter output file : ")
+        answer = input("Enter gka file (wildcards allowed): ")
 
         start_time = time.time() #Get start time
         print("\n--- Operation start ---")
 
-        inFilePath = glob.glob(answer1) #wildcard search
+        inFilePath = glob.glob(answer) #wildcard search
 
         text = ""
+        numFiles = len(inFilePath)
+        count = 1
         for Path in inFilePath: #Concatenate the content of all the files
             inFile = open(Path)
             text += inFile.read()
+            print("%i/%i files loaded." % (count, numFiles))
+            count+=1
             inFile.close()
 
-        outFile = open(answer2,'w') #first file we want to write to
-        # Erase file contents
-        outFile.truncate()
-
+        print("\nProcessing...\n")
 
         PrismInfoList = ConvertGKA_to_List(text)
         sortedByPrismAndDate = Sort_list_by_Prism_and_Date(PrismInfoList)
+
+        startDateStr = dec_to_dt(FindMin(sortedByPrismAndDate[0][1], 2)).strftime("%m%d%Y") #Date of the first recording
+        endDateStr = dec_to_dt(FindMax(sortedByPrismAndDate[0][1], 2)).strftime("%m%d%Y") #Date of the last recording
+
 
         outString = ""
         prismInfo = [] # [[prism, nbFound/nbObs]] a 2D list
@@ -230,26 +234,34 @@ while running:
             
             nbObsPos2 = nbObs - nbObsPos1
             nbFound = nbFoundPos1 + nbFoundPos2
-            dateStart = dec_to_dt(sortedByPrismAndDate[0][1][0][2]) #Date of the first recording
-            dateEnd = dec_to_dt(sortedByPrismAndDate[0][1][-1][2]) #Date of the last recording
 
             prismInfo.append([j[0], nbFound/nbObs])
             
-            outString += "Prisme [\"{}\"] | Date: {} - {}\n".format(j[0], dateStart, dateEnd)
+            outString += "Prisme [\"{}\"] | Date: {} - {}\n".format(j[0],  startDateStr, endDateStr)
             outString += "Searches : {}        -> Pos1: {}        | Pos2: {}\n".format(nbObs, nbObsPos1, nbObsPos2)
             if nbObs != 0:
-                outString += "Found    : {} or {}% -> Pos1: {} or {}% | Pos2: {} or {}%\n".format(nbFound, (nbFound/nbObs)*100, nbFoundPos1, (nbFoundPos1/nbObs)*100*(nbObs/nbObsPos1), nbFoundPos2, (nbFoundPos2/nbObs)*100*(nbObs/nbObsPos2))
+                outString += "Found    : {} or {}% ".format(nbFound, (nbFound/nbObs)*100)
+                if(nbObsPos1 != 0):
+                    outString += "-> Pos1: {} or {}% ".format(nbFoundPos1, (nbFoundPos1/nbObs)*100*(nbObs/nbObsPos1))
+                if(nbObsPos2 != 0):
+                    outString += "| Pos2: {} or {}%".format(nbFoundPos2, (nbFoundPos2/nbObs)*100*(nbObs/nbObsPos2))
+                outString += '\n'
             outString += '\n'
         
 
         prismInfo = SortCrescent(prismInfo, 1) # sort by least to most found prism
-        prismCrescentString = ""
+        prismCrescentString = "Dates : {} to {}\n".format(startDateStr, endDateStr)
         prismCrescentString += "List of "+str(len(prismInfo))+" prisms by found amount (in %):\n"
         for g in prismInfo:
             prismCrescentString += "\t -- {} - found {}% of time.\n".format(g[0], g[1]*100)
             
         outString = prismCrescentString + "\n\nRaw Statistics:\n\n"+ outString
 
+
+        fileName = "Prism_Statistics_" + startDateStr + "_to_" + endDateStr + ".txt"
+        outFile = open(fileName,'w') #first file we want to write to
+        # Erase file contents
+        outFile.truncate()
         #Write the output strings to the files
         outFile.write(outString)
         # Close the files
@@ -258,6 +270,7 @@ while running:
 
         print("--- The operation executed correctly ---")
         print("--- It took : %s seconds ---\n" % (time.time() - start_time))
+
 
     elif choice == '3':
 
@@ -268,12 +281,16 @@ while running:
         start_time = time.time() #Get start time
         print("\n--- Operation start ---")
 
-        text = ""
-
+        numFiles = len(inFilePath)
+        count = 1
         for Path in inFilePath: #Concatenate the content of all the files
             inFile = open(Path)
             text += inFile.read()
+            print("%i/%i files loaded." % (count, numFiles))
+            count+=1
             inFile.close()
+
+        print("\nProcessing...\n")
 
 
         PrismInfoList = ConvertGKA_to_List(text)
@@ -396,7 +413,124 @@ while running:
         
         plt.show()
 
+    elif choice == '4':
 
+        answer = input("Enter gka file (wildcards allowed): ")
+        inFilePath = glob.glob(answer) #Using wildcards
+
+        start_time = time.time() #Get start time
+        print("\n--- Operation start ---")
+
+        text = ""
+
+        numFiles = len(inFilePath)
+        count = 1
+        for Path in inFilePath: #Concatenate the content of all the files
+            inFile = open(Path)
+            text += inFile.read()
+            print("%i/%i files loaded." % (count, numFiles))
+            count+=1
+            inFile.close()
+
+        print("\nProcessing...\n")
+
+        PrismInfoList = ConvertGKA_to_List(text)
+        sortedByPrismAndDate = Sort_list_by_Prism_and_Date(PrismInfoList)
+
+        # Create figure
+        plt.style.use('dark_background')
+        fig, (ax1, ax2, ax3) = plt.subplots(figsize=(80.0, 50.0), nrows=3, ncols=1)
+        size = 1.5
+        opac = 0.7
+
+        prismList = ["ref100", "ref200", "A015", "A011", "A03", "A02", "C02", "D019", "E06", "D016"]
+
+        for j in sortedByPrismAndDate:
+            if j[0] in prismList:
+                print(j[0])
+                
+                #Remove all incorrect prism recordings
+                filteredList = []
+                for g in j[1]:
+                    if g[6]+g[7]+g[8] != 0:
+                        filteredList.append(g)
+                
+                date = []
+                east= []
+                eastMin = FindMin(filteredList, 6)
+                north = []
+                northMin = FindMin(filteredList, 7)
+                alt = []
+                altMin = FindMin(filteredList, 8)
+
+                fistMesurement = [0,0,0,0]
+                for d in filteredList:
+                        if d[1]==1:
+                            fistMesurement[0] = d[2]
+                            fistMesurement[1] = d[6]
+                            fistMesurement[2] = d[7]
+                            fistMesurement[3] = d[8]
+                        else:
+                            if (fistMesurement[0] == 0 and fistMesurement[1] == 0 and fistMesurement[2] == 0 and fistMesurement[3] == 0):
+                                date.append( dec_to_dt(d[2]) )
+                                east.append(d[6]- eastMin)
+                                north.append(d[7] - northMin)
+                                alt.append( d[8]- altMin)
+                            else:
+                                date.append( dec_to_dt( ( d[2] + fistMesurement[0] ) / 2 ) )
+                                east.append( ( d[6] + fistMesurement[1] ) / 2 - eastMin)
+                                north.append( ( d[7] + fistMesurement[2] ) / 2 - northMin)
+                                alt.append( ( d[8] + fistMesurement[3] ) / 2 - altMin)
+                                fistMesurement = [0,0,0,0]
+                            
+                myFmt = mdates.DateFormatter('%d-%m-%Y')
+
+                # log y axis
+                ax1.xaxis.set_major_formatter(myFmt)
+                ax1.plot(date, east, label=j[0]+'-PosAvrg', marker='o', ms=size, alpha=opac, markerfacecolor='None', linestyle = 'None')
+                ax1.legend()
+                ax1.set_xlabel('Date [d-m-Y]')
+                ax1.set_ylabel('East pos [m]')
+                ax1.set(title='East pos/Date')
+                ax1.xaxis.set_major_locator(plt.MaxNLocator(100))
+                ax1.yaxis.set_major_locator(plt.MaxNLocator(50))
+
+                # log x axis
+                ax2.xaxis.set_major_formatter(myFmt)
+                ax2.plot(date, north, label=j[0]+'-PosAvrg', marker='o', ms=size, alpha=opac, markerfacecolor='None', linestyle = 'None')
+                ax2.legend()
+                ax2.set_xlabel('Date [d-m-Y]')
+                ax2.set_ylabel('North pos [m]')
+                ax2.set(title='North pos/Date')
+                ax2.xaxis.set_major_locator(plt.MaxNLocator(100))
+                ax2.yaxis.set_major_locator(plt.MaxNLocator(50))
+
+                # log x and y axis
+                ax3.xaxis.set_major_formatter(myFmt)
+                ax3.plot(date, alt, label=j[0]+'-PosAvrg', marker='o', ms=size, alpha=opac, markerfacecolor='None', linestyle = 'None')
+                ax3.legend()
+                ax3.set_xlabel('Date [d-m-Y]')
+                ax3.set_ylabel('Altitude [m]')
+                ax3.set(title='Altitude/Date')
+                ax3.xaxis.set_major_locator(plt.MaxNLocator(100))
+                ax3.yaxis.set_major_locator(plt.MaxNLocator(50))
+                
+        
+
+        ax1.grid()
+        ax2.grid()
+        ax3.grid()
+        fig.canvas.set_window_title('Prism Ploting')
+        fig.tight_layout()
+
+        print("--- The operation executed correctly ---")
+        print("--- It took : %s seconds ---\n" % (time.time() - start_time))
+        
+
+        imageName = "Prism_Plot_" + date[0].strftime("%m%d%Y") + "_to_" +date[-1].strftime("%m%d%Y") + ".png"
+        fig.savefig(imageName , dpi=100)
+
+        plt.show()
 
     elif choice == '0' or choice == 'q':
         running=False
