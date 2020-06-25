@@ -225,3 +225,6 @@ aswell as global variables and library imports.
     
     </details>
         <br/>
+
+
+- Note to myselfe : I will have to create functions out of some processes
