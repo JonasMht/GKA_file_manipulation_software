@@ -33,7 +33,7 @@ while running:
         
         while (fileName!=' ' and fileName!=''): #while the user enters file names
             fileList.append(fileName)
-            fileName = input("Enter file to concatenate (otherwise press enter): ")
+            fileName = input("Enter file to concatenate (otherwise enter nothing): ")
         
         start_time = time.time() #Get start time
         print("\n--- Operation start ---")
@@ -47,7 +47,7 @@ while running:
         outputFile.close() # Close the output file
 
         print("--- The operation executed correctly ---")
-        print("--- It took : %s seconds ---\n" % (time.time() - start_time))
+        print("--- It took : %s seconds ---\n" % int(time.time() - start_time))
 
     """
     elif choice == '2':
@@ -169,7 +169,7 @@ while running:
         ""
 
         print("--- The operation executed correctly ---")
-        print("--- It took : %s seconds ---\n" % (time.time() - start_time))
+        print("--- It took : %s seconds ---\n" % int(time.time() - start_time))
     elif choice == 't':
         start_time = time.time() #Get start time
         print("--- Test start ---")
@@ -180,7 +180,7 @@ while running:
 
         
         print("--- The test executed correctly ---")
-        print("--- It took : %s seconds ---\n" % (time.time() - start_time))
+        print("--- It took : %s seconds ---\n" % int(time.time() - start_time))
     """
 
     if choice == '2':
@@ -240,11 +240,11 @@ while running:
             outString += "Prisme [\"{}\"] | Date: {} - {}\n".format(j[0],  startDateStr, endDateStr)
             outString += "Searches : {}        -> Pos1: {}        | Pos2: {}\n".format(nbObs, nbObsPos1, nbObsPos2)
             if nbObs != 0:
-                outString += "Found    : {} or {}% ".format(nbFound, (nbFound/nbObs)*100)
+                outString += "Found    : {} or {}% ".format(nbFound, int((nbFound/nbObs)*100))
                 if(nbObsPos1 != 0):
-                    outString += "-> Pos1: {} or {}% ".format(nbFoundPos1, (nbFoundPos1/nbObs)*100*(nbObs/nbObsPos1))
+                    outString += "-> Pos1: {} or {}% ".format(nbFoundPos1, int((nbFoundPos1/nbObs)*100*(nbObs/nbObsPos1)))
                 if(nbObsPos2 != 0):
-                    outString += "| Pos2: {} or {}%".format(nbFoundPos2, (nbFoundPos2/nbObs)*100*(nbObs/nbObsPos2))
+                    outString += "| Pos2: {} or {}%".format(nbFoundPos2, int((nbFoundPos2/nbObs)*100*(nbObs/nbObsPos2)))
                 outString += '\n'
             outString += '\n'
         
@@ -253,7 +253,7 @@ while running:
         prismCrescentString = "Dates : {} to {}\n".format(startDateStr, endDateStr)
         prismCrescentString += "List of "+str(len(prismInfo))+" prisms by found amount (in %):\n"
         for g in prismInfo:
-            prismCrescentString += "\t -- {} - found {}% of time.\n".format(g[0], g[1]*100)
+            prismCrescentString += "\t -- {} - found {}% of time.\n".format(g[0], int(g[1]*100))
             
         outString = prismCrescentString + "\n\nRaw Statistics:\n\n"+ outString
 
@@ -269,18 +269,25 @@ while running:
         
 
         print("--- The operation executed correctly ---")
-        print("--- It took : %s seconds ---\n" % (time.time() - start_time))
+        print("--- It took : %s seconds ---\n" % int(time.time() - start_time))
 
 
     elif choice == '3':
 
         answer = input("Enter gka file (wildcards allowed): ")
-        prismName = input("EnterPrismName: ")
         inFilePath = glob.glob(answer) #Using wildcards
+
+        prismList = []
+        prismName = input("Enter a prism name: ")
+        
+        while (prismName!=' ' and prismName!=''): #while the user enters prism names
+            prismList.append(prismName)
+            prismName = input("Enter another prism name (otherwise enter nothing): ")
 
         start_time = time.time() #Get start time
         print("\n--- Operation start ---")
 
+        text = ""
         numFiles = len(inFilePath)
         count = 1
         for Path in inFilePath: #Concatenate the content of all the files
@@ -297,12 +304,39 @@ while running:
         sortedByPrismAndDate = Sort_list_by_Prism_and_Date(PrismInfoList)
 
         # Create figure
-        fig, (ax1, ax2, ax3) = plt.subplots(nrows=3, ncols=1)
-        size = 1.5
+        #fig, (ax1, ax2, ax3) = plt.subplots(nrows=3, ncols=1)
+
+        myFmt = mdates.DateFormatter('%d-%m-%Y')
+
+        numRef100 = len(sortedByPrismAndDate[0][1]) #number of ref100 prisms
+        print("num Ref100",numRef100)
+        adjustment = 10
+        print("ajustment ",adjustment)
+
+        figure(num=None, figsize=(8 + adjustment, 6 + (3/4)*adjustment), dpi=100, facecolor='w', edgecolor='k')
+        plt.grid()
+        plot1 = plt.figure(1)
+        plot1.suptitle('East/Date')
+
+        figure(num=None, figsize=(8 + adjustment, 6 + (3/4)*adjustment), dpi=100, facecolor='w', edgecolor='k')
+        plt.grid()
+        plot2 = plt.figure(2)
+        plot2.suptitle('North/Date')
+
+        figure(num=None, figsize=(8 + adjustment, 6 + (3/4)*adjustment), dpi=100, facecolor='w', edgecolor='k')
+        plt.grid()
+        plot3 = plt.figure(3)
+        plot3.suptitle('Up/Date')
+
+        
+
+
+        
+        size = 10
         opac = 0.7
 
         for j in sortedByPrismAndDate:
-            if j[0] == prismName:
+            if j[0] in prismList:
                 
                 #Remove all incorrect prism recordings
                 filteredList = []
@@ -318,100 +352,107 @@ while running:
                 northPos1 = []
                 northMinPosI = FindMin(filteredList, 7)
                 northPos2 = []
-                altPos1 = []
+                upPos1 = []
                 altMinPosI = FindMin(filteredList, 8)
-                altPos2 = []
+                upPos2 = []
 
-                print()
 
                 for d in filteredList:
                         if d[1]==1:
                             datePos1.append(dec_to_dt(d[2])) #dec_to_dt(d[7]).strftime("%m/%d/%Y , %H:%M:%S") 
                             eastPos1.append(d[6]-eastMinPosI)
                             northPos1.append(d[7]-northMinPosI)
-                            altPos1.append(d[8]-altMinPosI)
+                            upPos1.append(d[8]-altMinPosI)
                         else:
                             datePos2.append(dec_to_dt(d[2])) #dec_to_dt(d[7]).strftime("%m/%d/%Y , %H:%M:%S") 
                             eastPos2.append(d[6]-eastMinPosI)
                             northPos2.append(d[7]-northMinPosI)
-                            altPos2.append(d[8]-altMinPosI)
+                            upPos2.append(d[8]-altMinPosI)
                             
-                myFmt = mdates.DateFormatter('%d-%m-%Y')
 
                 # log y axis
-                ax1.xaxis.set_major_formatter(myFmt)
-                ax1.plot(datePos1, eastPos1, label=j[0]+'-Pos1', marker='o', ms=size, alpha=opac, markerfacecolor='None', linestyle = 'None')
-                ax1.legend()
-                ax1.set_xlabel('Date [d-m-Y]')
-                ax1.set_ylabel('East pos [m]')
-                ax1.set(title='East pos/Date')
-                ax1.xaxis.set_major_locator(plt.MaxNLocator(10))
-                ax1.yaxis.set_major_locator(plt.MaxNLocator(10))
+                plt.figure(1)
+                plt.plot(datePos1, eastPos1, label=j[0]+'-Pos1', marker='o', ms=size, alpha=opac, markerfacecolor='None', linestyle = 'None')
+                plt.plot(datePos2, eastPos2, label=j[0]+'-Pos2', marker='o', ms=size, alpha=opac, markerfacecolor='None', linestyle = 'None')
 
-                # log x axis
-                ax2.xaxis.set_major_formatter(myFmt)
-                ax2.plot(datePos1, northPos1, label=j[0]+'-Pos1', marker='o', ms=size, alpha=opac, markerfacecolor='None', linestyle = 'None')
-                ax2.legend()
-                ax2.set_xlabel('Date [d-m-Y]')
-                ax2.set_ylabel('North pos [m]')
-                ax2.set(title='North pos/Date')
-                ax2.xaxis.set_major_locator(plt.MaxNLocator(10))
-                ax2.yaxis.set_major_locator(plt.MaxNLocator(10))
+                plt.legend()
+                plt.xlabel('Date (d-m-Y)')
+                plt.ylabel('East (m)')
 
-                # log x and y axis
-                ax3.xaxis.set_major_formatter(myFmt)
-                ax3.plot(datePos1, altPos1, label=j[0]+'-Pos1', marker='o', ms=size, alpha=opac, markerfacecolor='None', linestyle = 'None')
-                ax3.legend()
-                ax3.set_xlabel('Date [d-m-Y]')
-                ax3.set_ylabel('Altitude [m]')
-                ax3.set(title='Altitude/Date')
-                ax3.xaxis.set_major_locator(plt.MaxNLocator(10))
-                ax3.yaxis.set_major_locator(plt.MaxNLocator(10))
-                
+                ax = plt.gca()
+                ax.xaxis.set_major_formatter(myFmt)
+                ax.xaxis.set_major_locator(plt.MaxNLocator(10))
+                ax.yaxis.set_major_locator(plt.MaxNLocator(10))
+
+                plt.figure(2)
+                plt.plot(datePos1, northPos1, label=j[0]+'-Pos1', marker='o', ms=size, alpha=opac, markerfacecolor='None', linestyle = 'None')
+                plt.plot(datePos2, northPos2, label=j[0]+'-Pos2', marker='o', ms=size, alpha=opac, markerfacecolor='None', linestyle = 'None')
+
+                plt.legend()
+                plt.xlabel('Date (d-m-Y)')
+                plt.ylabel('North (m)')
+
+                ax = plt.gca()
+                ax.xaxis.set_major_formatter(myFmt)
+                ax.xaxis.set_major_locator(plt.MaxNLocator(10))
+                ax.yaxis.set_major_locator(plt.MaxNLocator(10))
 
 
-                # log y axis
-                ax1.xaxis.set_major_formatter(myFmt)
-                ax1.plot(datePos2, eastPos2, label=j[0]+'-Pos2', marker='o', ms=size, alpha=opac, markerfacecolor='None', linestyle = 'None')
-                ax1.legend()
-                ax1.set_xlabel('Date [d-m-Y]')
-                ax1.set_ylabel('East pos [m]')
-                ax1.set(title='East pos/Date')
-                ax1.xaxis.set_major_locator(plt.MaxNLocator(10))
-                ax1.yaxis.set_major_locator(plt.MaxNLocator(10))
+                plt.figure(3)
+                plt.plot(datePos1, upPos1, label=j[0]+'-Pos1', marker='o', ms=size, alpha=opac, markerfacecolor='None', linestyle = 'None')
+                plt.plot(datePos2, upPos2, label=j[0]+'-Pos2', marker='o', ms=size, alpha=opac, markerfacecolor='None', linestyle = 'None')
 
-                # log x axis
-                ax2.xaxis.set_major_formatter(myFmt)
-                ax2.plot(datePos2, northPos2, label=j[0]+'-Pos2', marker='o', ms=size, alpha=opac, markerfacecolor='None', linestyle = 'None')
-                ax2.legend()
-                ax2.set_xlabel('Date [d-m-Y]')
-                ax2.set_ylabel('North pos [m]')
-                ax2.set(title='North pos/Date')
-                ax2.xaxis.set_major_locator(plt.MaxNLocator(10))
-                ax2.yaxis.set_major_locator(plt.MaxNLocator(10))
+                plt.legend()
+                plt.xlabel('Date (d-m-Y)')
+                plt.ylabel('Up (m)')
 
-                # log x and y axis
-                ax3.xaxis.set_major_formatter(myFmt)
-                ax3.plot(datePos2, altPos2, label=j[0]+'-Pos2', marker='o', ms=size, alpha=opac, markerfacecolor='None', linestyle = 'None')
-                ax3.legend()
-                ax3.set_xlabel('Date [d-m-Y]')
-                ax3.set_ylabel('Altitude [m]')
-                ax3.set(title='Altitude/Date')
-                ax3.xaxis.set_major_locator(plt.MaxNLocator(10))
-                ax3.yaxis.set_major_locator(plt.MaxNLocator(10))
+                ax = plt.gca()
+                ax.xaxis.set_major_formatter(myFmt)
+                ax.xaxis.set_major_locator(plt.MaxNLocator(10))
+                ax.yaxis.set_major_locator(plt.MaxNLocator(10))
 
-        
-
-        ax1.grid()
-        ax2.grid()
-        ax3.grid()
-        fig.canvas.set_window_title('Prism Ploting')
-        fig.tight_layout()
 
         print("--- The operation executed correctly ---")
-        print("--- It took : %s seconds ---\n" % (time.time() - start_time))
+        print("--- It took : %s seconds ---\n" % int(time.time() - start_time))
+
+        recordingDateStart = dec_to_dt(sortedByPrismAndDate[0][1][0][2])
+        recordingDateEnd = dec_to_dt(sortedByPrismAndDate[0][1][-1][2])
+        imageName = "Prism_Plot_" + recordingDateStart.strftime("%m%d%Y") + "_to_" +recordingDateEnd.strftime("%m%d%Y") + ".png"
         
+        plot1.savefig("East_"+imageName, dpi=100)
+        plot2.savefig("North_"+imageName, dpi=100)
+        plot3.savefig("Up_"+imageName, dpi=100)
+
+    elif choice == 'a':
+        x1 = [1, 2, 3]
+        y1 = [4, 5, 6]
+
+        x2 = [1, 3, 5]
+        y2 = [6, 5, 4]
+
+        xl = [x1,y1,x2,y2]
+        yl = [x2,y2,x1,y1]
+
+        plot1 = plt.figure(1)
+        plot1.suptitle('This is a somewhat long figure title')
+        plot1.canvas.set_window_title('Test')
+        
+        for i in range(len(xl)):
+            plt.plot(xl[i], yl[i],  label='-Pos2', marker='o', ms=1, alpha=1, markerfacecolor='None', linestyle = 'None')
+        plt.grid()
+
+        ax = plt.gca()
+        ax.xaxis.set_major_locator(plt.MaxNLocator(1))
+        
+        plot2 = plt.figure(2)
+        plt.plot(x2, y2)
+
+        plt.figure(1)
+        plt.plot(x2, y2)
+
+        plt.grid()
         plt.show()
+
 
     elif choice == '4':
 
@@ -443,7 +484,7 @@ while running:
         size = 1.5
         opac = 0.7
 
-        prismList = ["ref100", "ref200", "A015", "A011", "A03", "A02", "C02", "D019", "E06", "D016"]
+        prismList = ["ref100", "REF0200", "A015", "A011", "A03", "A02", "C02", "D019", "E06", "D016"]
 
         for j in sortedByPrismAndDate:
             if j[0] in prismList:
@@ -524,10 +565,12 @@ while running:
         fig.tight_layout()
 
         print("--- The operation executed correctly ---")
-        print("--- It took : %s seconds ---\n" % (time.time() - start_time))
+        print("--- It took : %s seconds ---\n" % int(time.time() - start_time))
         
 
-        imageName = "Prism_Plot_" + date[0].strftime("%m%d%Y") + "_to_" +date[-1].strftime("%m%d%Y") + ".png"
+        recordingDateStart = dec_to_dt(sortedByPrismAndDate[0][1][0][2])
+        recordingDateEnd = dec_to_dt(sortedByPrismAndDate[0][1][-1][2])
+        imageName = "Prism_Plot_" + recordingDateStart.strftime("%m%d%Y") + "_to_" +recordingDateEnd.strftime("%m%d%Y") + ".png"
         fig.savefig(imageName , dpi=100)
 
         plt.show()

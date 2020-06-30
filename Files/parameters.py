@@ -4,8 +4,11 @@ import math
 
 import glob #For wildcard search
 
+import matplotlib
 import matplotlib.pyplot as plt # Visualise data #keep as comment for now
+from matplotlib.pyplot import figure
 import matplotlib.dates as mdates
+
 """
 ## build a QApplication before building other widgets
 import pyqtgraph as pg

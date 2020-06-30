@@ -1,0 +1,281 @@
+Dates : 05012020 to 05012020
+List of 55 prisms by found amount (in %):
+	 -- A015 - found 0% of time.
+	 -- A016 - found 0% of time.
+	 -- A013 - found 0% of time.
+	 -- A014 - found 0% of time.
+	 -- A012 - found 0% of time.
+	 -- A011 - found 0% of time.
+	 -- A08 - found 0% of time.
+	 -- A04 - found 0% of time.
+	 -- A07 - found 0% of time.
+	 -- A09 - found 0% of time.
+	 -- C02 - found 0% of time.
+	 -- F010 - found 0% of time.
+	 -- E04 - found 3% of time.
+	 -- D016 - found 3% of time.
+	 -- A010 - found 12% of time.
+	 -- F06 - found 14% of time.
+	 -- A06 - found 18% of time.
+	 -- A05 - found 21% of time.
+	 -- ref100 - found 23% of time.
+	 -- C01 - found 26% of time.
+	 -- A03 - found 26% of time.
+	 -- D017 - found 29% of time.
+	 -- REF_F02 - found 29% of time.
+	 -- D018 - found 31% of time.
+	 -- D019 - found 32% of time.
+	 -- D012 - found 32% of time.
+	 -- A02 - found 34% of time.
+	 -- D015 - found 34% of time.
+	 -- C04 - found 35% of time.
+	 -- REF0200 - found 39% of time.
+	 -- E02 - found 40% of time.
+	 -- REF_D014 - found 40% of time.
+	 -- D013 - found 42% of time.
+	 -- C03 - found 43% of time.
+	 -- F04 - found 43% of time.
+	 -- C09 - found 46% of time.
+	 -- F08 - found 46% of time.
+	 -- E01 - found 48% of time.
+	 -- F07 - found 48% of time.
+	 -- E03 - found 48% of time.
+	 -- C05 - found 50% of time.
+	 -- C015 - found 50% of time.
+	 -- E06 - found 50% of time.
+	 -- C08 - found 51% of time.
+	 -- C012 - found 51% of time.
+	 -- C013 - found 51% of time.
+	 -- C06 - found 53% of time.
+	 -- C05B - found 53% of time.
+	 -- F05 - found 54% of time.
+	 -- C11 - found 54% of time.
+	 -- C07 - found 56% of time.
+	 -- C014 - found 56% of time.
+	 -- F03 - found 56% of time.
+	 -- E05 - found 56% of time.
+	 -- F09 - found 57% of time.
+
+
+Raw Statistics:
+
+Prisme ["ref100"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 15 or 23% -> Pos1: 8 or 25% | Pos2: 7 or 21%
+
+Prisme ["REF0200"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 25 or 39% -> Pos1: 12 or 37% | Pos2: 13 or 40%
+
+Prisme ["A015"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 0 or 0% -> Pos1: 0 or 0% | Pos2: 0 or 0%
+
+Prisme ["A016"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 0 or 0% -> Pos1: 0 or 0% | Pos2: 0 or 0%
+
+Prisme ["A013"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 0 or 0% -> Pos1: 0 or 0% | Pos2: 0 or 0%
+
+Prisme ["A014"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 0 or 0% -> Pos1: 0 or 0% | Pos2: 0 or 0%
+
+Prisme ["A012"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 0 or 0% -> Pos1: 0 or 0% | Pos2: 0 or 0%
+
+Prisme ["A011"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 0 or 0% -> Pos1: 0 or 0% | Pos2: 0 or 0%
+
+Prisme ["A08"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 0 or 0% -> Pos1: 0 or 0% | Pos2: 0 or 0%
+
+Prisme ["A04"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 0 or 0% -> Pos1: 0 or 0% | Pos2: 0 or 0%
+
+Prisme ["A05"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 14 or 21% -> Pos1: 7 or 21% | Pos2: 7 or 21%
+
+Prisme ["A07"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 0 or 0% -> Pos1: 0 or 0% | Pos2: 0 or 0%
+
+Prisme ["A09"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 0 or 0% -> Pos1: 0 or 0% | Pos2: 0 or 0%
+
+Prisme ["A010"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 8 or 12% -> Pos1: 2 or 6% | Pos2: 6 or 18%
+
+Prisme ["A02"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 22 or 34% -> Pos1: 10 or 31% | Pos2: 12 or 37%
+
+Prisme ["C02"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 0 or 0% -> Pos1: 0 or 0% | Pos2: 0 or 0%
+
+Prisme ["C01"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 17 or 26% -> Pos1: 8 or 25% | Pos2: 9 or 28%
+
+Prisme ["C03"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 28 or 43% -> Pos1: 14 or 43% | Pos2: 14 or 43%
+
+Prisme ["C04"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 23 or 35% -> Pos1: 11 or 34% | Pos2: 12 or 37%
+
+Prisme ["D017"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 19 or 29% -> Pos1: 9 or 28% | Pos2: 10 or 31%
+
+Prisme ["D018"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 20 or 31% -> Pos1: 9 or 28% | Pos2: 11 or 34%
+
+Prisme ["D019"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 21 or 32% -> Pos1: 10 or 31% | Pos2: 11 or 34%
+
+Prisme ["C05"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 32 or 50% -> Pos1: 16 or 50% | Pos2: 16 or 50%
+
+Prisme ["C06"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 34 or 53% -> Pos1: 17 or 53% | Pos2: 17 or 53%
+
+Prisme ["C07"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 36 or 56% -> Pos1: 18 or 56% | Pos2: 18 or 56%
+
+Prisme ["C08"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 33 or 51% -> Pos1: 17 or 53% | Pos2: 16 or 50%
+
+Prisme ["C09"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 30 or 46% -> Pos1: 15 or 46% | Pos2: 15 or 46%
+
+Prisme ["C012"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 33 or 51% -> Pos1: 15 or 46% | Pos2: 18 or 56%
+
+Prisme ["C013"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 33 or 51% -> Pos1: 16 or 50% | Pos2: 17 or 53%
+
+Prisme ["C014"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 36 or 56% -> Pos1: 18 or 56% | Pos2: 18 or 56%
+
+Prisme ["C015"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 32 or 50% -> Pos1: 15 or 46% | Pos2: 17 or 53%
+
+Prisme ["E01"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 31 or 48% -> Pos1: 15 or 46% | Pos2: 16 or 50%
+
+Prisme ["E02"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 26 or 40% -> Pos1: 13 or 40% | Pos2: 13 or 40%
+
+Prisme ["D013"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 27 or 42% -> Pos1: 12 or 37% | Pos2: 15 or 46%
+
+Prisme ["E06"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 32 or 50% -> Pos1: 16 or 50% | Pos2: 16 or 50%
+
+Prisme ["F03"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 36 or 56% -> Pos1: 18 or 56% | Pos2: 18 or 56%
+
+Prisme ["D015"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 22 or 34% -> Pos1: 7 or 21% | Pos2: 15 or 46%
+
+Prisme ["F07"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 31 or 48% -> Pos1: 16 or 50% | Pos2: 15 or 46%
+
+Prisme ["E03"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 31 or 48% -> Pos1: 15 or 46% | Pos2: 16 or 50%
+
+Prisme ["F08"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 30 or 46% -> Pos1: 14 or 43% | Pos2: 16 or 50%
+
+Prisme ["E05"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 36 or 56% -> Pos1: 15 or 46% | Pos2: 21 or 65%
+
+Prisme ["D012"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 21 or 32% -> Pos1: 10 or 31% | Pos2: 11 or 34%
+
+Prisme ["F09"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 37 or 57% -> Pos1: 19 or 59% | Pos2: 18 or 56%
+
+Prisme ["F05"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 35 or 54% -> Pos1: 17 or 53% | Pos2: 18 or 56%
+
+Prisme ["F04"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 28 or 43% -> Pos1: 14 or 43% | Pos2: 14 or 43%
+
+Prisme ["F06"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 9 or 14% -> Pos1: 4 or 12% | Pos2: 5 or 15%
+
+Prisme ["F010"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 0 or 0% -> Pos1: 0 or 0% | Pos2: 0 or 0%
+
+Prisme ["E04"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 2 or 3% -> Pos1: 1 or 3% | Pos2: 1 or 3%
+
+Prisme ["D016"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 2 or 3% -> Pos1: 2 or 6% | Pos2: 0 or 0%
+
+Prisme ["REF_F02"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 19 or 29% -> Pos1: 14 or 43% | Pos2: 5 or 15%
+
+Prisme ["REF_D014"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 26 or 40% -> Pos1: 11 or 34% | Pos2: 15 or 46%
+
+Prisme ["A06"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 12 or 18% -> Pos1: 4 or 12% | Pos2: 8 or 25%
+
+Prisme ["A03"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 17 or 26% -> Pos1: 8 or 25% | Pos2: 9 or 28%
+
+Prisme ["C05B"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 34 or 53% -> Pos1: 17 or 53% | Pos2: 17 or 53%
+
+Prisme ["C11"] | Date: 05012020 - 05012020
+Searches : 64        -> Pos1: 32        | Pos2: 32
+Found    : 35 or 54% -> Pos1: 18 or 56% | Pos2: 17 or 53%
+
