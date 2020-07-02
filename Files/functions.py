@@ -2,19 +2,41 @@ from parameters import * #import the parameters.py file
 
 ### Functions ###
 
-def SortCrescent(li, index): 
-    """Sort a list in a crescent order by the elements located at the index position"""
+def SortCrescent(li, index):
+    """
+    Argument:
+    - li a list of lists.
+    - index an integer
+    Return:
+    - A sorted list of lists in a crescent order by the elements located at the index position of each list contained in li.
+    """
+    #ex :[
+    """"""
     return(sorted(li, key = lambda x: x[index]))
 
 def FindMin(li, index):
-    """"""
+    """
+    Argument:
+    - li a list of lists.
+    - index an integer
+    Return:
+    - Index of the smallest element found in the list at the index position in the li list.
+    - If non are found, return 0.
+    """
     #ex :[[0,9,8],[1,2,3],[3,4,5]] the min at index 1 is 2
     if (len(li)>0):
         return min([e[index] for e in li])
     return 0
 
 def FindMax(li, index):
-    """"""
+    """
+    Argument:
+    - li a list of lists.
+    - index an integer
+    Return:
+    - Index of the greatest element found in the list at the index position in the li list.
+    - If non are found, return 0.
+    """
     #ex :[[0,9,8],[1,2,3],[3,4,5]] the min at index 1 is 2
     if (len(li)>0):
         return max([e[index] for e in li])
@@ -23,7 +45,11 @@ def FindMax(li, index):
 
 def FindIndexByName(name, l):
     """
-    In the prismParam list l find and return the index of the element that contains the correct name
+    Argument:
+    - name a string.
+    - l a list.
+    Return:
+    - Index of the element that contains the correct name found in the prismParam list l.
     """
     pos = 0
     for e in l:
@@ -34,7 +60,11 @@ def FindIndexByName(name, l):
 
 def FindValueByName(name, l):
     """
-    In the prismParam list l find and return the value that is linked to the name
+    Argument:
+    - name a string.
+    - l a list.
+    Return:
+    - Value that is linked to the name found in the prismParam list l.
     """
     for e in l:
         if e[0]==name:
@@ -43,21 +73,37 @@ def FindValueByName(name, l):
 
 def ChangeValueByName(name, n, l):
     """
-    In the prismParam list l change the value that is linked to the name to n
+    Argument:
+    - name a string.
+    - n a variable.
+    - l a list.
+    Side effect:
+    - In the prismParam list l change the value that is linked to the name to n.
     """
     for e in l:
         if e[0]==name:
             e[1] = n
 
 def gps_to_dt(gpsweek,gpsseconds):
-    """Return the conversion of a GPS date to datetime"""
+    """
+    Argument:
+    - gpsweek an integer.
+    - gpsseconds a float.
+    Return:
+    - Conversion of a GPS date to a date in datetime format.
+    """
     datetimeformat = "%Y-%m-%d %H:%M:%S"
     epoch = datetime.datetime.strptime("1980-01-06 00:00:00",datetimeformat)
     elapsed = datetime.timedelta(days=(gpsweek*7),seconds=(gpsseconds))
     return epoch + elapsed
 
 def dec_to_dt(dec):
-    """Return the conversion of a a decimal year to datetime"""
+    """
+    Argument:
+    - A decimal year.
+    Return:
+    - Conversion of a a decimal year to a date in datetime format.
+    """
     year = int(dec)
     rem = dec - year
     base = datetime.datetime(year, 1, 1)
@@ -65,22 +111,35 @@ def dec_to_dt(dec):
     return date
 
 def dt_to_dec(dt):
-    """Return the conversion of a datetime to decimal year"""
+    """
+    Argument:
+    - A date in datetime format.
+    Return:
+    - Conversion of a datetime to decimal year.
+    """
     year_start = datetime.datetime(dt.year, 1, 1)
     year_end = year_start.replace(year=dt.year+1)
     return dt.year + ((dt - year_start).total_seconds() /  # seconds so far
         float((year_end - year_start).total_seconds()))  # seconds in year
 
-def ConcatenationLoop(fileList):
+
+def Convert_FileList_to_String(inFilePaths):
     """
-    Return a concatenated string of all the contents of the files in the fileList
+    Argument:
+    - A list of strings representing file paths.
+    Return:
+    - A concatenated string of all the contents of the files in the file list.
     """
-    outString = ""
-    for file in fileList:
-        inputFile = open(file,'r')
-        outString += inputFile.read()
-        inputFile.close()
-    return outString
+    text = ""
+    numFiles = len(inFilePaths)
+    count = 1
+    for Path in inFilePaths: #Concatenate the content of all the files
+        inFile = open(Path)
+        text += inFile.read()
+        print("%i/%i files loaded." % (count, numFiles))
+        count+=1
+        inFile.close()
+    return text
 
 
 def ConvertGKA_to_List(text):

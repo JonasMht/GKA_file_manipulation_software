@@ -6,8 +6,9 @@ import glob #For wildcard search
 
 import matplotlib
 import matplotlib.pyplot as plt # Visualise data #keep as comment for now
-from matplotlib.pyplot import figure
 import matplotlib.dates as mdates
+
+import pathlib #Create directories
 
 """
 ## build a QApplication before building other widgets
@@ -53,4 +54,4 @@ prismParam = [["number", None], ["prisme", None],
 ["dx", None], ["dy", None], ["dz", None],
 ["Pression", None], ["Temp", None],
 ["coeff3", None], ["coeff4", None], ["coeff5", None], ["coeff6", None], ["coeff7", None],["coeff8", None]]
-#x:East, y:North, z:Elevation
+#x:East, y:North, z:Up
