@@ -32,7 +32,6 @@ while running:
     
     if choice == '1':
         inFilePaths = [] # paht list of the files to concatenate
-        outFilePath = input("Enter output file : ") #file that will contain the concatenation of all files
         fileName = input("Enter a file to concatenate : ") #first file to concatenate
         
         while (fileName!=' ' and fileName!=''): #while the user enters file names
@@ -40,6 +39,8 @@ while running:
             inFilePaths += inFilePath
             fileName = input("Enter a file to concatenate (otherwise enter nothing): ")
         
+        outFilePath = input("Enter output file : ") #file that will contain the concatenation of all files
+
         start_time = time.time() #Get start time
         print("\n--- Operation start ---")
         
@@ -104,8 +105,17 @@ while running:
             nbFound = nbFoundPos1 + nbFoundPos2
 
             prismInfo.append([j[0], nbFound/nbObs])
+
+            prismInfo = SortCrescent(prismInfo, 1) # sort by least to most found prism
+
+            prismCrescentString = "Dates : {} to {}\n".format(startDateStr, endDateStr)
+            prismCrescentString += "List of "+str(len(prismInfo))+" prisms by found amount (in %):\n"
+            for g in prismInfo:
+                prismCrescentString += "\t{} {}%\n".format(g[0], int(g[1]*100))
+
+            outString += '\n'
             
-            outString += "Prisme [\"{}\"] | Date: {} - {}\n".format(j[0],  startDateStr, endDateStr)
+            outString += "Prism [\"{}\"] | Date: {} - {}\n".format(j[0],  startDateStr, endDateStr)
             outString += "Searches : {}        -> Pos1: {}        | Pos2: {}\n".format(nbObs, nbObsPos1, nbObsPos2)
             if nbObs != 0:
                 outString += "Found    : {} or {}% ".format(nbFound, int((nbFound/nbObs)*100))
@@ -113,20 +123,10 @@ while running:
                     outString += "-> Pos1: {} or {}% ".format(nbFoundPos1, int((nbFoundPos1/nbObs)*100*(nbObs/nbObsPos1)))
                 if(nbObsPos2 != 0):
                     outString += "| Pos2: {} or {}%".format(nbFoundPos2, int((nbFoundPos2/nbObs)*100*(nbObs/nbObsPos2)))
-                outString += '\n'
-            outString += '\n'
-        
-
-        prismInfo = SortCrescent(prismInfo, 1) # sort by least to most found prism
-        prismCrescentString = "Dates : {} to {}\n".format(startDateStr, endDateStr)
-        prismCrescentString += "List of "+str(len(prismInfo))+" prisms by found amount (in %):\n"
-        for g in prismInfo:
-            prismCrescentString += "\t -- {} - found {}% of time.\n".format(g[0], int(g[1]*100))
+                outString += '\n'      
             
         outString = prismCrescentString + "\n\nRaw Statistics:\n\n"+ outString
 
-
-       
 
         dates = startDateStr + "_" + endDateStr
 
@@ -141,6 +141,8 @@ while running:
         outFile.write(outString)
         # Close the files
         outFile.close()
+
+        print("File saved in .\\" + path + "\n")
         
 
         print("--- The operation executed correctly ---")
@@ -187,23 +189,25 @@ while running:
         numRef100 = len(sortedByPrismAndDate[0][1]) #number of ref100 prisms
         adjustment = numRef100/10000
 
+        amountOfPrisms = len(sortedByPrismAndDate)
+
         plot1 = plt.figure(1)
         plot1.set_size_inches(20 + 20*adjustment, 10 + 20*(1/2)*adjustment) #graph dimensions (inches)
-        plot1.suptitle('East/Date') #plot title
+        plot1.suptitle('Time series of position East, using pressure and temperature\nWith '+ str(amountOfPrisms) + " prisms") #plot title
         #plt.ylim(0, 3.5) # setting the ticks
         plt.xticks(rotation=60)
         plt.grid() # use grids
 
         plot2 = plt.figure(2)
         plot2.set_size_inches(20 + 20*adjustment, 10 + 20*(1/2)*adjustment) #graph dimensions (inches)
-        plot2.suptitle('North/Date')
+        plot2.suptitle('Time series of position North, using pressure and temperature\nWith '+ str(amountOfPrisms) + " prisms")
         #plt.ylim(0, 3.5) # setting the ticks
         plt.xticks(rotation=60)
         plt.grid()
         
         plot3 = plt.figure(3)
         plot3.set_size_inches(20 + 20*adjustment, 10 + 20*(1/2)*adjustment) #graph dimensions (inches)
-        plot3.suptitle('Up/Date')
+        plot3.suptitle('Time series of position Up, using pressure and temperature\nWith '+ str(amountOfPrisms) + " prisms")
         #plt.ylim(0, 3.5) # setting the ticks
         plt.xticks(rotation=60)
         plt.grid()
@@ -320,6 +324,8 @@ while running:
         plot2.savefig(path + "\\North_"+imageName, dpi=100)
         plot3.savefig(path + "\\Up_"+imageName, dpi=100)
 
+        print("Plots saved in .\\" + path + "\n")
+
         #Clear all figures
         plot1.clf()
         plot2.clf()
@@ -363,23 +369,25 @@ while running:
         numRef100 = len(sortedByPrismAndDate[0][1]) #number of ref100 prisms
         adjustment = numRef100/10000
 
+        amountOfPrisms = len(sortedByPrismAndDate)
+
         plot1 = plt.figure(1)
         plot1.set_size_inches(20 + 20*adjustment, 10 + 20*(1/2)*adjustment) #graph dimensions (inches)
-        plot1.suptitle('East/Date') #plot title
+        plot1.suptitle('Time series of position East, using pressure and temperature\nWith '+ str(amountOfPrisms) + " prisms") #plot title
         #plt.ylim(0, 3.5) # setting the ticks
         plt.xticks(rotation=60)
         plt.grid() # use grids
 
         plot2 = plt.figure(2)
         plot2.set_size_inches(20 + 20*adjustment, 10 + 20*(1/2)*adjustment) #graph dimensions (inches)
-        plot2.suptitle('North/Date')
+        plot2.suptitle('Time series of position North, using pressure and temperature\nWith '+ str(amountOfPrisms) + " prisms")
         #plt.ylim(0, 3.5) # setting the ticks
         plt.xticks(rotation=60)
         plt.grid()
         
         plot3 = plt.figure(3)
         plot3.set_size_inches(20 + 20*adjustment, 10 + 20*(1/2)*adjustment) #graph dimensions (inches)
-        plot3.suptitle('Up/Date')
+        plot3.suptitle('Time series of position Up, using pressure and temperature\nWith '+ str(amountOfPrisms) + " prisms")
         #plt.ylim(0, 3.5) # setting the ticks
         plt.xticks(rotation=60)
         plt.grid()
@@ -495,6 +503,8 @@ while running:
         plot2.savefig(path + "\\North_"+imageName, dpi=100)
         plot3.savefig(path + "\\Up_"+imageName, dpi=100)
 
+        print("Plots saved in .\\" + path + "\n")
+
         #Clear all figures
         plot1.clf()
         plot2.clf()
@@ -541,6 +551,10 @@ while running:
 
         outFile.write(str(sortedByPrismAndDate)) #Write the concatenated string to the output file
         outFile.close() # Close the output file
+
+        print("\nFormat : [[prism1, [[prism1_at_t0, pos, decYear, x, y, z, xmeteo, ymeteo, zmeteo], [prism1_at_t1, ...], ... ]],[prsim2, [...]], [...] ]\n")
+
+        print("File saved in .\\" + path + "\n")
 
         print("--- The operation executed correctly ---")
         print("--- It took : %s seconds ---\n" % int(time.time() - start_time))
