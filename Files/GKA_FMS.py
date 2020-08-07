@@ -189,27 +189,36 @@ while running:
         numRef100 = len(sortedByPrismAndDate[0][1]) #number of ref100 prisms
         adjustment = numRef100/10000
 
-        amountOfPrisms = len(sortedByPrismAndDate)
+        if len(prismList)==0:
+            amountOfPrisms = len(sortedByPrismAndDate)
+        else:
+            amountOfPrisms = len(prismList)
 
         plot1 = plt.figure(1)
         plot1.set_size_inches(20 + 20*adjustment, 10 + 20*(1/2)*adjustment) #graph dimensions (inches)
-        plot1.suptitle('Time series of position East, using pressure and temperature\nWith '+ str(amountOfPrisms) + " prisms") #plot title
+        plot1.suptitle('Time series of position East (average), using pressure and temperature\nWith '+ str(amountOfPrisms) + " prisms") #plot title
         #plt.ylim(0, 3.5) # setting the ticks
         plt.xticks(rotation=60)
         plt.grid() # use grids
 
         plot2 = plt.figure(2)
         plot2.set_size_inches(20 + 20*adjustment, 10 + 20*(1/2)*adjustment) #graph dimensions (inches)
-        plot2.suptitle('Time series of position North, using pressure and temperature\nWith '+ str(amountOfPrisms) + " prisms")
+        plot2.suptitle('Time series of position North (average), using pressure and temperature\nWith '+ str(amountOfPrisms) + " prisms")
         #plt.ylim(0, 3.5) # setting the ticks
         plt.xticks(rotation=60)
         plt.grid()
         
         plot3 = plt.figure(3)
         plot3.set_size_inches(20 + 20*adjustment, 10 + 20*(1/2)*adjustment) #graph dimensions (inches)
-        plot3.suptitle('Time series of position Up, using pressure and temperature\nWith '+ str(amountOfPrisms) + " prisms")
+        plot3.suptitle('Time series of position Up (average), using pressure and temperature\nWith '+ str(amountOfPrisms) + " prisms")
         #plt.ylim(0, 3.5) # setting the ticks
         plt.xticks(rotation=60)
+        plt.grid()
+
+        plot4 = plt.figure(4)
+        plot4.set_size_inches(20 + 20*adjustment, 20 + 20*(1/2)*adjustment) #graph dimensions (inches)
+        plot4.suptitle('Series of positions North and East (average), using pressure and temperature\nWith '+ str(amountOfPrisms) + " prisms")
+        #plt.ylim(0, 3.5) # setting the ticks
         plt.grid()
 
         size = 2 + 0.5+adjustment # size of each dot on the graph
@@ -263,6 +272,8 @@ while running:
                 plt.ylabel('East (m)')
 
                 ax = plt.gca()
+                if len(date) > 0 and len(east) > 0:
+                    ax.annotate(j[0], (date[0], east[0]))
                 ax.xaxis.set_major_formatter(myFmt)
                 ax.xaxis.set_major_locator(plt.MaxNLocator(10))
                 ax.yaxis.set_major_locator(plt.MaxNLocator(10))
@@ -275,6 +286,8 @@ while running:
                 plt.ylabel('North (m)')
 
                 ax = plt.gca()
+                if len(date) > 0 and len(north) > 0:
+                    ax.annotate(j[0], (date[0], north[0]))
                 ax.xaxis.set_major_formatter(myFmt)
                 ax.xaxis.set_major_locator(plt.MaxNLocator(10))
                 ax.yaxis.set_major_locator(plt.MaxNLocator(10))
@@ -288,7 +301,27 @@ while running:
                 plt.ylabel('Up (m)')
 
                 ax = plt.gca()
+                if len(date) > 0 and len(east) > 0:
+                    ax.annotate(j[0], (date[0], up[0]))
                 ax.xaxis.set_major_formatter(myFmt)
+                ax.xaxis.set_major_locator(plt.MaxNLocator(10))
+                ax.yaxis.set_major_locator(plt.MaxNLocator(10))
+
+
+                plt.figure(4)
+                plt.plot(east, north, label=j[0]+'-AvrgPos', marker='o', ms=size, alpha=opac, markerfacecolor='None', linestyle = 'None')
+
+                plt.legend()
+                plt.xlabel('East (m)')
+                plt.ylabel('North (m)')
+
+                ax = plt.gca()
+                if len(east) > 0 and len(north) > 0:
+                    ax.annotate(j[0], (east[0], north[0]))
+
+                ax.set_ylim(bottom=0)
+                ax.set_xlim(left=0)
+                ax.set_aspect('equal', adjustable='box')
                 ax.xaxis.set_major_locator(plt.MaxNLocator(10))
                 ax.yaxis.set_major_locator(plt.MaxNLocator(10))
 
@@ -313,6 +346,11 @@ while running:
           fancybox=True, shadow=True, ncol=2)
         plt.subplots_adjust(left=0.05, bottom=0.12, right=.8+figAdjustement, top=.9, wspace=None, hspace=None)
 
+        plt.figure(4)
+        plt.legend(loc='upper left', bbox_to_anchor=(1, 1),
+          fancybox=True, shadow=True, ncol=2)
+        plt.subplots_adjust(left=0.05, bottom=0.12, right=.8+figAdjustement, top=.9, wspace=None, hspace=None)
+
         dates = startDateStr + "_" + endDateStr
         path = "graphs\\" + dates + "_" + str(sorted(prismList)).replace(",","_").replace("\'","").strip("[]")
         pathlib.Path(path).mkdir(parents=True, exist_ok=True) #Create figures directory if it does not exist
@@ -323,6 +361,7 @@ while running:
         plot1.savefig(path + "\\East_"+imageName, dpi=100)
         plot2.savefig(path + "\\North_"+imageName, dpi=100)
         plot3.savefig(path + "\\Up_"+imageName, dpi=100)
+        plot4.savefig(path + "\\North_East_Plane_"+imageName, dpi=100)
 
         print("Plots saved in .\\" + path + "\n")
 
@@ -330,6 +369,7 @@ while running:
         plot1.clf()
         plot2.clf()
         plot3.clf()
+        plot4.clf()
 
 
     elif choice == '4':
@@ -373,23 +413,29 @@ while running:
 
         plot1 = plt.figure(1)
         plot1.set_size_inches(20 + 20*adjustment, 10 + 20*(1/2)*adjustment) #graph dimensions (inches)
-        plot1.suptitle('Time series of position East, using pressure and temperature\nWith '+ str(amountOfPrisms) + " prisms") #plot title
+        plot1.suptitle('Time series of position East (I and II), using pressure and temperature\nWith '+ str(amountOfPrisms) + " prisms") #plot title
         #plt.ylim(0, 3.5) # setting the ticks
         plt.xticks(rotation=60)
         plt.grid() # use grids
 
         plot2 = plt.figure(2)
         plot2.set_size_inches(20 + 20*adjustment, 10 + 20*(1/2)*adjustment) #graph dimensions (inches)
-        plot2.suptitle('Time series of position North, using pressure and temperature\nWith '+ str(amountOfPrisms) + " prisms")
+        plot2.suptitle('Time series of position North (I and II) , using pressure and temperature\nWith '+ str(amountOfPrisms) + " prisms")
         #plt.ylim(0, 3.5) # setting the ticks
         plt.xticks(rotation=60)
         plt.grid()
         
         plot3 = plt.figure(3)
         plot3.set_size_inches(20 + 20*adjustment, 10 + 20*(1/2)*adjustment) #graph dimensions (inches)
-        plot3.suptitle('Time series of position Up, using pressure and temperature\nWith '+ str(amountOfPrisms) + " prisms")
+        plot3.suptitle('Time series of position Up (I and II) , using pressure and temperature\nWith '+ str(amountOfPrisms) + " prisms")
         #plt.ylim(0, 3.5) # setting the ticks
         plt.xticks(rotation=60)
+        plt.grid()
+
+        plot4 = plt.figure(4)
+        plot4.set_size_inches(20 + 20*adjustment, 10 + 20*(1/2)*adjustment) #graph dimensions (inches)
+        plot4.suptitle('Series of positions North and East (I and II) , using pressure and temperature\nWith '+ str(amountOfPrisms) + " prisms")
+        #plt.ylim(0, 3.5) # setting the ticks
         plt.grid()
 
         size = 2 + 0.5+adjustment # size of each dot on the graph
@@ -438,9 +484,13 @@ while running:
                 plt.legend()
                 plt.xlabel('Date (d-m-Y)')
                 plt.ylabel('East (m)')
-
+    
                 ax = plt.gca()
                 ax.xaxis.set_major_formatter(myFmt)
+                if len(datePos1) > 0 and len(eastPos1) > 0:
+                    ax.annotate(j[0]+"-PI", (datePos1[0], eastPos1[0]))
+                if len(datePos2) > 0 and len(eastPos2) > 0:
+                    ax.annotate(j[0]+"-PII", (datePos2[0], eastPos2[0]))
                 ax.xaxis.set_major_locator(plt.MaxNLocator(10))
                 ax.yaxis.set_major_locator(plt.MaxNLocator(10))
 
@@ -453,6 +503,10 @@ while running:
                 plt.ylabel('North (m)')
 
                 ax = plt.gca()
+                if len(datePos1) > 0 and len(northPos1) > 0:
+                    ax.annotate(j[0]+"-PI", (datePos1[0], northPos1[0]))
+                if len(datePos2) > 0 and len(northPos2) > 0:
+                    ax.annotate(j[0]+"-PII", (datePos2[0], northPos2[0]))
                 ax.xaxis.set_major_formatter(myFmt)
                 ax.xaxis.set_major_locator(plt.MaxNLocator(10))
                 ax.yaxis.set_major_locator(plt.MaxNLocator(10))
@@ -467,7 +521,28 @@ while running:
                 plt.ylabel('Up (m)')
 
                 ax = plt.gca()
+                if len(datePos1) > 0 and len(upPos1) > 0:
+                    ax.annotate(j[0]+"-PI", (datePos1[0], upPos1[0]))
+                if len(datePos2) > 0 and len(upPos2) > 0:
+                    ax.annotate(j[0]+"-PII", (datePos2[0], upPos2[0]))
                 ax.xaxis.set_major_formatter(myFmt)
+                ax.xaxis.set_major_locator(plt.MaxNLocator(10))
+                ax.yaxis.set_major_locator(plt.MaxNLocator(10))
+
+
+                plt.figure(4)
+                plt.plot(eastPos1, northPos1, label=j[0]+'-Pos1', marker='o', ms=size, alpha=opac, markerfacecolor='None', linestyle = 'None')
+                plt.plot(eastPos2, northPos2, label=j[0]+'-Pos2', marker='o', ms=size, alpha=opac, markerfacecolor='None', linestyle = 'None')
+
+                plt.legend()
+                plt.xlabel('East (m)')
+                plt.ylabel('North (m)')
+
+                ax = plt.gca()
+                if len(eastPos1) > 0 and len(northPos1) > 0:
+                    ax.annotate(j[0]+"-PI", (eastPos1[0], northPos1[0]))
+                if len(eastPos2) > 0 and len(northPos2) > 0:
+                    ax.annotate(j[0]+"-PII", (eastPos2[0], northPos2[0]))
                 ax.xaxis.set_major_locator(plt.MaxNLocator(10))
                 ax.yaxis.set_major_locator(plt.MaxNLocator(10))
 
@@ -492,6 +567,11 @@ while running:
           fancybox=True, shadow=True, ncol=2)
         plt.subplots_adjust(left=0.05, bottom=0.12, right=.8+figAdjustement, top=.9, wspace=None, hspace=None)
 
+        plt.figure(4)
+        plt.legend(loc='upper left', bbox_to_anchor=(1, 1),
+          fancybox=True, shadow=True, ncol=2)
+        plt.subplots_adjust(left=0.05, bottom=0.12, right=.8+figAdjustement, top=.9, wspace=None, hspace=None)
+
         dates = startDateStr + "_" + endDateStr
         path = "graphs\\" + dates + "_" + str(sorted(prismList)).replace(",","_").replace("\'","").strip("[]")
         pathlib.Path(path).mkdir(parents=True, exist_ok=True) #Create figures directory if it does not exist
@@ -502,12 +582,14 @@ while running:
         plot1.savefig(path + "\\East_"+imageName, dpi=100)
         plot2.savefig(path + "\\North_"+imageName, dpi=100)
         plot3.savefig(path + "\\Up_"+imageName, dpi=100)
+        plot4.savefig(path + "\\North_East_Plane_"+imageName, dpi=100)
 
         print("Plots saved in .\\" + path + "\n")
 
         #Clear all figures
         plot1.clf()
         plot2.clf()
+        plot3.clf()
         plot3.clf()
 
     elif choice == '5':
@@ -549,10 +631,16 @@ while running:
         fileName = path + "\\Converted_" + dates + ".txt"
         outFile = open(fileName,'w') #file we want to write to
 
-        outFile.write(str(sortedByPrismAndDate)) #Write the concatenated string to the output file
+        text = ""
+
+        for e in sortedByPrismAndDate:
+            for f in e[1]:
+                text += f[0] +" "+ str(f[1]) + " " + str(f[2]) + " " + str(f[6]) + " " + str(f[7]) + " " + str(f[8]) + "\n"
+
+        outFile.write(text) #Write the concatenated string to the output file
         outFile.close() # Close the output file
 
-        print("\nFormat : [[prism1, [[prism1_at_t0, pos, decYear, x, y, z, xmeteo, ymeteo, zmeteo], [prism1_at_t1, ...], ... ]],[prsim2, [...]], [...] ]\n")
+        print("\nFormat : prism pos decYear Xmeteo Ymeteo Zmeteo\n")
 
         print("File saved in .\\" + path + "\n")
 

@@ -193,8 +193,8 @@ def ConvertGKA_to_List(text):
 
                         #Position without correction
                         xi = XS + DI * originXrot
-                        yi = XS + DI * originYrot
-                        zi = XS + DI * originZrot
+                        yi = YS + DI * originYrot
+                        zi = ZS + DI * originZrot
 
                         Pression = float(FindValueByName("Pression",prismParam))
                         Temp = float(FindValueByName("Temp",prismParam))
@@ -202,8 +202,8 @@ def ConvertGKA_to_List(text):
                         #Position with meteorological correction
                         Dmeteo = DI + DI * (COEFF_J - COEFF_N * Pression / (273.16+Temp)) * math.pow(10,-6)
                         xmeteo = XS + originXrot * Dmeteo
-                        ymeteo = XS + originYrot * Dmeteo
-                        zmeteo = XS + originZrot * Dmeteo
+                        ymeteo = YS + originYrot * Dmeteo
+                        zmeteo = ZS + originZrot * Dmeteo
                         
                         outList.append([FindValueByName("prisme", prismParam), int(FindValueByName("Pos", prismParam)), decYear, xi, yi, zi, xmeteo, ymeteo, zmeteo])
 

@@ -3,12 +3,13 @@ import datetime
 import math
 
 import glob #For wildcard search
+import pathlib #Create directories
 
 import matplotlib
 import matplotlib.pyplot as plt # Visualise data #keep as comment for now
 import matplotlib.dates as mdates
 
-import pathlib #Create directories
+
 
 """
 ## build a QApplication before building other widgets
