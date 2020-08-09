@@ -196,28 +196,28 @@ while running:
 
         plot1 = plt.figure(1)
         plot1.set_size_inches(20 + 20*adjustment, 10 + 20*(1/2)*adjustment) #graph dimensions (inches)
-        plot1.suptitle('Time series of position East (average), using pressure and temperature\nWith '+ str(amountOfPrisms) + " prisms") #plot title
+        plot1.suptitle('Time series of position East (average), using pressure and temperature correction\nWith '+ str(amountOfPrisms) + " prisms") #plot title
         #plt.ylim(0, 3.5) # setting the ticks
         plt.xticks(rotation=60)
         plt.grid() # use grids
 
         plot2 = plt.figure(2)
         plot2.set_size_inches(20 + 20*adjustment, 10 + 20*(1/2)*adjustment) #graph dimensions (inches)
-        plot2.suptitle('Time series of position North (average), using pressure and temperature\nWith '+ str(amountOfPrisms) + " prisms")
+        plot2.suptitle('Time series of position North (average), using pressure and temperature correction\nWith '+ str(amountOfPrisms) + " prisms")
         #plt.ylim(0, 3.5) # setting the ticks
         plt.xticks(rotation=60)
         plt.grid()
         
         plot3 = plt.figure(3)
         plot3.set_size_inches(20 + 20*adjustment, 10 + 20*(1/2)*adjustment) #graph dimensions (inches)
-        plot3.suptitle('Time series of position Up (average), using pressure and temperature\nWith '+ str(amountOfPrisms) + " prisms")
+        plot3.suptitle('Time series of position Up (average), using pressure and temperature correction\nWith '+ str(amountOfPrisms) + " prisms")
         #plt.ylim(0, 3.5) # setting the ticks
         plt.xticks(rotation=60)
         plt.grid()
 
         plot4 = plt.figure(4)
         plot4.set_size_inches(20 + 20*adjustment, 20 + 20*(1/2)*adjustment) #graph dimensions (inches)
-        plot4.suptitle('Series of positions North and East (average), using pressure and temperature\nWith '+ str(amountOfPrisms) + " prisms")
+        plot4.suptitle('Series of positions North and East (average), using pressure and temperature correction\nWith '+ str(amountOfPrisms) + " prisms")
         #plt.ylim(0, 3.5) # setting the ticks
         plt.grid()
 
