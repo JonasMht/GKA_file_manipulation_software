@@ -1,0 +1,14 @@
+Ceci est un petit tuto compacte pour vous permettre de lancer mon programme sans accrochages sous Windows.
+
+Etapes à suivres:
+1) Telecharger python: https://www.python.org/downloads/
+2) Installer python avec l'executable téléchargé dans 1. Attention à cocher l'option "Add Python x.x to PATH".
+2) Télécharger les fichiers du projet de ma page git: https://github.com/JonasMht/GKA_file_manipulation_software
+3) Ouvrez la notice d'ultilisation et tapez les deux commandes dans l'invite de commande (cmd sous win) pour installer la librairies matplotlib (attention sans le $).
+4) Dans l'invite de commande placez vous dans la racine du fichier proget (...\GKA_file_manipulation_software-master\Files) en utilisant la commande "cd".
+5) Lancez le programme avec la commande "python GKA_FMS.py".
+
+Exemple d'utilisation:
+1) Choisir l'option 2.
+2) Entrer: "GKA_files\201911\*" (tous les fichiers dans 201911).
+3) Ne rien entrer dans le deuxième champ.
